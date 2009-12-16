@@ -6,6 +6,7 @@ title: Blogging Like a Hacker
 h1. {{ page.title }}
 
 p(meta). 17 Nov 2008 - San Francisco
+writen by tom warner...
 
 Back in 2000, when I thought I was going to be a professional writer, I spent hours a day on LiveJournal doing writing practice with other aspiring poets and authors. Since then I've blogged at three different domains about web standards, print design, photography, Flash, illustration, information architecture, ColdFusion, package management, PHP, CSS, advertising, Ruby, Rails, and Erlang.
 
