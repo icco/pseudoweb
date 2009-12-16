@@ -19,4 +19,3 @@ p.s. In todays news:
 	<li><a href="http://www.apple.com/">Apple</a> released new <a href="http://www.engadget.com/2006/09/12/itunes-7-with-itunes-movie-store-announced/">iTunes</a>, <a href="http://www.engadget.com/2006/09/12/hands-on-with-the-5-5g-ipod/">iPod</a>,<a href="http://www.engadget.com/2006/09/12/hands-on-with-the-apple-itv-prototype/"> iTV</a>, <a href="http://www.engadget.com/2006/09/12/hands-on-with-the-2g-ipod-shuffle/">iPod Shuffle</a>, and <a href="http://www.engadget.com/2006/09/12/hands-on-with-the-2g-ipod-nano-rainbow/">iPod Nano</a></li>
 	<li>Cool wired article on <a href="http://www.wired.com/news/culture/media/0,71753-0.html?tw=rss.index">how 911 spawned blogs</a></li>
 </ul>
-[tags]News, 911, blogs, cousin, internet, WTC, World trade center, compromise[/tags]

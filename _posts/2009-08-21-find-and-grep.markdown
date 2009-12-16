@@ -8,7 +8,9 @@ My good friend <a href="http://www.prenticew.com">Prentice</a> posted a <a href=
 
 I got this little trick from <a href="http://davpt.com">one of my coworkers</a>, which I now use to find just about anything in my code repositories:
 
-[sourcecode language="bash"]gfind &quot;*php&quot; &quot;code I want&quot;[/sourcecode]
+{% highlight bash %}
+gfind &quot;*php&quot; &quot;code I want&quot;
+{% endhighlight %}
 
 You'll notice that that line wont work for you, so put the following in your ~/.bashrc file.
 

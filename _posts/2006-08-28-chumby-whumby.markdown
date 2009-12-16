@@ -19,4 +19,3 @@ Chumby is hackable, I can add that. The best thing is that people will publish h
 
 p.s. this was lost in the big labor day wipe, and it was all i could recover 
 
-[tags]chumby, Classical Thinking , excited, foo camp ,hack a day, inventions [/tags]

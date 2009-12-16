@@ -12,4 +12,3 @@ But anyway I feel like a totally uninformed idiot. On Saturday I thought I was i
 
 So, ya Im happy, WOW is tomorrow which should be cool.
 
-[tags]WOW, Cal Poly, SLO, Sun Burn[/tags]

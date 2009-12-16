@@ -23,4 +23,3 @@ All of this came together this week. I kept running into various combinations of
 
 Hasta.
 
-[tags]Life, world, views, small, big, picture[/tags]
