@@ -10,8 +10,7 @@ I've decided to post some basic, but fun little snippets of PHP I've used on my 
 
 First and foremost is the age function. Given a birthdate,  it returns a formated age.
 
-[php]
-
+{% highlight php %}
 function age() {
 // Your Birthday...
  $bday = mktime(17,0,0,2,22,1988);
@@ -19,14 +18,14 @@ function age() {
  $diff = $diff/(60*60*24*365.25);
  return sprintf(&quot;%2.2f&quot;,$diff);;
 }
+{% endhighlight %}
 
-[/php]
 
 Of course this would be better if it was written so your birthday was passed in via a variable, but meh, I wrote it awhile ago.
 
 This next piece of code is from <a href="http://binarybonsai.com/code/timesince.txt">Michael Heilemann</a> but I've modified it a little, and I use it a lot, so I'll post it here as well. It prints the time since a specified date in a kind way.
 
-[php]
+{% highlight php %}
 function time_since($original) {
  // array of time period chunks
  $chunks = array(
@@ -70,11 +69,11 @@ function time_since($original) {
  return $print . &quot; ago&quot;;
 
 }
-[/php]
+{% endhighlight %}
 
 And here is my favorite function that I wrote to parse twitter messages. It turns hashtags, urls, and replies into proper links using regex.
 
-[php]
+{% highlight php %}
 function twitterParse($in)
 {
  $pieces = explode(&quot; &quot;, $in);
@@ -93,7 +92,7 @@ function twitterParse($in)
 
  return implode(&quot; &quot;,$pieces);
 }
-[/php]
+{% endhighlight %}
 
 Anyway, I hope these tidbits are useful. Sorry about the bad indentation, I haven't quite gotten the hang of the wordpress plugin, <a href="http://wordpress.org/extend/plugins/syntaxhighlighter/">Syntax Highlighter Evolved</a> yet.
 
