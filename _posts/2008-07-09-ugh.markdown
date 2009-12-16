@@ -1,0 +1,19 @@
+--- 
+wordpress_id: 90
+layout: post
+title: Ugh.
+wordpress_url: http://pseudoweb.net/?p=90
+---
+<p>I know, I know. I said I would be posting here more often. I'm having trouble finding the time I guess. But for those of you interested, I'll give you a little update about my life.
+<a href="http://pseudoweb.net/wp-content/uploads/2008/07/commute.png"><img class="alignleft size-medium wp-image-91" title="SF Commute" src="http://pseudoweb.net/wp-content/uploads/2008/07/commute-231x300.png" alt="Yes, Car to Walk to Train To Walk." width="231" height="300" /></a></p>
+<ul>
+	<li>I lost the Innovation Quest Competition, which put a small hold on Ideaius development. I've been working on it when I get a chance, which is another reason this blog isn't getting updated.</li>
+	<li>I'm working at Adobe with the Dreamweaver Team again this summer. I've posted a picture of my commute above.</li>
+	<li>I am going to PAX again this summer. Super psyched. I would post links to my co-conspirators, but they refuse to have websites...</li>
+	<li>CalTrain still doesn't have WiFi. Booooo.</li>
+	<li>I officially am renting a room in a house in SLO. To commemorate the occasion, I bought a Popcorn Hour. Totally Stoked.</li>
+	<li>I'm starting to get the hand of JavaScript and AJAX. It's kinda neat, although my &lt;3 still belongs to server side languages.</li>
+</ul>
+Anyway, I've got four Draft posts that may make it on to here at some point, and I'm trying to figure out a way to write on a train (maybe buy a light weight laptop?)
+
+/Nat

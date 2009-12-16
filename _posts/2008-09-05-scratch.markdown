@@ -1,0 +1,16 @@
+--- 
+wordpress_id: 106
+layout: post
+title: Scratch.
+wordpress_url: http://pseudoweb.net/?p=106
+---
+I am not happy with my blog. I really have just lost enthusiasm with this whole domain really, so I think I need to reboot it. So here is what I'm thinking:
+<ol>
+	<li>Switch to <a href="http://www.habariproject.org/en/">Habari</a>. I've been a long time reader of <a href="http://binarybonsai.com/">BinaryBonsai</a> and I've been following Habari's development on and off. I think it's reached a point where I'm ready to switch over.</li>
+	<li>Code my own Design from scratch. I've switched between hand-coded designs and using other people's designs for awhile. I think when I make the switch to Habari will be the right time to do this. I'm looking for a mix between <a href="http://binarybonsai.com/">BinaryBonsai</a>, <a href="http://ma.tt/">Ma.tt</a>, and <a href="http://www.subtraction.com/">Subtraction.com</a> I think. I also plan on making <a href="http://natwelch.com">natwelch.com</a> simpler. Start having it pull from different content streams on this site and others. That way new posts here will fill in that site more.</li>
+	<li>Finish coding <a href="http://ideaius.com">Ideaius</a>. Seriously. My original plan was to release Monday, which is not happening. So I'm gonna aim for Christmas and pray no one makes something better before then.</li>
+	<li>I'm not sure how much of this site I'm going to save. After I lost all of my posts two years ago, I gave up writting on this site. I think if I commit to one good post a month and port just my favorite posts from here, I'll be happy.</li>
+</ol>
+Anyway, that's just a heads up.
+
+/Nat
