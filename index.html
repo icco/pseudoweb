@@ -8,16 +8,17 @@ title: Nat Welch's Blog
   <div id="about">
      PseudoWeb.net is the blog of Nathaniel "Nat" Welch. You can find out more
      about him at <a href="http://natwelch.com" rel="me">natwelch.com</a>. You
-     can also visit <a href="archives.html">the archives</a> if you want to look
+     can also visit <a href="/archives.html">the archives</a> if you want to look
      into the past.
   </div>
 
   <h1>Blog Posts</h1>
   <div id="post-list">
      <ul class="posts">
-       {% for post in site.posts %}
+       {% for post in site.posts limit:5 %}
          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
        {% endfor %}
+       <li><a href="/archives.html">More... in archives...<a>
      </ul>
   </div>
 </div>
