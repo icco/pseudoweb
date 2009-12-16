@@ -4,11 +4,16 @@ title: Nat Welch's Blog
 ---
 
 <div id="home">
+  <h1>About</h1>
+adsadsa dsa d dad a d
+
+  <h1>Most Recent Post</h1>
+  {{ site.posts[0].content }}
+
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {{ post.content }}
     {% endfor %}
   </ul>
 </div>
