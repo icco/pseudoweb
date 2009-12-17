@@ -1,6 +1,8 @@
 
 # Nat Welch's Blog
 
+My blog converted to a static site using Jekyll.
+
 ## About
 In the words of mojombo:  
 > It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
