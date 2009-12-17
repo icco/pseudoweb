@@ -13,3 +13,10 @@ _based off of [mbleigh.github.com/README.markdown](http://github.com/mbleigh/mbl
 You may feel free to re-use any part of the structure, design, and layout of this site; it is all licensed under the MIT License. However, the content of the site (blog posts and page content) is licensed under a Creative Commons Share-Alike Attribution license (you may use it, but must give attribution).
 
 Copyright (c) 2009 Nathaniel Welch. Rights reserved as indicated above.
+
+## ToDo
+ 
+ * Adactio style flickr pull using JS
+ * new style
+ * Write hacker post and begin one post a week
+
