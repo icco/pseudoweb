@@ -1,32 +1,17 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-
-* {
-  padding: 0;
-}
-
 body {
-  background-color: white;
+  background-color: #212121;
+  color: #999;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
+.collapse {
+   cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-}
-
-h1 {
-  margin: 1em;
-}
-
-h1.title {
-   margin-left: 0.1em;
 }
 
 p {
@@ -51,9 +36,7 @@ table {
 }
 
 /*****************************************************************************/
-/*
 /* Home
-/*
 /*****************************************************************************/
 
 ul.posts {
@@ -72,9 +55,7 @@ ul.posts {
   }
 
 /*****************************************************************************/
-/*
 /* Site
-/*
 /*****************************************************************************/
 
 .site {
@@ -84,35 +65,6 @@ ul.posts {
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
-
-.title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 2em;
-}
-
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-  }
-
-  .site .title a:hover {
-    color: black;
-  }
-
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
-
-  .site .title a.extra:hover {
-    color: black;
-  }
-
-  .site .meta {
-    color: #aaa;
-  }
 
   .site .footer {
     font-size: 80%;
@@ -142,9 +94,7 @@ ul.posts {
       }
 
 /*****************************************************************************/
-/*
 /* Posts
-/*
 /*****************************************************************************/
 
 #post {
