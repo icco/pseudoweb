@@ -1,3 +1,5 @@
 markdown: rdiscount
+permalink: pretty
 pygments: true
-lsi: true
+lsi: true # so sad this doesn't work on github
+
