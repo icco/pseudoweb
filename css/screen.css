@@ -6,10 +6,6 @@ body {
   text-align: center;
 }
 
-.collapse {
-   cursor: pointer;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
@@ -18,45 +14,18 @@ p {
   margin: 1em 0;
 }
 
-a {
-  color: #00a;
+a, a:visited {
+  color: #ccc;
 }
 
 a:hover {
   color: black;
 }
 
-a:visited {
-  color: #a0a;
-}
-
 table {
   font-size: inherit;
   font: 100%;
 }
-
-/*****************************************************************************/
-/* Home
-/*****************************************************************************/
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-  ul.posts li {
-    line-height: 1.75em;
-  }
-
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
-
-/*****************************************************************************/
-/* Site
-/*****************************************************************************/
 
 .site {
   font-size: 110%;
@@ -66,32 +35,90 @@ ul.posts {
   line-height: 1.5em;
 }
 
-  .site .footer {
+/* header */
+.title {
+   border: 2px #0AC;
+   border-style: none none dashed none;
+   margin-bottom: 1em;
+   padding: 5px;
+}
+
+.title a {
+   font-size: 2em;
+   text-decoration: none;
+}
+
+.title #description {
+   color: #0ac;
+   margin-top: 2px;
+   margin-bottom: 0;
+   margin-left: 1em;
+}
+
+/* footer */
+.footer {
+   font-size: 80%;
+   color: #666;
+   border-top: 2px dashed #0AC;
+   margin-top: 2em;
+   overflow: hidden;
+}
+
+.footer .contact {
+   float: left;
+   margin-right: 3em;
+}
+
+.footer .contact a {
+   color: #8085C1;
+}
+
+.footer .rss {
+   margin-top: 1.1em;
+   margin-right: -.2em;
+   float: right;
+}
+
+.footer .rss img {
+   border: 0;
+}
+
+/* Related posts and front page post listing */
+ul.posts {
+   list-style-type: none;
+   margin-bottom: 2em;
+   padding-left: 6px;
+}
+
+ul.posts li {
+   line-height: 1.75em;
+}
+
+ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-  }
+}
 
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-    }
+/* collapsable section */
+.collapse {
+   cursor: pointer;
+}
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
+.collapse h2 {
+   background-color: none;
+   border-bottom: 1px solid;
+   padding: 2px 2px 2px 5px;
+}
 
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
+.collapse .handle {
+   width: 100%;
+   text-align: right;
+}
 
-      .site .footer .rss img {
-        border: 0;
-      }
+.collapse h2:hover {
+   background-color: white;
+}
 
 /*****************************************************************************/
 /* Posts
