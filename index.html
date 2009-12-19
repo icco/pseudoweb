@@ -4,15 +4,18 @@ title: Nat Welch's Blog
 ---
 
 <div id="home">
+   <div class="collapse open">
+      <h1>{{ site.posts[0].title }}</h1>
+      <div>
+         {{ site.posts[0].content }}
+      </div>
+   </div>
+
    <div class="collapse close">
       <h1>About</h1>
       <div id="about">
          PseudoWeb.net is the blog of Nathaniel "Nat" Welch. You can find out more about him at <a href="http://natwelch.com" rel="me">natwelch.com</a>. You can also visit <a href="/archives/">the archives</a> if you want to look into the past.
       </div>
-   </div>
-
-   <div class="collapse open">
-      {{ site.posts[0].content }}
    </div>
 
    <div class="collapse close">

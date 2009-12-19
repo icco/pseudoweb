@@ -25,6 +25,10 @@ h1 {
   margin: 1em;
 }
 
+h1.title {
+   margin-left: 0.1em;
+}
+
 p {
   margin: 1em 0;
 }

@@ -1,17 +1,19 @@
 window.addEvent('domready', function() {
    $$('.collapse').each(function(el, index) {
-      var t = el.getElement('div');
-      var mySlide = new Fx.Reveal(t, {
+      console.log(el);
+      var content = el.getElement('div');
+      var title = el.getElement('h1');
+      var mySlide = new Fx.Reveal(content, {
          duration: 'short',
          tansition: 'linear'
       });
 
-      if (this.hasClass('open'))
-         t.show();
+      if (el.hasClass('open'))
+         content.show();
       else
-         t.hide();
+         content.hide();
 
-      el.addEvent('click', function(e) {
+      title.addEvent('click', function(e) {
          e = new Event(e);
          mySlide.toggle();
          e.stop();

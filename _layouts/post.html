@@ -2,8 +2,11 @@
 layout: default
 ---
 <div id="post">
-{{ title }}
-{{ content }}
+   <h1 class="title">{{ page.title }}</h1>
+   <h3 class="date">Posted: {{ page.date | date_to_string }}</h3>
+   <div class="content">
+      {{ content }}
+   </div>
 </div>
 
 <div id="related">
