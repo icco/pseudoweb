@@ -3,4 +3,6 @@ layout: post
 title: Blogging Like a Hacker
 ---
 
-h1. {{ page.title }}
+# {{ page.title }}
+
+I recently switched to jekyll.
