@@ -4,5 +4,5 @@ site:
 	jekyll
 
 clean:
-	rm -rvf _site/ 
+	rm -rvf _site/
 
