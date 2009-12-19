@@ -14,8 +14,8 @@ title: Nat Welch's Blog
    <div class="collapse close">
       <h2>Most Recent Post <span class="handle"></span></h2>
       <div>
-         <div class="post-title"><a href="{{ post.url }}">{{ site.posts[0].title }}</a></div>
-         <div class="post-meta">{{ site.posts[0].date }}</div>
+         <div class="post-title"><a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></div>
+         <div class="post-meta">{{ site.posts[0].date | date_to_string }}</div>
          {{ site.posts[0].content }}
       </div>
    </div>
