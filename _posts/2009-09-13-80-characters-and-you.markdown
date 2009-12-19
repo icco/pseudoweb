@@ -8,10 +8,8 @@ I use vim a lot, and I use it even more now since my work uses it as well. One t
 
 Just add the following to your ~/.vimrc and you're good to go.
 
-[code type="plain"]
-&quot; Highlights long lines
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
-[/code]
+> &quot; Highlights long lines  
+> highlight OverLength ctermbg=red ctermfg=white guibg=#592929  
+> match OverLength /\%81v.\+/  
 
 /Nat
