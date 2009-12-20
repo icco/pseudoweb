@@ -22,7 +22,8 @@
 <body>
 <div class="site">
    <div class="header">
-      <span id="title"><a href="/">PseudoWeb.Net</a> is <a href="http://natwelch.com/">Nat Welch</a>'s log of stuff.</span> <span id="description">You can find more in the <a href="/archives/">archives</a>.</span> 
+      <span id="title"><a href="/">PseudoWeb.Net</a> is <a href="http://natwelch.com/">Nat Welch</a>'s log of stuff.</span> 
+      {% if page.alt %}<span id="description">{{ page.alt }}</span>{% endif %}
    </div>
 
    <div id="content">
