@@ -98,3 +98,9 @@ body {
    margin: 0;
 }
 
+#permalink {
+   font-size: 0.6em;
+   margin-left: 10px;
+   vertical-align: middle;
+}
+

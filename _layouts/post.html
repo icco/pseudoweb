@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="post">
-   <div class="post-title">{{ page.title }}</div>
+   <div class="post-title">{{ page.title }}<a id="permalink" href="{{ page.url }}">#</a></div>
    {% if page.location %}
       <div class="post-meta">{{ page.date | date_to_string }} - {{ page.location }}</div>
    {% else %}
