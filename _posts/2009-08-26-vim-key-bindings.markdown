@@ -3,12 +3,13 @@ wordpress_id: 195
 layout: post
 title: Vim Key Bindings
 wordpress_url: http://pseudoweb.net/?p=195
+location: San Luis Obipos, CA
 ---
 Hey there kiddos,
 
 I use Vim daily, and as such, I've picked up some key bindings which I think make the program just a little more perfect.
 
-[plain gutter="false"]
+<pre>
 &quot; Because we like our line numbers sometimes...
 :nnoremap &lt;C-N&gt;&lt;C-N&gt; :set invnumber&lt;CR&gt;
 
@@ -21,7 +22,7 @@ I use Vim daily, and as such, I've picked up some key bindings which I think mak
 &quot; Use the space key to open and close code folds
 :vnoremap &lt;space&gt; zf&lt;CR&gt;
 :nnoremap &lt;space&gt; zd&lt;CR&gt;
-[/plain]
+</pre>
 
 When reading this, remember that the vim configuration file uses " for comments.
 
