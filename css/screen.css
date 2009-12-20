@@ -2,6 +2,10 @@
  * @author Nat Welch
  * @version 1.2
  */
+
+a, a:visited {
+   color: #0F0F8F;
+}
  
 .site {
 	width: 600px;
@@ -11,6 +15,7 @@
 	text-align: left;
 	padding: 5px;
 }
+
 .posts li {
 	list-style-type: none;
 	border-top: 1px none #CCC;
@@ -19,43 +24,67 @@
 	border-left: 1px solid #CCC;
 	padding: 2px 4px;
 }
+
 .posts li.one {
 	background: #CCC;
 }
+
 .posts li.none {
 	border-style: none;
 }
+
 .site .footer {
 	color: #666;
 	text-align: center;
 	font-size: 0.75em;
 }
+
 .posts {
 	padding: 5px;
 	margin-top: 0px;
 }
+
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
 .site #related h2 {
 	font-size: 1.2em;
 	padding: 0px;
 	margin: 0px;
 }
+
 .site #post .post-title {
 	font-size: 1.2em;
 }
+
 .site #post .post-meta {
 	font-size: 0.8em;
 	color: #666;
 }
+
 .site .header {
-	text-align: right;
+	text-align: justify;
 	padding: 10px 20px;
 	margin: 0px 0px 20px;
 }
+
+.site .header #description {
+   font-size: 0.9em;
+}
+
+.site .header #title{
+   font-size: 1.1em;
+}
+
 .site .header a {
 	text-transform: capitalize;
 	font-weight: 900;
 	font-size: 1.05em;
 }
+
+.posts li span.date {
+   text-transform: uppercase;
+   font-family: monospace;
+}
+
