@@ -37,6 +37,9 @@ a, a:visited {
 	color: #666;
 	text-align: center;
 	font-size: 0.75em;
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .posts {
@@ -102,5 +105,11 @@ body {
    font-size: 0.6em;
    margin-left: 10px;
    vertical-align: middle;
+}
+
+#content {
+   padding: 2px;
+   border-bottom: 1px dashed #666;
+   margin-bottom: 5px;
 }
 
