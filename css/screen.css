@@ -88,3 +88,13 @@ body {
    font-family: monospace;
 }
 
+.footer #site-meta {
+   font-size: 0.85em;
+   font-family: monospace;
+}
+
+.footer p {
+   padding: 0;
+   margin: 0;
+}
+
