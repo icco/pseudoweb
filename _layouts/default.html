@@ -20,8 +20,8 @@
 </head>
 <body>
 <div class="site">
-  <div class="title">
-     <a href="/">PseudoWeb.Net</a> is <a href="http://natwelch.com/">Nat Welch</a>'s log of stuff. You can find more in the <a href="/archives/">archives</a>. 
+  <div class="header">
+     <span id="title"><a href="/">PseudoWeb.Net</a> is <a href="http://natwelch.com/">Nat Welch</a>'s log of stuff.</span> <span id="description">You can find more in the <a href="/archives/">archives</a>.</span> 
   </div>
   
   {{ content }}
@@ -35,6 +35,7 @@
   </div>
 </div>
 
+<script type="text/javascript" src="/js/onload.js"></script>
 <script type="text/javascript">
    // Google Analytics
    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -44,6 +45,5 @@
    var pageTracker = _gat._getTracker("UA-333449-7");
    pageTracker._trackPageview();
 </script>
-<script type="text/javascript" src="/js/onload.js"></script>
 </body>
 </html>
