@@ -4,27 +4,11 @@ title: Nat Welch's Blog
 ---
 
 <div id="home">
-   <div class="collapse close">
-      <h2>About <span class="handle"></span></h2>
-      <div id="about">
-         PseudoWeb.net is the blog of Nathaniel "Nat" Welch. You can find out more about him at <a href="http://natwelch.com" rel="me">natwelch.com</a>. You can also visit <a href="/archives/">the archives</a> if you want to look into the past.
-      </div>
-   </div>
-
-   <div class="collapse close">
-      <h2>Most Recent Post <span class="handle"></span></h2>
-      <div>
-         <div class="post-title"><a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></div>
-         <div class="post-meta">{{ site.posts[0].date | date_to_string }}</div>
-         {{ site.posts[0].content }}
-      </div>
-   </div>
-
-   <div class="collapse open">
-      <h2>More Recent Blog Posts <span class="handle"></span></h2>
+   <div class="">
+      <h2>More Recent Blog Posts</h2>
       <div id="post-list">
          <ul class="posts">
-            {% for post in site.posts limit:5 offset:1 %}
+            {% for post in site.posts limit:10 offset:0 %}
                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
             <li><a href="/archives/">View more posts in the archives...</a></li>
