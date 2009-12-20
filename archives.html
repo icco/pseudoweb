@@ -1,4 +1,16 @@
 ---
-layout: archive
+layout: default 
 title: Nat Welch's Blog Archives
 ---
+<div id="section">
+<h2>{{ page.title }}</h2>
+ 
+<p>This is a list of all of the posts I have written which are available for
+public viewing.</p>
+<ul class="posts">
+   {% for post in site.posts %}
+      <li class="{% cycle 'one', 'two' %}"><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+   {% endfor %}
+</ul>
+</div>
+
