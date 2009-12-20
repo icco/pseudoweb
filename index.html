@@ -9,9 +9,9 @@ title: Nat Welch's Blog
       <div id="post-list">
          <ul class="posts">
             {% for post in site.posts limit:10 offset:0 %}
-               <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+               <li class="{% cycle 'one', 'two' %}"><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
-            <li><a href="/archives/">View more posts in the archives...</a></li>
+            <li class="none"><a href="/archives/">View more posts in the archives...</a></li>
          </ul>
       </div>
    </div>

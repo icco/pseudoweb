@@ -19,10 +19,10 @@
 	border-left: 1px solid #CCC;
 	padding: 2px 4px;
 }
-.posts li .alt {
+.posts li.one {
 	background: #CCC;
 }
-.posts li .none {
+.posts li.none {
 	border-style: none;
 }
 .site .footer {
