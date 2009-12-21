@@ -18,6 +18,5 @@ Copyright (c) 2009 Nathaniel Welch. Rights reserved as indicated above.
 ## ToDo
  
  * Adactio style flickr pull using JS
- * new style
  * Write hacker post and begin one post a week
 
