@@ -3,12 +3,11 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Nat Welch's Blog</title>
- <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
- <link href="http://tom.preston-werner.com/"/>
+ <title>Pseudoweb.net</title>
+ <link href="http://pseudoweb.net/atom.xml" rel="self"/>
+ <link href="http://pseudoweb.net/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://icco.github.com/</id>
+ <id>http://pseudoweb.net</id>
  <author>
    <name>Nat Welch</name>
    <email>nat@natwelch.com</email>
@@ -17,11 +16,11 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://icco.github.com{{ post.url }}"/>
+   <link href="http://pseudoweb.net{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://icco.github.com{{ post.id }}</id>
+   <id>http://pseudoweb.net{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
 </feed>
+ 
