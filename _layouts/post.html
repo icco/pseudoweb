@@ -23,4 +23,17 @@ alt: You can find more in the <a href="/archives/">archives</a>.
       {% endfor %}
    </ul>
 </div>
+<div>
+   {% if page.next %}
+   <div id="post-next">
+      <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next</a> &raquo;
+   </div>
+   {% endif %}
+
+   {% if page.previous %}
+   <div id="post-prev">
+      &laquo; <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
+   </div>
+   {% endif %}
+</div>
 
