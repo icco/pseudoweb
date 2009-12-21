@@ -49,6 +49,23 @@ a, a:visited {
 
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   font-size:13.34px;
+}
+
+h1 {
+   font-size: 1.3em;
+}
+
+h2 {
+   font-size: 1.2em;
+}
+
+h3 {
+   font-size: 1.1em;
+}
+
+h4, h5, h6 {
+   font-size: 1em;
 }
 
 .site #related h2 {
@@ -58,11 +75,11 @@ body {
 }
 
 .site #post .post-title {
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 .site #post .post-meta {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	color: #666;
 }
 
