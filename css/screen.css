@@ -137,3 +137,35 @@ h4, h5, h6 {
    float: right;
 }
 
+/* Archives page */
+#archives .year {
+	font-size: 2em;
+	color: #333;
+	width: 100px;
+}
+
+#archives ul {
+	list-style-type: none;
+	margin: 0;
+   padding: 5px;
+}
+
+#archives .month {
+   font-size: 1.3em;
+	padding: 3px;
+	margin-bottom: 0px;
+}
+
+#archives li {
+   padding-left: 20px;
+}
+
+#archives .day {
+   font-weight: bold;
+   color: #333;
+}
+
+#archives li, #archives .month {
+	margin-left: 30px;
+}
+
