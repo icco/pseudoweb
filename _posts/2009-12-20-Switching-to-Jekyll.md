@@ -42,6 +42,7 @@ Here are a list of places I looked while setting up my site.
  * [Liquid Templating Engine Wiki](http://wiki.github.com/tobi/liquid)
  * [Markdown Test Page](http://daringfireball.net/projects/markdown/dingus)
  * [mojombo.github.com source](http://github.com/mojombo/mojombo.github.com)
+ * [Installing Git+Jekyll](http://ryanelmquist.com/2009/08/17/git-jekyll/)
 
  [1]: http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
  [2]: http://www.crunchgear.com/2009/11/24/ifixit-answers-do-not-return-product-to-store/
