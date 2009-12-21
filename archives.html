@@ -7,10 +7,38 @@ title: Nat Welch's Blog Archives
  
 <p>This is a list of all of the posts I have written which are available for
 public viewing.</p>
-<ul class="posts">
+
+<!-- Old Archives Page -->
+<ul class="posts" style="display: none">
    {% for post in site.posts %}
       <li class="{% cycle 'one', 'two' %}"><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
    {% endfor %}
 </ul>
+
+<!-- From http://github.com/mojombo/jekyll/issues/#issue/23 -->
+<dl id="archives">
+{% for post in site.posts %}
+  {% if post.date|date:"%B" != previous_post.date|date:"%B" %}
+    {% if post.date|date:"%Y" != previous_post.date|date:"%Y" %}
+      {% assign year_changed = true %}
+    {% else %}
+      {% assign year_changed = false %}
+    {% endif %}
+
+    <dt class="month{% if year_changed %} year{% endif %}">
+      {{ post.date | date:"%B" }}
+
+      {% if year_changed %}
+        <span>{{ post.date | date:"%Y" }}</span>
+      {% endif %}
+    </dt>
+  {% endif %}
+
+  <dd><span>{{ post.date | date:"%d" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></dd>
+
+  {% assign previous_post = post %}
+{% endfor %}
+</dl>
 </div>
+
 
