@@ -11,7 +11,7 @@ title: Nat Welch's Blog
       <h2>Most Recent Blog Posts</h2>
       <div id="post-list">
          <ul class="posts">
-            {% for post in site.posts limit:10 offset:0 %}
+            {% for post in site.posts limit:7 offset:0 %}
                <li class="{% cycle 'one', 'two' %}"><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
             <li class="none"><a href="/archives/">View more posts in the archives...</a></li>

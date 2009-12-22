@@ -18,13 +18,21 @@ I know this goes against the time honored statement of "don't judge a book by it
 
 So I would like to take a moment to post some album art. It's not my favorite album art, but it is good album art. At some point I think I need to write more about new albums I get, or something, but I'll just put these images up. Please try to enjoy them for what they are, good pieces of graphic design.
 
-<img title="Nine Inch Nails" src="/images/2008/12/image-5.bmp" alt="" width="185" height="166" />
+<a href="/images/2008/12/image-5.bmp" rel="lightbox[set1]" title="Nine Inch Nails">
+   <img title="Nine Inch Nails" class="lbThumb" src="/images/2008/12/image-5.bmp" alt="NIN Album Cover" width="185" height="166" />
+</a>
 
-<img title="Blu And Exile" src="/images/2008/12/bluandexile.bmp" alt="" width="184" height="184" />
+<a href="/images/2008/12/bluandexile.bmp" rel="lightbox[set1]">
+   <img title="Blu And Exile" src="/images/2008/12/bluandexile.bmp" alt="" width="184" height="184" />
+</a>
 
-<img class="size-thumbnail" title="Iron And Wine" src="/images/2008/12/image-4.bmp" alt="The Sheppard's Son" width="184" height="184" />
+<a href="/images/2008/12/image-4.bmp" rel="lightbox[set1]">
+   <img title="Iron And Wine" src="/images/2008/12/image-4.bmp" alt="The Sheppard's Son" width="184" height="184" />
+</a>
 
-<img class="size-medium" title="Johnny Cash" src="/images/2008/12/image-3.bmp" alt="" width="194" height="192" />
+<a href="/images/2008/12/image-3.bmp" rel="lightbox[set1]">
+   <img title="Johnny Cash" src="/images/2008/12/image-3.bmp" alt="" width="194" height="192" />
+</a>
 
 Well before I sign off, I would like you to take notice of another thing about these covers. They all try to portray a general mood about the album. "The Man Comes Around" was one of Johnny Cash's last albums, notice how the man (Cash himself) looks worn yet proud? Blu and Exile's "Below The Heavens" was their debut album. Look at that smile, like a freshman's first day of school. Nine Inch Nails defined grunge. And look at that "With Teeth"  cover, if that doesn't remind you of industrial-ness I don't know what will. Finally Iron and Wine's "The Sheppard's Dog" is a calm album that has a panting yet warm and happy looking dog on the cover. This is a folk-rock album, and while it isn't a perfect fit, I do beleive the dog works.
 
