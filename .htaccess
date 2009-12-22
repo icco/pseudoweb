@@ -1,7 +1,11 @@
-# Stolen from Tatey.com
+# Some of this was stolen from Tatey.com
 
 # Migrated from `date` to `pretty` permalink structure.
 RewriteEngine On
+
+# For debugging. Should set level to 0 in deployment
+RewriteLog "rewrite.log"
+RewriteLogLevel 2
  
 # Directory index is never accessible.
 # /index.html -> /
@@ -9,6 +13,10 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteCond %{REQUEST_URI} ^\/.*index\.html$
 RewriteRule ^(.*)index.html$ /$1 [R=301,L]
+
+# make /feed/ work even though it doesn't exist
+RewriteCond %{REQUEST_URI} ^\/feed\/$
+RewriteRule .* /atom.xml [R=301,L] 
  
 # Continue to support deprecated permalink structure.
 # /2009/09/09/foo.html -> /2009/09/09/foo/
