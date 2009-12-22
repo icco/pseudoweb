@@ -18,13 +18,13 @@ I know this goes against the time honored statement of "don't judge a book by it
 
 So I would like to take a moment to post some album art. It's not my favorite album art, but it is good album art. At some point I think I need to write more about new albums I get, or something, but I'll just put these images up. Please try to enjoy them for what they are, good pieces of graphic design.
 
-[caption id="attachment_143" align="alignnone" width="185" caption="With Teeth"]<a href="http://pseudoweb.net/wp-content/uploads/2008/12/image-5.bmp"><img class="size-medium wp-image-143" title="Nine Inch Nails" src="http://pseudoweb.net/wp-content/uploads/2008/12/image-5.bmp" alt="" width="185" height="166" /></a>[/caption]
+<img title="Nine Inch Nails" src="/images/2008/12/image-5.bmp" alt="" width="185" height="166" />
 
-[caption id="attachment_140" align="alignnone" width="184" caption="Below the Heavens"]<a href="http://pseudoweb.net/wp-content/uploads/2008/12/bluandexile.bmp"><img class="size-medium wp-image-140" title="Blu And Exile" src="http://pseudoweb.net/wp-content/uploads/2008/12/bluandexile.bmp" alt="" width="184" height="184" /></a>[/caption]
+<img title="Blu And Exile" src="/images/2008/12/bluandexile.bmp" alt="" width="184" height="184" />
 
-[caption id="attachment_142" align="alignnone" width="184" caption="The Sheppard&#39;s Dog"]<a href="http://pseudoweb.net/wp-content/uploads/2008/12/image-4.bmp"><img class="size-thumbnail wp-image-142" title="Iron And Wine" src="http://pseudoweb.net/wp-content/uploads/2008/12/image-4.bmp" alt="The Sheppard's Son" width="184" height="184" /></a>[/caption]
+<img class="size-thumbnail" title="Iron And Wine" src="/images/2008/12/image-4.bmp" alt="The Sheppard's Son" width="184" height="184" />
 
-[caption id="attachment_141" align="alignnone" width="194" caption="The Man Comes Around"]<a href="http://pseudoweb.net/wp-content/uploads/2008/12/image-3.bmp"><img class="size-medium wp-image-141" title="Johnny Cash" src="http://pseudoweb.net/wp-content/uploads/2008/12/image-3.bmp" alt="" width="194" height="192" /></a>[/caption]
+<img class="size-medium" title="Johnny Cash" src="/images/2008/12/image-3.bmp" alt="" width="194" height="192" />
 
 Well before I sign off, I would like you to take notice of another thing about these covers. They all try to portray a general mood about the album. "The Man Comes Around" was one of Johnny Cash's last albums, notice how the man (Cash himself) looks worn yet proud? Blu and Exile's "Below The Heavens" was their debut album. Look at that smile, like a freshman's first day of school. Nine Inch Nails defined grunge. And look at that "With Teeth"  cover, if that doesn't remind you of industrial-ness I don't know what will. Finally Iron and Wine's "The Sheppard's Dog" is a calm album that has a panting yet warm and happy looking dog on the cover. This is a folk-rock album, and while it isn't a perfect fit, I do beleive the dog works.
 
@@ -32,4 +32,3 @@ Anyways, just some pretty pictures for you folks.
 
 /Nat
 
-<a href="http://pseudoweb.net/wp-content/uploads/2008/12/bluandexile.bmp"> </a>
