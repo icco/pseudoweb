@@ -15,3 +15,6 @@ RewriteRule ^(.*)index.html$ /$1 [R=301,L]
 RewriteCond %{REQUEST_URI} \/\d{4}\/\d{2}\/\d{2}\/.+\.html$
 RewriteRule (.+).html$ /$1/ [R=301,L]
 
+# compress all text & html:
+AddOutputFilterByType DEFLATE text/html text/plain text/xml
+
