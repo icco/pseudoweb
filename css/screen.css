@@ -178,7 +178,7 @@ h4, h5, h6 {
    padding: 0 0 0 15px ;
 }
 
-#about p {
+#about p, #twitter_update_list li span {
    text-indent: 1em;
 }
 
