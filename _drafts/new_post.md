@@ -12,7 +12,7 @@ summary of my week, according to delicious. I will spend the rest of this
 article explaining on how it works. If you would like, you can just look at the
 source, located at http://github.com/icco/re-delicious.
 
-## The script
+## The Script
 
 describe script here
 
@@ -22,9 +22,11 @@ describe xslt, why it's useful, and why it sucks
 
 ## Cron
 
- > 42 7 * * 6 /home/nat/Projects/re-delicious/re-delicious.sh username password | mail -s "Link summary for the `date +"Week %V of %G"`" nat@natwelch.com
+> 42 7 * * 6 /home/nat/Projects/re-delicious/re-delicious.sh username password | mail -s "Link summary for the `date +"Week %V of %G"`" nat@natwelch.com
 
+## Conclusion
 
+talk about other ways to write this, php, python, ruby...
 
 
 /Nat 
