@@ -6,6 +6,8 @@ RewriteEngine On
 # For debugging. Should set level to 0 in deployment
 #RewriteLog "rewrite.log"
 #RewriteLogLevel 2
+
+ RewriteRule ^feed/ /atom.xml [L,R=301]
  
 # Directory index is never accessible.
 # /index.html -> /
