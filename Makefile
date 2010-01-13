@@ -4,7 +4,7 @@ site:
 	jekyll
 
 clean:
-	rm -rvf _site/
+	rm -rf _site/
 
 server: clean
 	jekyll --server 4000 --auto
