@@ -14,3 +14,6 @@ deploy: clean site
 
 fake-deploy: clean site
 	rsync -nrvtz --delete _site/ welchfamilyweb.com:~/public_html/pseudoweb.net/_site/
+
+new: 
+	./new_post.sh
