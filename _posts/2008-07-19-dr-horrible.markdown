@@ -4,7 +4,7 @@ layout: post
 title: Dr. Horrible
 wordpress_url: http://pseudoweb.net/?p=98
 ---
-[caption id="attachment_99" align="alignright" width="204" caption="The Top TV Shows on iTunes as of 7/19"]<a href="http://pseudoweb.net/wp-content/uploads/2008/07/picture-1.png"><img class="size-full wp-image-99" title="TopTVShows" src="http://pseudoweb.net/wp-content/uploads/2008/07/picture-1.png" alt="The Top TV Shows on iTunes as of 7/19" width="204" height="259" /></a>[/caption]
+<a href="/images/2008/07/picture-1.png"><img title="TopTVShows" src="/images/2008/07/picture-1.png" alt="The Top TV Shows on iTunes as of 7/19" width="204" height="259" /></a>
 
 <a href="http://drhorrible.com/">Dr. Horrible's Sing-A-Long Blog</a> is the greatest musical recently. Don't believe me? Check out the screen shot of the<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewTVSeason?id=284353399"> iTunes Music Store</a> to the left.
 

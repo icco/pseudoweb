@@ -18,7 +18,7 @@ The other news that I want to mention is that <a href="http://www.facebook.com/"
 
 Anyway, that's all for now. The blogosphere has been pretty active as of late, so much news I don't have time to write about it ;)
 
-Hasta
+Hasta,  
 /Nat
 
 p.s. I think the iPhone's a scam, but none the less <a href="http://scobleizer.com/2007/09/06/dear-steve-jobs/">Scoble's right</a>. We need an SDK. If there were an SDK I would buy an iPod Touch in addition to my Classic (but I would not pay $100 for the SDK...).

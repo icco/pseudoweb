@@ -5,7 +5,7 @@ title: Ugh.
 wordpress_url: http://pseudoweb.net/?p=90
 ---
 <p>I know, I know. I said I would be posting here more often. I'm having trouble finding the time I guess. But for those of you interested, I'll give you a little update about my life.
-<a href="http://pseudoweb.net/wp-content/uploads/2008/07/commute.png"><img class="alignleft size-medium wp-image-91" title="SF Commute" src="http://pseudoweb.net/wp-content/uploads/2008/07/commute-231x300.png" alt="Yes, Car to Walk to Train To Walk." width="231" height="300" /></a></p>
+<a href="/images/2008/07/commute.png"><img title="SF Commute" src="/images/2008/07/commute-231x300.png" alt="Yes, Car to Walk to Train To Walk." width="231" height="300" /></a></p>
 <ul>
 	<li>I lost the Innovation Quest Competition, which put a small hold on Ideaius development. I've been working on it when I get a chance, which is another reason this blog isn't getting updated.</li>
 	<li>I'm working at Adobe with the Dreamweaver Team again this summer. I've posted a picture of my commute above.</li>

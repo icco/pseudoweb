@@ -28,6 +28,8 @@ Anywho, here is a list of <em>some</em> of the people I met:
 </ul>
 I met way more than this, although I have the memory of a ninety year old woman. A few others I have buisness cards sitting on my desk at home, which I'll add soon, I promise.
 
-<a href="http://www.flickr.com/photos/icco/1096435512/" title="The photo taken by CNet on Flickr" class="right"><img src="http://farm2.static.flickr.com/1361/1096435512_8f89e8069c_s.jpg" alt="The photo taken by CNet on Flickr" height="75" width="75" /></a>There was also this CNet reporter, whose name I forgot to write down. I described my project to her, and I am a little worried about how she interpreted it. Also, I probably shouldn't have mentioned what school I went to, but whatever. If i am lucky I won't even end up in the article. She did take a good picture of me though, which was cool. <span class="right"> </span>
+<a href="http://www.flickr.com/photos/icco/1096435512/" title="The photo taken by CNet on Flickr" class="right"><img src="http://farm2.static.flickr.com/1361/1096435512_8f89e8069c_s.jpg" alt="The photo taken by CNet on Flickr" height="75" width="75" /></a>
+
+There was also this CNet reporter, whose name I forgot to write down. I described my project to her, and I am a little worried about how she interpreted it. Also, I probably shouldn't have mentioned what school I went to, but whatever. If i am lucky I won't even end up in the article. She did take a good picture of me though, which was cool. 
 
 Anyway, my photos are up on <a href="http://flickr.com/photos/icco">Flickr</a>, and all of the photos taken by everyone at the event are<a href="http://flickr.com/photos/tags/shdh19/interesting/"> tagged SHDH19</a>. It was a blast and I can't wait till my next geek event this summer, <a href="http://barcamp.org/BarCampBlock">BarCampBlock</a>.

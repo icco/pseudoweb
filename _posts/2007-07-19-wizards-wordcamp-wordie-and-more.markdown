@@ -22,5 +22,5 @@ I got my tickets to <a href="http://www.pennyarcadeexpo.com/">PAX</a>! Hurrah!
 
 <a href="http://www.flickr.com/photos/icco/857024166/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1126/857024166_26dcfd3053.jpg" width="500" height="406" alt="Pax Tics" /></a>
 
-Hasta,
+Hasta,  
 /Nat

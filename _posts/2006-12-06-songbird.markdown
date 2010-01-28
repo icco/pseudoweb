@@ -9,8 +9,10 @@ wordpress_url: http://pseudoweb.net/crypts/2006/12/06/36
 I suggest you check out the site, it's basically an uber black itunes.
 
 <a href="http://www.songbirdnest.com">Songbird</a>
+
 <a href="http://www.songbirdnest.com/themes/gespaa_customized/screenshot_library.png">
 <img border="0" src="http://www.songbirdnest.com/themes/gespaa_customized/screenthumb_library.png" /></a>
+
 <a href="http://www.songbirdnest.com/themes/gespaa_customized/screenshot_lastfm.png">
 <img border="0" src="http://www.songbirdnest.com/themes/gespaa_customized/screenthumb_lastfm.png" /></a>
 

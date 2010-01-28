@@ -4,7 +4,7 @@ layout: post
 title: Today in the news i didn't read
 wordpress_url: http://pseudoweb.net/crypts/2007/01/24/44
 ---
- 	<a href="http://www.flickr.com/photos/icco/366800169/" title="photo sharing"><img src="http://farm1.static.flickr.com/139/366800169_aa0138f39b.jpg" class="flickr-photo" alt="Cracked Glass" /></a>
+<a href="http://www.flickr.com/photos/icco/366800169/" title="photo sharing"><img src="http://farm1.static.flickr.com/139/366800169_aa0138f39b.jpg" class="flickr-photo" alt="Cracked Glass" /></a>  
 <span class="flickr-caption"><a href="http://www.flickr.com/photos/icco/366800169/">Cracked Glass</a> by <a href="http://www.flickr.com/people/icco/">Nat W.</a></span>
 
 Breaking news! Two days of posting in a row! Read now!
