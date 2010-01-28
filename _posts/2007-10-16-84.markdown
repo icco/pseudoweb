@@ -4,5 +4,8 @@ layout: post
 title: Awesome Infographics Music Video
 wordpress_url: http://pseudoweb.net/crypts/2007/10/84/
 ---
-<b>Royksopp - Remind Me</b>
-<object width="425" height="350"><param name="movie" value="http://youtube.com/v/lBvaHZIrt0o"></param><embed src="http://youtube.com/v/lBvaHZIrt0o" type="application/x-shockwave-flash" width="425" height="350"></embed></object><br />Awesome music video. Maybe Youtube posting will work this time...
+#### Royksopp - Remind Me
+
+<object width="425" height="350"><param name="movie" value="http://youtube.com/v/lBvaHZIrt0o"></param><embed src="http://youtube.com/v/lBvaHZIrt0o" type="application/x-shockwave-flash" width="425" height="350"></embed></object>
+
+Awesome music video. Maybe Youtube posting will work this time...

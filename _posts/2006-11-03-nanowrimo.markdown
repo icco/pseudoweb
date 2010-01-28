@@ -9,6 +9,4 @@ Ok so for this month don't expect too much besides the following:
 	<li>a pdf of my progress every ~10,000 words</li>
 	<li>some backend software updates</li>
 </ul>
-till then:
 
-<img src="http://pinkness.freepgs.com/nanowrimo/meter.php?uid=115575&offset=-8" />

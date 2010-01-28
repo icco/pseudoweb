@@ -4,7 +4,7 @@ layout: post
 title: The New Year and Internetphobia
 wordpress_url: http://pseudoweb.net/crypts/2007/02/09/49
 ---
-<p class="flickr-frame"> 	<a href="http://www.flickr.com/photos/icco/384413275/" title="photo sharing"><img src="http://farm1.static.flickr.com/178/384413275_ce1d0e93fc.jpg" class="flickr-photo" alt="Paper Gate" /></a>
+<a href="http://www.flickr.com/photos/icco/384413275/" title="photo sharing"><img src="http://farm1.static.flickr.com/178/384413275_ce1d0e93fc.jpg" class="flickr-photo" alt="Paper Gate" /></a>  
 <span class="flickr-caption"><a href="http://www.flickr.com/photos/icco/384413275/">Paper Gate</a> by <a href="http://www.flickr.com/people/icco/">Nat W</a></span>
 
 I am scared. I mind you, have no real reason to be scared, but the last few days have pushed me to the point where i should be scared. You see, I believe 2007 will be the year of the Internet Revolution. The Internet Revolution in my mind is where there is a dramatic shift in how things are done on-line. There has been a slow shift towards the dynamic over the past years. Things like RSS, Flickr and Del.ici.ous have allowed this dynamic <a href="http://en.wikipedia.org/wiki/Web_2">Web 2.0</a> to grow. Web 2.0 is a group of software that promotes content that delivers itself to the user in the way the user wants. The user can lay out the page with AJAX the way he or she wants to see it, and only the information they want to see is there. (example: <a href="http://www.netvibes.com/">Netvibes</a>).

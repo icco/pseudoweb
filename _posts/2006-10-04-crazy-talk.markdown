@@ -14,5 +14,5 @@ Mind you, this is starting to sound like the old, too cool/mature for doing this
 
 Anyway, I have had this discussion with many before, and I usually come out looking like the bad guy, because it sounds like I am bashing many peoples favorite holiday, but in reality, I just can't see what is so great about the day.
 
-/Rant
+/Rant   
 Nat

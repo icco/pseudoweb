@@ -10,4 +10,6 @@ wordpress_url: http://pseudoweb.net/crypts/2007/08/76/
 
 Also, <a href="http://www.youtube.com/watch?v=NmZRDUO1wGQ">this Fedex commercial</a> makes me laugh
 
-Anyways, I loved Heroes last season, it was the only TV show I actually watched. And seeing as how I tend not to watch TV, that's saying something./Nat
+Anyways, I loved Heroes last season, it was the only TV show I actually watched. And seeing as how I tend not to watch TV, that's saying something.
+
+/Nat

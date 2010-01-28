@@ -14,14 +14,12 @@
       <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
       <!-- Homepage CSS -->
       <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-      <!-- Light box stuff, more at bottom -->
-      <link rel="stylesheet" href="/css/mediaboxAdvBlack.css" type="text/css" media="screen" /> 
    </head>
    <body>
       <div class="site">
          <div class="header">
             <span id="title"><a href="/">PseudoWeb.Net</a> is <a href="http://natwelch.com/">Nat Welch</a>'s log of stuff.</span> 
-            {% if page.alt %}<span id="description">{{ page.alt }}</span>{% endif %}
+            {% if page.alt %}<div id="description">{{ page.alt }}</div>{% endif %}
          </div>
 
          <div id="content">
@@ -31,7 +29,7 @@
          <div class="footer">
             <div class="contact">
                <p>
-                  This blog is built with <a href="http://github.com/mojombo/jekyll">jekyll</a>. The post contents are copywrite <a href="http://natwelch.com/">Nathaniel "Nat" Welch</a> 2010. You can find the source of this site on <a href="http://github.com/icco/icco.github.com">github</a>. You can contact Nat at <a href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
+                  This blog is built with <a href="http://github.com/mojombo/jekyll">jekyll</a>. The post contents are copywrite <a href="http://natwelch.com/">Nathaniel "Nat" Welch</a> 2010. You can find the source of this site on <a href="http://github.com/icco/pseudoweb">github</a>. You can contact Nat at <a href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
                </p>
                <p id="site-meta">
                   <a href="/atom.xml">RSS</a> &brvbar;
@@ -47,8 +45,6 @@
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
       <!-- Local mootools more copy -->
       <script type="text/javascript" src="/js/mootools-1.2.4.2-more.js"></script>
-      <!-- Lightbox js -->
-      <script src="/js/mediaboxAdv-1.1.7.js" type="text/javascript"></script>
       <script type="text/javascript">
          // Google Analytics
          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

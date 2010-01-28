@@ -8,8 +8,9 @@ Okay second week of NaNoWrimo. Supposedly this is the week of breaking. I still 
 
 Anyway here's a PDF of the first 10kish
 
-<a id="p35" title="NaNoWriMoUpload1" href="http://pseudoweb.net/crypts/2006/11/09/34/nanowrimoupload1/">NaNoWriMo Upload 1</a>
+<strike><a id="p35" title="NaNoWriMoUpload1" href="http://pseudoweb.net/crypts/2006/11/09/34/nanowrimoupload1/">NaNoWriMo Upload 1</a></strike>
 
-<a target="_blank" href="http://www.nanowrimo.org/NanowrimoUtils/ProgressReport/115575.html"><img alt="NaNoWriMo Word Count" title="NaNoWriMo Word Count" src="http://pinkness.freepgs.com/nanowrimo/meter.php?uid=115575&offset=-8" /></a>
+<strike>edit: don't know if the pdf is working, leave me a msg if it is not.</strike>
 
-edit: don't know if the pdf is working, leave me a msg if it is not.
+update: the links in this post no long work.
+
