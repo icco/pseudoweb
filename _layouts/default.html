@@ -29,7 +29,14 @@
          <div class="footer">
             <div class="contact">
                <p>
-                  This blog is built with <a href="http://github.com/mojombo/jekyll">jekyll</a>. The post contents are copywrite <a href="http://natwelch.com/">Nathaniel "Nat" Welch</a> 2010. You can find the source of this site on <a href="http://github.com/icco/pseudoweb">github</a>. You can contact Nat at <a href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
+                  This blog is built with <a
+                     href="http://github.com/mojombo/jekyll">jekyll</a>. The
+                  post contents are copy-write <a
+                     href="http://natwelch.com/">Nathaniel "Nat" Welch</a>
+                  2006-2010. You can find the source of this site on <a
+                     href="http://github.com/icco/pseudoweb">github</a>. You
+                  can contact Nat at <a
+                     href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
                </p>
                <p id="site-meta">
                   <a href="/atom.xml">RSS</a> &brvbar;
@@ -61,9 +68,9 @@
             var links = document.getElementsByTagName('a');
             var query = '?';
             for(var i = 0; i < links.length; i++) {
-            if(links[i].href.indexOf('#disqus_thread') >= 0) {
-               query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-            }
+               if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                  query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+               }
             }
             document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/pseudoweb/get_num_replies.js' + query + '"></' + 'script>');
          })();

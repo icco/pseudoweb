@@ -8,12 +8,14 @@ a, a:visited {
 }
  
 .site {
-	width: 600px;
+	width: 642px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 12px;
+	margin-top: -10px;
 	text-align: left;
-	padding: 5px;
+	padding: 50px;
+   background-color: #eee;
+   color: #111;
 }
 
 .posts li {
@@ -147,7 +149,7 @@ h4, h5, h6 {
 
 #archives ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 0 0 0 50px;
    padding: 5px;
 }
 
