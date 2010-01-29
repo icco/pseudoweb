@@ -39,7 +39,7 @@ a, a:visited {
 .site .footer {
 	color: #666;
 	text-align: center;
-	font-size: 0.75em;
+	font-size: 0.80em;
    width: 75%;
    margin-left: auto;
    margin-right: auto;
@@ -183,5 +183,11 @@ h4, h5, h6 {
 
 #about p, #twitter_div #twitter_update_list li {
    text-indent: 1em;
+}
+
+#banner {
+   margin-left: auto;
+   margin-right: auto;
+   width: 600px;
 }
 
