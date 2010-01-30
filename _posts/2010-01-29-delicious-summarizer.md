@@ -76,8 +76,9 @@ the actual XML.
 
 The following is the cron command I have set up.
 
-{% highlight cron %}
-42 7 * * 6 re-delicious.sh username password | mail -s "Link summary for `date +"Week %V of %G"`" nat@natwelch.com
+{% highlight bash %}
+42 7 * * 6 re-delicious.sh uname pwd | 
+    mail -s "Links for `date +"Week %V of %G"`" you@email.com
 {% endhighlight %}
 
 ## Conclusion
