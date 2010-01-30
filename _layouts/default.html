@@ -11,9 +11,9 @@
       <!-- RSS -->
       <link href="/atom.xml" rel="alternate" title="Nat Welch's RSS Feed" type="application/atom+xml" />
       <!-- syntax highlighting CSS -->
-      <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+      <link rel="stylesheet" href="/css/pygments/tango.css" type="text/css" />
       <!-- Homepage CSS -->
-      <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+      <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
    </head>
    <body>
       <div class="site">
@@ -29,7 +29,14 @@
          <div class="footer">
             <div class="contact">
                <p>
-                  This blog is built with <a href="http://github.com/mojombo/jekyll">jekyll</a>. The post contents are copywrite <a href="http://natwelch.com/">Nathaniel "Nat" Welch</a> 2010. You can find the source of this site on <a href="http://github.com/icco/pseudoweb">github</a>. You can contact Nat at <a href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
+                  This blog is built with <a
+                     href="http://github.com/mojombo/jekyll">jekyll</a>. The
+                  post contents are copy-write <a
+                     href="http://natwelch.com/">Nathaniel "Nat" Welch</a>
+                  2006-2010. You can find the source of this site on <a
+                     href="http://github.com/icco/pseudoweb">github</a>. You
+                  can contact Nat at <a
+                     href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
                </p>
                <p id="site-meta">
                   <a href="/atom.xml">RSS</a> &brvbar;
@@ -50,7 +57,7 @@
          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
       <script type="text/javascript">
-         var pageTracker = _gat._getTracker("UA-333449-7");
+         var pageTracker = _gat._getTracker("UA-333449-1");
          pageTracker._trackPageview();
       </script>
 
@@ -61,9 +68,9 @@
             var links = document.getElementsByTagName('a');
             var query = '?';
             for(var i = 0; i < links.length; i++) {
-            if(links[i].href.indexOf('#disqus_thread') >= 0) {
-               query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-            }
+               if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                  query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+               }
             }
             document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/pseudoweb/get_num_replies.js' + query + '"></' + 'script>');
          })();

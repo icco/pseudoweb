@@ -4,7 +4,7 @@ echo -n "Post title? ";
 read -e TITLE;
 DTITLE=`echo -n $TITLE | sed 's/ /-/g' | tr "[:upper:]" "[:lower:]"`;
 DATE=`date +%Y-%m-%d`;
-FILENAME=_posts/$DATE-$DTITLE.md
+FILENAME=_drafts/$DATE-$DTITLE.md
 
 if [ -f $FILENAME ]; then
    echo "Editing \"" $TITLE "\"";
@@ -19,5 +19,4 @@ else
 fi
 
 vim $FILENAME;
-#git add $FILENAME
    

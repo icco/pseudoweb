@@ -1,6 +1,48 @@
 function natTwitterCallback(twitters) {
    /* born from twitter's code */
    var statusHTML = [];
+   if (twitters.length < 1)
+      twitters.push({"favorited":false,
+            "in_reply_to_user_id":null,
+            "in_reply_to_status_id":null,
+            "in_reply_to_screen_name":null,
+            "contributors":null,
+            "created_at":"Fri Jan 29 07:19:25 +0000 2010",
+            "source":"web",
+            "user":{"friends_count":320,
+               "url":"http://natwelch.com",
+               "description":"A solution looking for a problem. CSC Student at Cal Poly SLO and Developer for iFixit.",
+               "notifications":null,
+               "time_zone":"Pacific Time (US & Canada)",
+               "profile_sidebar_fill_color":"DDEEF6",
+               "followers_count":297,
+               "favourites_count":188,
+               "created_at":"Fri Apr 06 01:38:20 +0000 2007",
+               "profile_sidebar_border_color":"C0DEED",
+               "statuses_count":2352,
+               "verified":false,
+               "profile_image_url":"http://a3.twimg.com/profile_images/586858529/4074679630_b498297f2e_b_normal.jpg",
+               "contributors_enabled":false,
+               "profile_text_color":"333333",
+               "lang":"en",
+               "profile_background_image_url":"http://s.twimg.com/a/1264550348/images/themes/theme1/bg.png",
+               "protected":false,
+               "screen_name":"icco",
+               "following":null,
+               "geo_enabled":true,
+               "profile_link_color":"0084B4",
+               "location":"93401",
+               "name":"Nat Welch",
+               "profile_background_tile":false,
+               "id":3576561,
+               "utc_offset":-28800,
+               "profile_background_color":"C0DEED"},
+            "geo":null,
+            "truncated":false,
+            "id":8359006004,
+            "text":"No man's knowledge can go beyond his experience. \n -- John Locke"
+      });
+
    for (var i=0; i<twitters.length; i++){
       var username = twitters[i].user.screen_name;
       var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
