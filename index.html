@@ -6,14 +6,28 @@ title: PseudoWeb.Net
    <div class="section" id="banner">
       <img src="/images/banner1.jpg" alt="Cool image I didn't draw." />
    </div>
+   <div class="section" id="about">
+      <h2>About</h2>
+      <p>
+         Nat Welch is a college student at Cal Poly and a software developer
+         for <a href="http://ifixit.com">iFixit</a> in San Luis Obispo, CA. Nat
+         enjoys learning web development and Linux. He also enjoys backpacking,
+         music, and urban exploration in his free time.
+      </p>
+   </div>
    <div class="section" id="recent-posts">
       <h2>Most Recent Blog Posts</h2>
       <div id="post-list">
          <ul class="posts">
             {% for post in site.posts limit:7 offset:0 %}
-               <li class="{% cycle 'one', 'two' %}"><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            <li class="{% cycle 'one', 'two' %}">
+               <span class="date">{{ post.date | date_to_string }}</span>
+               &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
             {% endfor %}
-            <li class="none"><a href="/archives/">View more posts in the archives...</a></li>
+            <li class="none">
+               <a href="/archives/">View more posts in the archives...</a>
+            </li>
          </ul>
       </div>
    </div>
@@ -24,15 +38,6 @@ title: PseudoWeb.Net
       <a href="http://twitter.com/icco" id="twitter-link" style="display:block;text-align:right;">follow Nat on Twitter</a>
       <script type="text/javascript" src="/js/twitter.js"></script>
       <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/icco.json?callback=natTwitterCallback&count=1"></script>
-   </div>
-   <div class="section" id="about">
-      <h2>About</h2>
-      <p>
-         Nat Welch is a college student at Cal Poly and a software developer
-         for <a href="http://ifixit.com">iFixit</a> in San Luis Obispo, CA. Nat
-         enjoys learning web development and Linux. He also enjoys backpacking,
-         music, and urban exploration in his free time.
-      </p>
    </div>
 </div>
 
