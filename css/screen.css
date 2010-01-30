@@ -6,7 +6,12 @@
 a, a:visited {
    color: #0F0F8F;
 }
- 
+
+.highlight {
+   background-color: white;
+   padding: 10px;
+}
+
 .site {
 	width: 642px;
 	margin-right: auto;
