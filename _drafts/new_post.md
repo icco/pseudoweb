@@ -82,8 +82,13 @@ The following is the cron command I have set up.
 
 ## Conclusion
 
-talk about other ways to write this, php, python, ruby...
+It's very possible that it would be easier to write this in another language or
+something, but It ended up being a fun little script. The main advantage you
+would gain by writing it in another language is having a good XML parser, so
+you could skip using XSLT to parse your XML file.
 
+Anyway, hope you found this interesting.
 
+Adios,  
 /Nat 
 
