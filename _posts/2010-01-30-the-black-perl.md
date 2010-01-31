@@ -4,9 +4,9 @@ title: The Black Perl
 location: Linnaea's Cafe, San Luis Obispo, CA
 ---
 
-I know, I know, two posts in a row? What is he thinking? Well I cam across this
-post on <a href="http://news.ycombinator.com/item?id=1089420">Hacker News</a>,
-and it was pretty awesome, so I wanted to repost it here. 
+I know, I know, two posts in a row? What is he thinking? Well I came across
+this post on <a href="http://news.ycombinator.com/item?id=1089420">Hacker
+News</a>, and it was pretty awesome, so I wanted to repost it here. 
 
 This block of code is written in Perl. I don't know much Perl, but it's a
 pretty cool language, and I do love poetry. Anything that can combine poetry
