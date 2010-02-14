@@ -21,7 +21,7 @@ title: PseudoWeb.Net
          <ul class="posts">
             {% for post in site.posts limit:7 offset:0 %}
             <li class="{% cycle 'one', 'two' %}">
-               <span class="date">{{ post.date | date_to_string }}</span>
+               <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
                &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
             {% endfor %}
