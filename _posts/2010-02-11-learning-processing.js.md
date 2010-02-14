@@ -24,9 +24,10 @@ currently exist.
 
 After a little searching, my team member Reed stumbled across Processing.js.
 This little javascript framework lets you do all kinds of fun HTML5 canvas
-stuff in a nice abstract way. 
+stuff in a nice abstract way. Before I walk you through it, I figured I would
+dump a bunch of it in front of you.
 
-{% highlight js %}
+{% highlight js linenos %}
    <script type="application/processing">
       Line[] lines;
       int count, radius, offsetx, offsety;
@@ -86,7 +87,7 @@ stuff in a nice abstract way.
                // We are inside. Change colors fire events, etc.
                changed = !(boxwidth != 20);
                boxwidth = 20;
-               lastActive = this; // ADDED THIS LINE
+               lastActive = this; 
             } else {
                changed = !(boxwidth != 5);
                boxwidth = 5;
@@ -172,11 +173,19 @@ stuff in a nice abstract way.
          lastActive.draw(); 
       }
    </script>
-
 {% endhighlight %}
 
- - interesting problems dealing with processing
- - code I wrote, commented well.
+Cool right? There are some interesting things to notice about this code. First
+of all, when the page is loaded, the setup function is called. This function
+should in theory instantiate your classes and set things that probably will not
+change, like background color.
+
+Next checkout the draw function. This is an interesting function because it is
+called everytime a frame needs to be rendered, which since we have our frames
+per second set at 60, this function is called 60 times every second. This can
+present some interesting concurrency problems, because if you loop through a
+group of functions that modify similar areas of the page (like write text to a
+DOM element) you will quickly notice that they are stomping on each other.
 
 Hasta,  
 /Nat
