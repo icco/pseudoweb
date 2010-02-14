@@ -4,12 +4,14 @@ alt: This is a single post, but you can find more in the <a href="/archives/">ar
 ---
 <div id="post">
    <div class="post-title">{{ page.title }}<a id="permalink" href="{{ page.url }}">#</a></div>
-   {% if page.location %}
-      <div class="post-meta">{{ page.date | date_to_string }} - {{ page.location }}</div>
-   {% else %}
-      <div class="post-meta">{{ page.date | date_to_string }}</div>
-   {% endif %}
-
+      <div class="post-meta">
+         <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+            {{ page.date | date: "%B %d, %Y" }}
+         </time>
+         {% if page.location %}
+            &mdash; {{ page.location }}
+         {% endif %}
+      </div>
    <div class="content">
       {{ content }}
    </div>

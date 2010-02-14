@@ -15,8 +15,3 @@ You may feel free to re-use any part of the structure, design, and layout of thi
 
 Copyright (c) 2009 Nathaniel Welch. Rights reserved as indicated above.
 
-## ToDo
- 
- * Adactio style flickr pull using JS
- * Write hacker post and begin one post a week
-
