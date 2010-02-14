@@ -22,10 +22,11 @@ to design a few different interfaces. One of these is a circle with spokes to
 describe an entire process and all of the instances of that process that
 currently exist.
 
-After a little searching, my team member Reed stumbled across Processing.js.
-This little javascript framework lets you do all kinds of fun HTML5 canvas
-stuff in a nice abstract way. Before I walk you through it, I figured I would
-dump a bunch of it in front of you.
+After a little searching, my team member [Reed](http://reedmorse.com/) stumbled
+across [Processing.js](http://processingjs.org/).  This little javascript
+framework lets you do all kinds of fun HTML5 canvas stuff in a nice abstract
+way. Before I walk you through it, I figured I would dump a bunch of it in
+front of you.
 
 {% highlight js linenos %}
    <script type="application/processing">
@@ -181,11 +182,64 @@ should in theory instantiate your classes and set things that probably will not
 change, like background color.
 
 Next checkout the draw function. This is an interesting function because it is
-called everytime a frame needs to be rendered, which since we have our frames
+called every time a frame needs to be rendered, which since we have our frames
 per second set at 60, this function is called 60 times every second. This can
 present some interesting concurrency problems, because if you loop through a
 group of functions that modify similar areas of the page (like write text to a
 DOM element) you will quickly notice that they are stomping on each other.
 
+Processing.js works using a cartesian plane, so if you take a look at all of
+the functions on the [processing.js reference page](http://processingjs.org/reference), 
+most of them are pretty straight forward. For instance, to draw any sort of
+quadrilateral, you just need the four points, and processing.js will just draw
+it for you.
+
+Finally, once you have your code written, you probably want to be able to
+display it one a page. The processing.js package comes with a very nice little
+script to insert your processing code into a canvas element. The file is called
+init.js in the archive you can download, but I've also included it here, just
+in case.
+
+{% highlight js %}
+/*
+ * This code searches for all the <script type="application/processing" target="canvasid">
+ * in your page and loads each script in the target canvas with the proper id.
+ * It is useful to smooth the process of adding Processing code in your page and starting
+ * the Processing.js engine.
+ */
+
+if ( window.addEventListener ) {
+   window.addEventListener("load", function() {
+      var scripts = document.getElementsByTagName("script");
+      
+      for ( var i = 0; i < scripts.length; i++ ) {
+         if ( scripts[i].type == "application/processing" ) {
+            var src = scripts[i].src, canvas = scripts[i].nextSibling;
+   
+            if ( src && src.indexOf("#") ) {
+               canvas = document.getElementById( src.substr( src.indexOf("#") + 1 ) );
+            } else {
+               while ( canvas && canvas.nodeName.toUpperCase() != "CANVAS" )
+                  canvas = canvas.nextSibling;
+            }
+
+            if ( canvas ) {
+               Processing(canvas, scripts[i].text);
+            }
+         }
+      }
+   }, false);
+}
+{% endhighlight %}
+
+In reality, that's all you need to know. I've found processing.js a really fun
+language to code in, because it works well when using mooTools or jquery or any
+other javascript framework. Probably my biggest issue is that I've totally
+forgotten how to use trigonometry in the years since highschool, so I've spent
+a decent amount of time on
+[Wikipedia](http://en.wikipedia.org/wiki/Trigonometry) and
+[StackOverflow](http://stackoverflow.com/users/1063/icco) re-learning my maths.
+
 Hasta,  
 /Nat
+
