@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review: Logitech Anywhere Mouse
+title: Review of the Logitech Anywhere Mouse
 location: San Luis Obispo, CA
 ---
 
