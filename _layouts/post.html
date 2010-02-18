@@ -25,7 +25,7 @@ alt: This is a single post, but you can find more in the <a href="/archives/">ar
       {% endfor %}
    </ul>
 </div>
-<div>
+<div id="navigation">
    {% if page.next %}
    <div id="post-next">
       <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next</a> &raquo;
@@ -37,7 +37,8 @@ alt: This is a single post, but you can find more in the <a href="/archives/">ar
       &laquo; <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
    </div>
    {% endif %}
-
+</div>
+<div id="comments">
    <!-- Javascript Comments from DISQUS -->
    <script type="text/javascript">  
       //var disqus_developer = 1; 
