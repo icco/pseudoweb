@@ -28,7 +28,7 @@ framework lets you do all kinds of fun HTML5 canvas stuff in a nice abstract
 way. Before I walk you through it, I figured I would dump a bunch of it in
 front of you.
 
-{% highlight js linenos %}
+{% highlight js %}
    <script type="application/processing">
       Line[] lines;
       int count, radius, offsetx, offsety;
