@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- META -->
+      <meta charset="UTF-8">
+      <meta name="author" content="Nat Welch" />
+      <meta name="description" content="PseudoWeb.net is the blog of Nathaniel 'Nat' Welch" />
+
+      <title>Find and Grep</title>
+
+      <!-- RSS -->
+      <link href="/atom.xml" rel="alternate" title="Nat Welch's RSS Feed" type="application/atom+xml" />
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/pygments/tango.css" type="text/css" />
+      <!-- Homepage CSS -->
+      <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+   </head>
+   <body>
+      <div class="site">
+         <div class="header">
+            <span id="title"><a href="/">PseudoWeb.Net</a> is <a href="http://natwelch.com/">Nat Welch</a>'s log of stuff.</span> 
+            <div id="description">This is a single post, but you can find more in the <a href="/archives/">archives</a>.</div>
+         </div>
+
+         <div id="content">
+            <div id="post">
+   <div class="post-title">Find and Grep<a id="permalink" href="/2009/08/21/find-and-grep/">#</a></div>
+      <div class="post-meta">
+         <time datetime="2009-08-21 00:00:00 -0700">
+            2009-08-21 00:00:00 -0700
+         </time>
+         
+            &mdash; San Luis Obispo, CA
+         
+      </div>
+   <div class="content">
+      <p>My good friend <a href="http://www.prenticew.com">Prentice</a> posted a <a href="http://www.incognitomind.com/?p=339">blog entry about using grep recursively</a>. While I agree, this is pretty cool, I've recently fallen in love with using find to find things (what a crazy concept) in my code.</p>
+
+<p>I got this little trick from <a href="http://davpt.com">one of my coworkers</a>, which I now use to find just about anything in my code repositories:</p>
+
+<div class="highlight"><pre><code class="bash">gfind <span class="s2">&quot;*php&quot;</span> <span class="s2">&quot;code I want&quot;</span>
+</code></pre>
+</div>
+
+
+<p>You'll notice that that line wont work for you, so put the following in your ~/.bashrc file.</p>
+
+<div class="highlight"><pre><code class="bash">gfind <span class="o">()</span> <span class="o">{</span> 
+   find . -name <span class="s2">&quot;${1}&quot;</span> -exec grep -Hin <span class="k">${</span><span class="nv">3</span><span class="k">}</span> <span class="s2">&quot;${2}&quot;</span> <span class="o">{}</span> <span class="se">\;</span> ; 
+<span class="o">}</span>
+</code></pre>
+</div>
+
+
+<p>This means that it will only look at files that end in php, so of course it will stay out of your .svn or .git directories.</p>
+
+<p>But of course this isn't the best option. What if you want to call the following:</p>
+
+<div class="highlight"><pre><code class="bash">gfind <span class="s2">&quot;*&quot;</span> <span class="s2">&quot;search string&quot;</span>
+</code></pre>
+</div>
+
+
+<p>You need to change the gfind definition to do the equivalent of what Prentice was doing, but with find.</p>
+
+<div class="highlight"><pre><code class="bash">gfind <span class="o">()</span> <span class="o">{</span>
+   find Code -name <span class="s2">&quot;${1}&quot;</span> -a ! -wholename <span class="s1">&#39;*/.*&#39;</span> -exec grep -Hin <span class="k">${</span><span class="nv">3</span><span class="k">}</span> <span class="s2">&quot;${2}&quot;</span> <span class="o">{}</span> <span class="se">\;</span> ; 
+<span class="o">}</span>
+</code></pre>
+</div>
+
+
+<p>If you want to learn more about find or grep you can check out the man pages on your system or the Wikipedia pages for the <a href="http://en.wikipedia.org/wiki/Find_(Unix)">find command</a> or the <a href="http://en.wikipedia.org/wiki/Grep">grep command</a>.</p>
+
+<p>/Nat</p>
+
+   </div>
+</div>
+
+<div id="related">
+   <h2>Related Posts</h2>
+   <ul class="posts">
+      
+         <li class="one"><span class="date">2010-02-14 00:00:00 -0800</span> &raquo; <a href="/2010/02/14/learning-processing.js/">Learning Processing.js</a></li>
+      
+         <li class="two"><span class="date">2010-01-29 00:00:00 -0800</span> &raquo; <a href="/2010/01/29/delicious-summarizer/">Delicious Summarizer</a></li>
+      
+         <li class="one"><span class="date">2007-09-07 00:00:00 -0700</span> &raquo; <a href="/2007/09/07/ipod-touch-facebook-searching-and-the-internet/">iPod Touch, Facebook searching, and the Internet</a></li>
+      
+   </ul>
+</div>
+<div id="navigation">
+   
+   <div id="post-next">
+      <a href="/2009/08/23/useful-php-functions-for-personal-sites/" title="Useful PHP functions for personal sites">Next</a> &raquo;
+   </div>
+   
+
+   
+   <div id="post-prev">
+      &laquo; <a href="/2009/08/13/campus-is-changing/" title="Campus is Changing">Previous</a>
+   </div>
+   
+</div>
+<div id="comments">
+   <!-- Javascript Comments from DISQUS -->
+   <script type="text/javascript">  
+      //var disqus_developer = 1; 
+      var disqus_url = 'http://pseudoweb.net/2009/08/21/find-and-grep/';
+   </script> 
+   <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/pseudoweb/embed.js"></script><noscript><a href="http://disqus.com/forums/pseudoweb/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+         </div>
+
+         <div class="footer">
+            <div class="contact">
+               <p>
+                  This blog is built with <a
+                     href="http://github.com/mojombo/jekyll">jekyll</a>. The
+                  post contents are copy-write <a
+                     href="http://natwelch.com/">Nathaniel "Nat" Welch</a>
+                  2006-2010. You can find the source of this site on <a
+                     href="http://github.com/icco/pseudoweb">github</a>. You
+                  can contact Nat at <a
+                     href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
+               </p>
+               <p id="site-meta">
+                  <a href="/atom.xml">RSS</a> &brvbar;
+                  <a href="http://validator.w3.org/check?uri=http%3A%2F%2Ficco.github.com%2F">HTML5</a> &brvbar;
+                  <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &brvbar;
+                  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC</a>
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Google's MooTools Mirror -->
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
+      <!-- Local mootools more copy -->
+      <script type="text/javascript" src="/js/mootools-1.2.4.2-more.js"></script>
+      <script type="text/javascript">
+         // Google Analytics
+         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+      <script type="text/javascript">
+         var pageTracker = _gat._getTracker("UA-333449-1");
+         pageTracker._trackPageview();
+      </script>
+
+      <!-- Comment count code from disqus -->
+      <script type="text/javascript">
+         //<![CDATA[
+         (function() {
+            var links = document.getElementsByTagName('a');
+            var query = '?';
+            for(var i = 0; i < links.length; i++) {
+               if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                  query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+               }
+            }
+            document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/pseudoweb/get_num_replies.js' + query + '"></' + 'script>');
+         })();
+         //]]>
+      </script> 
+   </body>
+</html>

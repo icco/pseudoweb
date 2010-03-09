@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- META -->
+      <meta charset="UTF-8">
+      <meta name="author" content="Nat Welch" />
+      <meta name="description" content="PseudoWeb.net is the blog of Nathaniel 'Nat' Welch" />
+
+      <title>Useful PHP functions for personal sites</title>
+
+      <!-- RSS -->
+      <link href="/atom.xml" rel="alternate" title="Nat Welch's RSS Feed" type="application/atom+xml" />
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/pygments/tango.css" type="text/css" />
+      <!-- Homepage CSS -->
+      <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+   </head>
+   <body>
+      <div class="site">
+         <div class="header">
+            <span id="title"><a href="/">PseudoWeb.Net</a> is <a href="http://natwelch.com/">Nat Welch</a>'s log of stuff.</span> 
+            <div id="description">This is a single post, but you can find more in the <a href="/archives/">archives</a>.</div>
+         </div>
+
+         <div id="content">
+            <div id="post">
+   <div class="post-title">Useful PHP functions for personal sites<a id="permalink" href="/2009/08/23/useful-php-functions-for-personal-sites/">#</a></div>
+      <div class="post-meta">
+         <time datetime="2009-08-23 00:00:00 -0700">
+            2009-08-23 00:00:00 -0700
+         </time>
+         
+      </div>
+   <div class="content">
+      <p>I got the last two of my wisdom teeth pulled yesterday, and as such, I spent the day taking drugs, watching movies, and finally redoing <a href="http://natwelch.com">natwelch.com</a>.</p>
+
+<p>I've decided to post some basic, but fun little snippets of PHP I've used on my personal site over the years here now that I got syntax highlighting working on my blog.</p>
+
+<p>First and foremost is the age function. Given a birthdate,  it returns a formated age.</p>
+
+<div class="highlight"><pre><code class="php"><span class="cp">&lt;?php</span>
+<span class="k">function</span> <span class="nf">age</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c">// Your Birthday...</span>
+   <span class="nv">$bday</span> <span class="o">=</span> <span class="nb">mktime</span><span class="p">(</span><span class="m">17</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">22</span><span class="p">,</span><span class="m">1988</span><span class="p">);</span>
+   <span class="nv">$diff</span> <span class="o">=</span> <span class="nb">time</span><span class="p">()</span> <span class="o">-</span> <span class="nv">$bday</span><span class="p">;</span>
+   <span class="nv">$diff</span> <span class="o">=</span> <span class="nv">$diff</span><span class="o">/</span><span class="p">(</span><span class="m">60</span><span class="o">*</span><span class="m">60</span><span class="o">*</span><span class="m">24</span><span class="o">*</span><span class="m">365.25</span><span class="p">);</span>
+   <span class="k">return</span> <span class="nb">sprintf</span><span class="p">(</span><span class="s2">&quot;%2.2f&quot;</span><span class="p">,</span><span class="nv">$diff</span><span class="p">);;</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</code></pre>
+</div>
+
+
+<p>Of course this would be better if it was written so your birthday was passed in via a variable, but meh, I wrote it awhile ago.</p>
+
+<p>This next piece of code is from <a href="http://binarybonsai.com/code/timesince.txt">Michael Heilemann</a> but I've modified it a little, and I use it a lot, so I'll post it here as well. It prints the time since a specified date in a kind way.</p>
+
+<div class="highlight"><pre><code class="php"><span class="cp">&lt;?php</span>
+<span class="k">function</span> <span class="nf">time_since</span><span class="p">(</span><span class="nv">$original</span><span class="p">)</span> <span class="p">{</span>
+   <span class="c">// array of time period chunks</span>
+   <span class="nv">$chunks</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+      <span class="k">array</span><span class="p">(</span><span class="m">60</span> <span class="o">*</span> <span class="m">60</span> <span class="o">*</span> <span class="m">24</span> <span class="o">*</span> <span class="m">365</span> <span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">),</span>
+      <span class="k">array</span><span class="p">(</span><span class="m">60</span> <span class="o">*</span> <span class="m">60</span> <span class="o">*</span> <span class="m">24</span> <span class="o">*</span> <span class="m">30</span> <span class="p">,</span> <span class="s1">&#39;month&#39;</span><span class="p">),</span>
+      <span class="k">array</span><span class="p">(</span><span class="m">60</span> <span class="o">*</span> <span class="m">60</span> <span class="o">*</span> <span class="m">24</span> <span class="o">*</span> <span class="m">7</span><span class="p">,</span> <span class="s1">&#39;week&#39;</span><span class="p">),</span>
+      <span class="k">array</span><span class="p">(</span><span class="m">60</span> <span class="o">*</span> <span class="m">60</span> <span class="o">*</span> <span class="m">24</span> <span class="p">,</span> <span class="s1">&#39;day&#39;</span><span class="p">),</span>
+      <span class="k">array</span><span class="p">(</span><span class="m">60</span> <span class="o">*</span> <span class="m">60</span> <span class="p">,</span> <span class="s1">&#39;hour&#39;</span><span class="p">),</span>
+      <span class="k">array</span><span class="p">(</span><span class="m">60</span> <span class="p">,</span> <span class="s1">&#39;minute&#39;</span><span class="p">),</span>
+   <span class="p">);</span>
+
+   <span class="nv">$today</span> <span class="o">=</span> <span class="nb">time</span><span class="p">();</span> <span class="c">/* Current unix time  */</span>
+   <span class="nv">$since</span> <span class="o">=</span> <span class="nv">$today</span> <span class="o">-</span> <span class="nv">$original</span><span class="p">;</span>
+
+   <span class="k">if</span><span class="p">(</span><span class="nv">$since</span> <span class="o">&gt;</span> <span class="m">604800</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nv">$print</span> <span class="o">=</span> <span class="nb">date</span><span class="p">(</span><span class="s2">&quot;M jS&quot;</span><span class="p">,</span> <span class="nv">$original</span><span class="p">);</span>
+
+      <span class="k">if</span><span class="p">(</span><span class="nv">$since</span> <span class="o">&gt;</span> <span class="m">31536000</span><span class="p">)</span> <span class="p">{</span>
+         <span class="nv">$print</span> <span class="o">.=</span> <span class="s2">&quot;, &quot;</span> <span class="o">.</span> <span class="nb">date</span><span class="p">(</span><span class="s2">&quot;Y&quot;</span><span class="p">,</span> <span class="nv">$original</span><span class="p">);</span>
+      <span class="p">}</span>
+
+      <span class="k">return</span> <span class="nv">$print</span><span class="p">;</span>
+   <span class="p">}</span>
+
+   <span class="c">// $j saves performing the count function each time around the loop</span>
+   <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="m">0</span><span class="p">,</span> <span class="nv">$j</span> <span class="o">=</span> <span class="nb">count</span><span class="p">(</span><span class="nv">$chunks</span><span class="p">);</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="nv">$j</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nv">$seconds</span> <span class="o">=</span> <span class="nv">$chunks</span><span class="p">[</span><span class="nv">$i</span><span class="p">][</span><span class="m">0</span><span class="p">];</span>
+      <span class="nv">$name</span> <span class="o">=</span> <span class="nv">$chunks</span><span class="p">[</span><span class="nv">$i</span><span class="p">][</span><span class="m">1</span><span class="p">];</span>
+
+      <span class="c">// finding the biggest chunk (if the chunk fits, break)</span>
+      <span class="k">if</span> <span class="p">((</span><span class="nv">$count</span> <span class="o">=</span> <span class="nb">floor</span><span class="p">(</span><span class="nv">$since</span> <span class="o">/</span> <span class="nv">$seconds</span><span class="p">))</span> <span class="o">!=</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span>
+         <span class="c">// DEBUG print &quot;&lt;!-- It&#39;s $name --&gt;\n&quot;;</span>
+         <span class="k">break</span><span class="p">;</span>
+      <span class="p">}</span>
+   <span class="p">}</span>
+
+   <span class="nv">$print</span> <span class="o">=</span> <span class="p">(</span><span class="nv">$count</span> <span class="o">==</span> <span class="m">1</span><span class="p">)</span> <span class="o">?</span> <span class="s1">&#39;1 &#39;</span><span class="o">.</span><span class="nv">$name</span> <span class="o">:</span> <span class="s2">&quot;</span><span class="si">$count</span><span class="s2"> </span><span class="si">{</span><span class="nv">$name</span><span class="si">}</span><span class="s2">s&quot;</span><span class="p">;</span>
+
+   <span class="k">return</span> <span class="nv">$print</span> <span class="o">.</span> <span class="s2">&quot; ago&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</code></pre>
+</div>
+
+
+<p>And here is my favorite function that I wrote to parse twitter messages. It turns hashtags, urls, and replies into proper links using regex.</p>
+
+<div class="highlight"><pre><code class="php"><span class="cp">&lt;?php</span>
+<span class="k">function</span> <span class="nf">twitterParse</span><span class="p">(</span><span class="nv">$in</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nv">$pieces</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="nv">$in</span><span class="p">);</span>
+
+   <span class="k">foreach</span><span class="p">(</span><span class="nv">$pieces</span> <span class="k">as</span> <span class="o">&amp;</span><span class="nv">$word</span><span class="p">)</span>
+   <span class="p">{</span>
+      <span class="k">if</span><span class="p">(</span><span class="nv">$word</span><span class="p">)</span> <span class="p">{</span>
+         <span class="k">if</span><span class="p">(</span><span class="nv">$word</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;@&quot;</span><span class="p">)</span>
+            <span class="nv">$word</span> <span class="o">=</span> <span class="s2">&quot;&lt;a href=</span><span class="se">\&quot;</span><span class="s2">http://twitter.com/&quot;</span> <span class="o">.</span>
+             <span class="nb">preg_replace</span><span class="p">(</span><span class="s2">&quot;/(@|[^[:alnum:]])/&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="nv">$word</span><span class="p">)</span> <span class="o">.</span> <span class="s2">&quot;/</span><span class="se">\&quot;</span><span class="s2"> &gt;&quot;</span> <span class="o">.</span> <span class="nv">$word</span> <span class="o">.</span>
+             <span class="s2">&quot;&lt;/a&gt;&quot;</span><span class="p">;</span>
+         <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nv">$word</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;#&quot;</span><span class="p">)</span>
+            <span class="nv">$word</span> <span class="o">=</span> <span class="s1">&#39;&lt;a href=&quot;http://twitter.com/search?q=%23&#39;</span> <span class="o">.</span>
+             <span class="nb">preg_replace</span><span class="p">(</span><span class="s2">&quot;/#/&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="nv">$word</span><span class="p">)</span> <span class="o">.</span> <span class="s1">&#39;&quot; &gt;&#39;</span> <span class="o">.</span> <span class="nv">$word</span> <span class="o">.</span> <span class="s2">&quot;&lt;/a&gt;&quot;</span><span class="p">;</span>
+         <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nv">$word</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;h&quot;</span><span class="p">)</span>
+            <span class="nv">$word</span> <span class="o">=</span> <span class="nb">preg_replace</span><span class="p">(</span><span class="s1">&#39;`((?:https?|ftp)://(\S+[[:alnum:]])/?)`&#39;</span><span class="p">,</span>
+             <span class="s1">&#39;&lt;a href=&quot;$1&quot; alt=&quot;\2&quot;&gt;\1&lt;/a&gt;&#39;</span><span class="p">,</span> <span class="nv">$word</span><span class="p">);</span>
+      <span class="p">}</span>
+   <span class="p">}</span>
+
+   <span class="k">return</span> <span class="nb">implode</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="nv">$pieces</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</code></pre>
+</div>
+
+
+<p>Anyway, I hope these tidbits are useful. Sorry about the bad indentation, I haven't quite gotten the hang of the wordpress plugin, <a href="http://wordpress.org/extend/plugins/syntaxhighlighter/">Syntax Highlighter Evolved</a> yet.</p>
+
+<p>/Nat</p>
+
+   </div>
+</div>
+
+<div id="related">
+   <h2>Related Posts</h2>
+   <ul class="posts">
+      
+         <li class="one"><span class="date">2010-02-14 00:00:00 -0800</span> &raquo; <a href="/2010/02/14/learning-processing.js/">Learning Processing.js</a></li>
+      
+         <li class="two"><span class="date">2010-01-29 00:00:00 -0800</span> &raquo; <a href="/2010/01/29/delicious-summarizer/">Delicious Summarizer</a></li>
+      
+         <li class="one"><span class="date">2007-05-18 00:00:00 -0700</span> &raquo; <a href="/2007/05/18/internet-identity-and-appearance/">Internet Identity And Appearance</a></li>
+      
+   </ul>
+</div>
+<div id="navigation">
+   
+   <div id="post-next">
+      <a href="/2009/08/26/vim-key-bindings/" title="Vim Key Bindings">Next</a> &raquo;
+   </div>
+   
+
+   
+   <div id="post-prev">
+      &laquo; <a href="/2009/08/21/find-and-grep/" title="Find and Grep">Previous</a>
+   </div>
+   
+</div>
+<div id="comments">
+   <!-- Javascript Comments from DISQUS -->
+   <script type="text/javascript">  
+      //var disqus_developer = 1; 
+      var disqus_url = 'http://pseudoweb.net/2009/08/23/useful-php-functions-for-personal-sites/';
+   </script> 
+   <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/pseudoweb/embed.js"></script><noscript><a href="http://disqus.com/forums/pseudoweb/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+         </div>
+
+         <div class="footer">
+            <div class="contact">
+               <p>
+                  This blog is built with <a
+                     href="http://github.com/mojombo/jekyll">jekyll</a>. The
+                  post contents are copy-write <a
+                     href="http://natwelch.com/">Nathaniel "Nat" Welch</a>
+                  2006-2010. You can find the source of this site on <a
+                     href="http://github.com/icco/pseudoweb">github</a>. You
+                  can contact Nat at <a
+                     href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
+               </p>
+               <p id="site-meta">
+                  <a href="/atom.xml">RSS</a> &brvbar;
+                  <a href="http://validator.w3.org/check?uri=http%3A%2F%2Ficco.github.com%2F">HTML5</a> &brvbar;
+                  <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &brvbar;
+                  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC</a>
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Google's MooTools Mirror -->
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
+      <!-- Local mootools more copy -->
+      <script type="text/javascript" src="/js/mootools-1.2.4.2-more.js"></script>
+      <script type="text/javascript">
+         // Google Analytics
+         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+      <script type="text/javascript">
+         var pageTracker = _gat._getTracker("UA-333449-1");
+         pageTracker._trackPageview();
+      </script>
+
+      <!-- Comment count code from disqus -->
+      <script type="text/javascript">
+         //<![CDATA[
+         (function() {
+            var links = document.getElementsByTagName('a');
+            var query = '?';
+            for(var i = 0; i < links.length; i++) {
+               if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                  query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+               }
+            }
+            document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/pseudoweb/get_num_replies.js' + query + '"></' + 'script>');
+         })();
+         //]]>
+      </script> 
+   </body>
+</html>
