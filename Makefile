@@ -11,7 +11,7 @@ clean:
 server: 
 	$J --server 4000 --auto
 
-deploy: clean site
+deploy: site
 	rsync -rvtz --delete _site/ welchfamilyweb.com:~/public_html/pseudoweb.net/_site/
 
 fake-deploy: site

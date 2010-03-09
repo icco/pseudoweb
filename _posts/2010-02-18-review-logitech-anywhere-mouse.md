@@ -4,7 +4,7 @@ title: Review of the Logitech Anywhere Mouse
 location: San Luis Obispo, CA
 ---
 
-![My Work Mouse][3]
+![My Work Mouse][3]  
 [Logitech Anywhere Mouse][5] by [Nat W.][6]
 
 So I was going to write this in depth review of the [Logitech Anywhere Mouse][0].
