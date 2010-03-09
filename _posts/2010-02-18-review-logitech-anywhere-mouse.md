@@ -5,6 +5,7 @@ location: San Luis Obispo, CA
 ---
 
 ![My Work Mouse][3]
+[Logitech Anywhere Mouse][5] by [Nat W.][6]
 
 So I was going to write this in depth review of the [Logitech Anywhere Mouse][0].
 But then, [Cory Doctorow][2] went ahead and [wrote a great review of it][1]. 
@@ -39,4 +40,6 @@ cya later,
 [2]: http://en.wikipedia.org/wiki/Cory_Doctorow "Cory Doctorow on Wikipedia"
 [3]: http://farm3.static.flickr.com/2482/3964727591_7c42f21c77.jpg
 [4]: http://bit.ly/cj29vT "Logitech Performance Mouse MX on Amazon.com"
+[5]: http://www.flickr.com/photos/icco/3964727591/ "Flickr page for this photo"
+[6]: http://www.flickr.com/photos/icco/ "My flickr page"
 
