@@ -7,7 +7,7 @@ RewriteEngine On
 #RewriteLog "rewrite.log"
 #RewriteLogLevel 2
 
- RewriteRule ^feed/ /atom.xml [L,R=301]
+RewriteRule ^feed/ /atom.xml [L,R=301]
  
 # Directory index is never accessible.
 # /index.html -> /
@@ -23,4 +23,6 @@ RewriteRule (.+).html$ /$1/ [R=301,L]
 
 # compress all text & html:
 AddOutputFilterByType DEFLATE text/html text/plain text/xml
+
+ErrorDocument 404 /404.html
 
