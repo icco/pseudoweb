@@ -34,9 +34,7 @@ now that 1.0 has been released, but if for some reason you are trying to get
 the delopment build instead of the stable build, you can add `--pre` to the gem
 install:
 
-{% highlight %}
     gem install --pre sinatra
-{% endhighlight %}
 
 The main two things that 1.0 support adds, is support for [less][3] and [erubis][4]. 
 
@@ -59,14 +57,12 @@ it.
 To get gems (such as Sinatra and less) on Heroku, you need a .gems file in your
 git repository. I have provided an example, but it is pretty straight forward.
 
-{% highlight %}
-less
-erubis
-sinatra --version 1.0
-rdiscount
-sequel
-sqlite3-ruby
-{% endhighlight %}
+    less
+    erubis
+    sinatra --version 1.0
+    rdiscount
+    sequel
+    sqlite3-ruby
 
 ## Coding...
 
