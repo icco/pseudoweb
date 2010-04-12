@@ -24,22 +24,25 @@ remembered [Sinatra][1]. Sinatra is a nice, small, and easy web framework that
 is really easy to learn. I read through the [readme][2] and started coding.
 
 The readme is misleading. One thing it does not mention is that all of its code
-is for Sinatra >= 1.0, which the ruby gem does not install by default. Also,
-since I had planned on deploying this to Heroku, I needed to figure out how to
-get Heroku using the correct version of Sinatra (Heroku, by default, uses
-0.9.4). 
+is for Sinatra >= 1.0, which, until recently, the ruby gem did not install by
+default. Also, since I had planned on deploying this to Heroku, I needed to
+figure out how to get Heroku using the correct version of Sinatra (Heroku, by
+default, uses 0.9.4).
 
-To install the correct version of Sinatra, instead of running the gem install,
-you need to run the following:
+To install the correct version of Sinatra on your local machine is quite easy
+now that 1.0 has been released, but if for some reason you are trying to get
+the delopment build instead of the stable build, you can add `--pre` to the gem
+install:
 
 {% highlight %}
     gem install --pre sinatra
 {% endhighlight %}
 
-The main two things that 1.0.b support adds (the version this command should
-install as of today), is support for [less][3] and [erubis][4]. 
+The main two things that 1.0 support adds, is support for [less][3] and [erubis][4]. 
 
-Describe less
+## Less
+
+My friend [Reed][5] introduced me to [less][3] a little while ago.
 
 Describe erubis
 
@@ -47,7 +50,7 @@ describe the .gems file for Heroku
 
 Explain coding your app
 
-explain deploying
+explain deploying and rake file.
 
 Hasta,  
 /Nat
