@@ -1,1 +1,2 @@
-# Blank until I add a sitemap
+# sitemap
+Sitemap: http://pseudoweb.net/sitemap.xml
