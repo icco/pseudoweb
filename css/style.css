@@ -38,13 +38,14 @@ h4, h5, h6 { font-size: 1em; }
 #archives li, #archives .month { margin-left: 30px; } 
 #archives ul { list-style-type: none; margin: 0 0 0 50px; padding: 5px; } 
 #banner { margin-left: auto; margin-right: auto; width: 600px; }
-#content { padding: 2px 2px 20px; border-bottom: 1px dashed #666; margin-bottom: 5px; }
+#content { padding: 20px 2px ; border-bottom: 1px dashed #666; margin-bottom: 5px; }
 #permalink { font-size: 0.5em; margin-left: 5px; }
 #post-next { float: right; }
 #post-prev { }
 #twitter_update_list { list-style: none; margin: 0; }
 
-#comments { margin-top: 50px; }
+#comments { margin: 0 -52px; padding: 15px 52px; background-color: #CCCCCC; }
+#navigation { margin-bottom: 10px; }
 
 .content blockquote { border-left:5px solid #DDDDDD !important; color:#555555 !important; margin:1em 0 !important; padding-left:0.6em !important; }
 
