@@ -43,7 +43,7 @@ function natTwitterCallback(twitters) {
             "text":"No man's knowledge can go beyond his experience. \n -- John Locke"
       });
 
-   for (var i=0; i<twitters.length; i++){
+   for (var i = 0; i < 1; i++){
       var username = twitters[i].user.screen_name;
       var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
          // url linking
