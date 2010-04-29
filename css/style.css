@@ -46,3 +46,5 @@ h4, h5, h6 { font-size: 1em; }
 
 #comments { margin-top: 50px; }
 
+.content blockquote { border-left:5px solid #DDDDDD !important; color:#555555 !important; margin:1em 0 !important; padding-left:0.6em !important; }
+
