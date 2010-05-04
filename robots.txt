@@ -1,2 +1,9 @@
+User-agent: *
+Disallow: README.md
+Disallow: google803b797d7f33e6e0.html
+Disallow: new_post.sh
+Disallow: Makefile
+
 # sitemap
 Sitemap: http://pseudoweb.net/sitemap.xml
+
