@@ -24,9 +24,12 @@ original poster liked. Often these line up, but this is not always the case, so
 we wanted to make sure everyone gained reputation when appropriate.
 
 The reputation system was well received, but we started running into issues.
-Some of our users were gaining tons of rep, while others were gaining very
-little. We had put limits in place on how fast and how often a user could do
-things, and these limits were being hit all far too often.
+Some of our users were gaining large amounts of rep, while others were gaining
+very little. We had put limits in place on how fast and how often a user could
+do things, and these limits were being hit all far too often by some of our
+very active users. So we raised the limits to match our user's activity and
+scaled votes, so that the answers with tons of votes gave slightly less
+reputation.
 
 [1]: http://ifixit.com/blog/
 [2]: http://ifixit.com/Answers/
