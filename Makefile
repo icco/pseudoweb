@@ -1,4 +1,4 @@
-J=/var/lib/gems/1.8/bin/jekyll
+J=`which jekyll`
 
 all: site
 
