@@ -8,7 +8,7 @@ site:
 clean:
 	rm -rf _site/
 
-server: 
+server:
 	$J --server 4000 --auto
 
 deploy: site
@@ -17,5 +17,5 @@ deploy: site
 fake-deploy: site
 	rsync -nrvtz --delete _site/ welchfamilyweb.com:~/public_html/pseudoweb.net/_site/
 
-new: 
+new:
 	./new_post.sh
