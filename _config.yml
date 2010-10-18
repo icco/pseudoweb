@@ -1,8 +1,13 @@
 # Which markdown lib
 markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+
 # which type of links.
 permalink: pretty
+
 # Deal with source code?
 pygments: true
+
 # better relevent post section?
 lsi: true # so sad this doesn't work on github
