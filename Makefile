@@ -1,4 +1,4 @@
-J=/var/lib/gems/1.8/bin/jekyll
+J=jekyll
 R=-rlcvtz
 
 all: site
