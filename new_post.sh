@@ -16,7 +16,7 @@ else
    echo "layout: post" >> $FILENAME
    echo "title:" $TITLE >> $FILENAME
    echo "location:" $LOC >> $FILENAME
-   echo "time: " $TIME >> $FILENAME
+   echo "time:" $TIME >> $FILENAME
    echo "---" >> $FILENAME
 fi
 
