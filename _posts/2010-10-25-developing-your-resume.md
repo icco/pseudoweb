@@ -6,14 +6,18 @@ time: 15:36:02
 ---
 
 A resume is an important little document. It summarizes your entire
-professional and academic career. It is often the document that introduces you
-to a new company, and remember, first impressions are important.
+professional and academic career. Resumes are often the document that
+introduces you to a new company, and remember, first impressions are always
+important. Creating a resume is not always an easy task, and because I believe
+that software exists to make things easier, I set on a journey awhile back to
+make creating resumes easier.
 
 As hackers, software developers and code monkeys, we have a special set of
-tools. The two most important tools, in my opinion, are plain text documents,
-and version control. But for some reason we ignore these tools when we create
-our resumes. We write them in Word documents and PDFs, both of which are not
-easily editable like plain text is nor easily stored in version control.
+tools. The two most important of these tools, in my opinion, are plain text
+files, and version control systems. But for some reason we ignore these tools
+when we create our resumes. Instead, we write them in Word documents and PDFs,
+both of which are not easily editable like plain text is nor easily stored in
+version control.
 
 I am here to propose an alternative, my [resume project][r-src]. This project
 started as a way for me to maintain my resume, where after years, I had become
@@ -40,5 +44,7 @@ it and change it so you can have your own online resume.
 [GitHub]: http://github.com
 [Jekyll]: http://github.com/mojombo/jekyll
 [LinkedIn]: http://linkedin.com
+[md]: http://en.wikipedia.org/wiki/Markdown
 [r-src]: http://github.com/icco/Resume
 [r]: http://icco.github.com/Resume/
+
