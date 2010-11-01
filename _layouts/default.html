@@ -22,6 +22,19 @@
       
       <!-- Homepage CSS -->
       <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-333449-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
    </head>
    <body>
       <div class="site">
@@ -51,14 +64,6 @@
 
       <!-- Google's MooTools Mirror -->
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
-      <script type="text/javascript">
-         // Google Analytics
-         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
-      <script type="text/javascript">
-         var pageTracker = _gat._getTracker("UA-333449-1");
-         pageTracker._trackPageview();
-      </script>
 
       <!-- Comment count code from disqus -->
       <script type="text/javascript">
