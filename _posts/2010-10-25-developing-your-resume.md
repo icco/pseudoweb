@@ -14,7 +14,7 @@ make creating resumes easier.
 
 As hackers, software developers and code monkeys, we have a special set of
 tools. The two most important of these tools, in my opinion, are plain text
-files, and version control systems. But for some reason we ignore these tools
+files and version control systems. But for some reason we ignore these tools
 when we create our resumes. Instead, we write them in Word documents and PDFs,
 both of which are not easily editable like plain text is nor easily stored in
 version control.
@@ -34,12 +34,12 @@ generator. It is where I fell in love with Markdown and helped me see the
 benefits to storing all of sites in version control.
 
 I've been pretty happy with what I have produced. [My resume][r] now looks
-quite attractive, and it has gotten me a few job offers. I've constantly
-tweaked it as I feel that small statements are no longer true or could be said
-in a more efficient manner. I've had a few people base their resumes off of
-mine, and one guy changed the project so dramatically, I was actually inspired
-to make mine even better. If you have a [GitHub][] account, feel free to fork
-it and change it so you can have your own online resume.
+quite attractive, and it has gotten me a few job offers. I have been constantly
+tweaking it as I find better ways to say things. I've had a few people base
+their resumes off of mine, and one guy changed the project so dramatically, I
+was actually inspired to make mine even better. If you have a [GitHub][]
+account, feel free to fork it and change it so you can have your own online
+resume.
 
 [GitHub]: http://github.com
 [Jekyll]: http://github.com/mojombo/jekyll
