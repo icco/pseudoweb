@@ -27,7 +27,7 @@ a img { border: 1px solid #9A9A9A; }
 .posts li.none { padding-top: 5px; border-style: none; }
 .posts li { list-style-type: none; border-top: 1px none #CCC; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; border-left: 1px solid #CCC; padding: 2px 4px; }
 .posts li span.date { text-transform: uppercase; font-family: monospace; } 
-.highlight { background-color: white; padding: 10px; }
+.highlight { font-size: 0.85em; background-color: white; padding: 10px; }
 .footer p { padding: 0; margin: 0; }
 .footer #site-meta { font-size: 0.85em; font-family: monospace; }
 

@@ -7,8 +7,8 @@
       <meta name="description" content="PseudoWeb.net is the blog of Nathaniel 'Nat' Welch" />
 
       <title>{{ page.title }}</title>
-      {% comment %}
 
+      {% comment %}
          <!-- TypeKit -->
          <script type="text/javascript" src="http://use.typekit.com/kat1crq.js"></script>
          <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -22,6 +22,19 @@
       
       <!-- Homepage CSS -->
       <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-333449-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
    </head>
    <body>
       <div class="site">
@@ -37,14 +50,7 @@
          <div class="footer">
             <div class="contact">
                <p>
-                  This blog is built with <a
-                     href="http://github.com/mojombo/jekyll">jekyll</a>. The
-                  post contents are copy-write <a
-                     href="http://natwelch.com/">Nathaniel "Nat" Welch</a>
-                  2006-2010. You can find the source of this site on <a
-                     href="http://github.com/icco/pseudoweb">github</a>. You
-                  can contact Nat at <a
-                     href="mailto:nat@natwelch.com">nat@natwelch.com</a>. 
+                  This blog is built with <a href="http://github.com/mojombo/jekyll">jekyll</a>. The post contents are copyright <a href="http://natwelch.com/">Nathaniel "Nat" Welch</a> 2006-2010. You can find the source of this site on <a href="http://github.com/icco/pseudoweb">github</a>. You can contact Nat at <a href="mailto:nat@natwelch.com">nat@natwelch.com</a>. The views expressed here are completely Nat's and do not represent that of anyone who has ever employed him.
                </p>
                <p id="site-meta">
                   <a href="/atom.xml">RSS</a> &brvbar;
@@ -58,19 +64,14 @@
 
       <!-- Google's MooTools Mirror -->
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
-      <script type="text/javascript">
-         // Google Analytics
-         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
-      <script type="text/javascript">
-         var pageTracker = _gat._getTracker("UA-333449-1");
-         pageTracker._trackPageview();
-      </script>
 
       <!-- Comment count code from disqus -->
       <script type="text/javascript">
          //<![CDATA[
-         var disqus_developer = 0;  
+
+         // Change to 1 when doing local development
+         var disqus_developer = 0;
+         
          (function() {
             var links = document.getElementsByTagName('a');
             var query = '?';
