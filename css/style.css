@@ -1,7 +1,7 @@
 /**
  * Pseudoweb.Net Style
  * @author Nat Welch
- * @version 1.4
+ * @version 1.42
  */
 
 a, a:visited { color: #0F0F8F; }
@@ -31,6 +31,8 @@ a img { border: 1px solid #9A9A9A; }
 .footer p { padding: 0; margin: 0; }
 .footer #site-meta { font-size: 0.85em; font-family: monospace; }
 
+.content .addthis_default_style { float: right; }
+
 #about p, #post-list ul, #twitter_update_list { padding: 0 0 0 15px; } 
 #about p, #twitter_div #twitter_update_list li { text-indent: 1em; } 
 #archives .day { font-weight: bold; color: #333; }
@@ -50,4 +52,10 @@ a img { border: 1px solid #9A9A9A; }
 #navigation { margin-bottom: 10px; }
 
 .content blockquote { border-left:5px solid #DDDDDD !important; color:#555555 !important; margin:1em 0 !important; padding-left:0.6em !important; }
+
+/** 
+ * Fix float problem.
+ * http://www.positioniseverything.net/easyclearing.html 
+ */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
