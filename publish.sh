@@ -12,7 +12,8 @@ select opt in $POSTS; do
       exit 0; 
    fi;
 
-   NEWT= `grep -P '^title: ([\w ]+)$' _drafts/$opt | sed 's/^title: //'  | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g' | tr "[:upper:]" "[:lower:]"`;
+   NEWT=`grep -P '^title: ([\w ]+)$' _drafts/$opt`
+   NEWT=`echo $NEWT | sed 's/^title: //'  | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g' | tr "[:upper:]" "[:lower:]"`
    NEWT=`date +%Y-%m-%d`-$NEWT;
 
    echo "Publishing: $opt.";
@@ -22,4 +23,3 @@ select opt in $POSTS; do
    git ci _drafts/$opt _posts/$NEWT -m "Publishing $NEWT."
    exit 0;
 done;
-

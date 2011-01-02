@@ -20,3 +20,6 @@ fake-deploy: site
 
 new:
 	./new_post.sh
+
+publish:
+	./publish.sh
