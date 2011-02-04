@@ -1,9 +1,6 @@
 #!/bin/bash
 # Lists the posts to publish, then updates them and sends them live
-# by Nat Welch 2010
-
-# TODO: Write a regex to pull the name out of the file and update the published
-# post's name and date.
+# by Nat Welch 2011
 
 POSTS=`ls _drafts/ | grep '-' && echo 'exit'`;
 
