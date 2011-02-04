@@ -1,4 +1,5 @@
 #!/bin/bash
+# Creates a new post in the Jekyll format.
 
 echo -n "Post title? ";
 read -e TITLE;
@@ -21,4 +22,3 @@ else
 fi
 
 vim $FILENAME;
-   
