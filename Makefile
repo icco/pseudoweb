@@ -1,5 +1,5 @@
 J=jekyll
-R=-rlcvtz
+R=-rlvtz
 
 all: site
 
