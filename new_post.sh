@@ -1,8 +1,7 @@
 #!/bin/bash
 # Creates a new post in the Jekyll format.
 
-echo -n "Post title? ";
-read -e TITLE;
+read -p "Post title? " -e TITLE;
 DTITLE=`echo -n $TITLE | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g' | tr "[:upper:]" "[:lower:]"`;
 DATE=`date +%Y-%m-%d`;
 TIME=`date +%H:%M:%S`;
