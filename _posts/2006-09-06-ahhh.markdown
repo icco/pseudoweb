@@ -1,8 +1,0 @@
---- 
-wordpress_id: 5
-layout: post
-title: Ahhh!
-wordpress_url: http://pseudoweb.net/crypts/2006/09/06/5
----
-<p>So everything got deleted and it wasn't my fault. Basically my webserver rolled back to the last major update, which was awhile ago (two months) so i lost posts and stuff. I'm alittle pissed but i'm not too mad.
-</p>
