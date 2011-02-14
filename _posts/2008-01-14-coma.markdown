@@ -1,9 +1,0 @@
---- 
-wordpress_id: 85
-layout: post
-title: Coma
-wordpress_url: http://pseudoweb.net/crypts/2008/01/85/
----
-This blog is basically in a coma. I doubt it will get much of an update until the summer. Cya then.
-
-/nat
