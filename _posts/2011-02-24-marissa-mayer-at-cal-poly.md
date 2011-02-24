@@ -5,6 +5,8 @@ location: San Luis Obispo, CA
 time: 10:39:23
 ---
 
+__IN PROGRESS__
+
 Cal Poly has been an interesting place for the last four and a half years. The school's motto is "Learn By Doing", and I have found no reason to disagree. Poly has taught me to create new things and try everything. Today, Marissa Mayer, came to talk about how "Innovation at the Googleplex", and I think it will be interesting to compare her views of corporate innovation versus the innovation and real-life experience that is promoted here at Cal Poly.
 
 <a href="http://www.flickr.com/photos/icco/5473954479/" title="Pre talk: Marissa Mayer by Nat W, on Flickr"><img src="http://farm6.static.flickr.com/5095/5473954479_69ee868a44_z.jpg" width="640" height="383" alt="Pre talk: Marissa Mayer" /></a>
@@ -63,3 +65,6 @@ We view our users as customers, even though they don't pay.
 
 The reason we care about SEO is because it "can hurt the user experience."
 
+"Every aquisition is ultimately different."
+
+"Work on hard problems. Work on stuff that matters to people."
