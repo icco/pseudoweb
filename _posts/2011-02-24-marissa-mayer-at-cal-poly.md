@@ -29,6 +29,8 @@ Let people be creative and develop their own spaces. Promote thinking different.
 
 How to give everyone more mail storage? Storage is cheap. We have the infrastructure.
 
+<a href="http://www.flickr.com/photos/icco/5474720594/" title="Marissa Mayer answering questions by Nat W, on Flickr"><img src="http://farm6.static.flickr.com/5100/5474720594_bd18c42f6a.jpg" width="299" height="500" alt="Marissa Mayer answering questions" /></a>
+
 How do we revolutionise mapping?
 
  * street view
