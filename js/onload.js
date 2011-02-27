@@ -21,9 +21,9 @@ window.addEvent('domready', function() {
          mySlide.toggle();
          h = el.getElement('.handle');
 
-         if (h.get('text') == '+') 
+         if (h.get('text') == '+')
             h.set('text', '-');
-         else 
+         else
             h.set('text', '+');
 
          e.stop();

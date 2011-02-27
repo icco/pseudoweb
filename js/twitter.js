@@ -43,20 +43,29 @@ function natTwitterCallback(twitters) {
             "text":"No man's knowledge can go beyond his experience. \n -- John Locke"
       });
 
-   for (var i = 0; i < 1; i++){
-      var username = twitters[i].user.screen_name;
-      var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
-         // url linking
-         return '<a href="'+url+'">'+url+'</a>';
-      }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
-         // @username linking
-         return reply.charAt(0)+'<a href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
-      }).replace(/\B#([_a-z0-9]+)/ig, function(repy) {
-         // hashtag linking
-         return repy.charAt(0)+'<a href="http://twitter.com/search?q=%23'+repy.substring(1)+'">'+repy.substring(1)+'</a>';
-      });
-      statusHTML.push('<li><span>'+status+'</span> <a style="font-size:85%" href="http://twitter.com/'+username+'/statuses/'+twitters[i].id+'">'+relative_time(twitters[i].created_at)+'</a></li>');
+   var done = false
+   for (var i = 0; !done; i++){
+      if (twitters[i].text[0] == '@') {
+         done = i > twitters.length;
+      } else {
+         var username = twitters[i].user.screen_name;
+         var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+            // url linking
+            return '<a href="'+url+'">'+url+'</a>';
+         }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+            // @username linking
+            return reply.charAt(0)+'<a href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+         }).replace(/\B#([_a-z0-9]+)/ig, function(repy) {
+            // hashtag linking
+            return repy.charAt(0)+'<a href="http://twitter.com/search?q=%23'+repy.substring(1)+'">'+repy.substring(1)+'</a>';
+         });
+
+         statusHTML.push('<li><span>'+status+'</span> <a style="font-size:85%" href="http://twitter.com/'+username+'/statuses/'+twitters[i].id+'">'+relative_time(twitters[i].created_at)+'</a></li>');
+
+         done = true;
+      }
    }
+
    document.getElementById('twitter_update_list').innerHTML = statusHTML.join('');
 }
 
