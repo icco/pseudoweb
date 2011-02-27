@@ -5,68 +5,52 @@ location: San Luis Obispo, CA
 time: 10:39:23
 ---
 
-__IN PROGRESS__
-
-Cal Poly has been an interesting place for the last four and a half years. The school's motto is "Learn By Doing", and I have found no reason to disagree. Poly has taught me to create new things and try everything. Today, Marissa Mayer, came to talk about how "Innovation at the Googleplex", and I think it will be interesting to compare her views of corporate innovation versus the innovation and real-life experience that is promoted here at Cal Poly.
+Cal Poly has been an interesting place for the last four and a half years. The school's motto is "Learn By Doing", and I have found no reason to disagree. Poly has taught me to create new things and try everything. Today, Marissa Mayer, came to Poly to talk about "Innovation at the Googleplex", and I think it's interesting to compare her views of corporate innovation to the innovation and real-life experience that is promoted here at Cal Poly. So here is my summary of her talk.
 
 <a href="http://www.flickr.com/photos/icco/5473954479/" title="Pre talk: Marissa Mayer by Nat W, on Flickr"><img src="http://farm6.static.flickr.com/5095/5473954479_69ee868a44_z.jpg" width="640" height="383" alt="Pre talk: Marissa Mayer" /></a>
 
-The talk started with a nice introduction by Dr. Ignatios Vakalis discussing the history of the Internet and computing.
+The talk started with a nice introduction by Dr. Ignatios Vakalis discussing the history of the Internet and computing. Vakalis is well loved around the Computer Science department, and his words of praise for Mayer were long.
 
-Didn't start doing user studies until around 18 months in.
+Mayer structured her talk around the history of Google. One of her earlier statements is that Google didn't start doing user experience studies until around 18 months in. Apparently, new users waited a few minutes before doing because the page was too simple. They thought the page was still loading. Google added a copyright line to make users understand that the page had finished loading.
 
-First users waited a few minutes because the page was too simple, added copyright line to make users understand page had finished loading.
+She then went on to talk about Google's basic infrastructure. Where are the servers? In 1999 they were renting space and trying to figure a better way to fit computers in the space. Apparently, each request takes about half a second and hits multiple data-centers.
 
-Where are the servers? In 1999 they were renting space and trying to figure a better way to fit computers in the space.
+Google apparently also ran an eight year split AB test by accident. They analysed data, and apparently users who saw ads searched more.
 
-Talked about system pipeline. Takes about half a second and hits multiple data-centers.
+<a href="http://www.flickr.com/photos/icco/5474720594/" title="Marissa Mayer answering questions by Nat W, on Flickr"><img src="http://farm6.static.flickr.com/5100/5474720594_bd18c42f6a.jpg" width="299" height="500" alt="Marissa Mayer answering questions" align="right"/></a>
 
-Ran a eight year split AB test by accident. Analysed data, users searched more who saw ads.
+Mayer talked about how Google's infamous 20% time promoted new ideas and kept employees interested. Some questions that Mayer claims Google has asked in its 20% time:
 
-20% time promoted new ideas and interested employees.
+ * How do we revolutionise mapping?
+    * Street view
+    * Citizen cartographers
+ * Let's build a browser that works better with web applications. If people use the web more, they search more.
+ * Google moderator. Democracy on the web.
 
-Let people be creative and develop their own spaces. Promote thinking different.
+Mayer then addressed what she thought where the next big breakthroughs in Computer Science were:
 
-How to give everyone more mail storage? Storage is cheap. We have the infrastructure.
-
-<a href="http://www.flickr.com/photos/icco/5474720594/" title="Marissa Mayer answering questions by Nat W, on Flickr"><img src="http://farm6.static.flickr.com/5100/5474720594_bd18c42f6a.jpg" width="299" height="500" alt="Marissa Mayer answering questions" /></a>
-
-How do we revolutionise mapping?
-
- * street view
- * citizen cartographers
-
-Let's build a browser that works better with web applications. If people use the web more, they search more.
-
-Google moderator. Democracy on the web.
-
-Where are the next big breakthroughs?
-
- * Google translate : automated machine translation. 
+ * Automated machine translation. 
+   * Google currently has around an 85% accuracy rate.
+   * She toured Japan using her android to translate for her.
  * Speech recognition 
    * can be used with translate
    * 20% searches from Android phones are voice
  * Visual recognition
    * Google goggles
+   * better image search
  * Contextual discovery
+   * combine all of Google's data together to get more information.
 
+There were a lot of good questions from the audience, but the question about Google's and her opinion of net neutrality sparked two great quotes:
 
-When dealing with data versus design, how do you choose? How do you choose what the users like versus the business.
- * 41 shades. People click more with red versus green tints of blue
+ * "How can you be against neutrality?" -- Marissa Mayer
+ * "More content gets accessed when there is a level playing field." -- Marissa Mayer
 
-Google's opinion of net neutrality
+After the talk I had a short discussion with Mayer about how their acquisitions differed from 20% time. She said "every acquisition is ultimately different" but almost always Google has people already working on a problem. So when they acquire companies, they merge to create new but related products.
 
- * "How can you be against neutrality?" -MM
- * "More content gets accessed when there is a level playing field." - MM
+I'll leave you with my favorite quote from the talk.
 
-Has having shareholders changed your innovation? Founders wrote a very explicit letter explaining what they wanted when they went public. Google has tried, and now has multiple multi-billion dollar revenue streams.
+ > "Work on hard problems. Work on stuff that matters to people." -- Marissa Mayer
 
-Choosing the difference between taking $20 a year for search versus advertising.
-
-We view our users as customers, even though they don't pay.
-
-The reason we care about SEO is because it "can hurt the user experience."
-
-"Every aquisition is ultimately different."
-
-"Work on hard problems. Work on stuff that matters to people."
+Hasta,  
+/Nat
