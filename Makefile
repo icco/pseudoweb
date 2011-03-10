@@ -23,3 +23,6 @@ new:
 
 publish:
 	./publish.sh
+
+drafts:
+	grep -lie '^published: false' _posts/*
