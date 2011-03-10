@@ -16,8 +16,10 @@ select opt in $POSTS; do
 
    echo "Publishing: $opt.";
    echo "git mv $opt $NEWT"
-   #git mv $opt $NEWT
+   git mv $opt $NEWT
    echo "git ci $opt $NEWT -m \"Publishing $NEWT.\"";
-   #git ci $opt $NEWT -m "Publishing $NEWT."
+   git ci $opt $NEWT -m "Publishing $NEWT."
+   echo "sed -i -e 's/^published: false$/published: true/g' $NEWT"
+   sed -i -e 's/^published: false$/published: true/g' $NEWT
    exit 0;
 done;
