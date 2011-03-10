@@ -2,6 +2,7 @@
 layout: post
 title: On release schedules
 location: San Luis Obispo, CA
+published: false
 ---
 
 Lately I've been bothered and impressed by a trend very common in three of the

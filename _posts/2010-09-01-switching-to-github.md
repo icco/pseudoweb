@@ -3,6 +3,7 @@ layout: post
 title: Switching to GitHub
 location: San Luis Obispo, CA
 time:  10:52:03
+published: false
 ---
 
 I made this proposal to work a few days.

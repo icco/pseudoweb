@@ -3,6 +3,7 @@ layout: post
 title: Why I love GitHub
 location: San Luis Obispo, CA
 time:  08:05:50
+published: false
 ---
 
 http://github.com/schacon/showoff/commit/4e5bead893c86f21429abdb64a4bd0de55bde6fc

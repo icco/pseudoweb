@@ -2,6 +2,7 @@
 layout: post
 title: Building a reputation system
 location: San Luis Obispo, CA
+published: false
 ---
 
 *This was originally posted on [iFixit.com/blog][1]*

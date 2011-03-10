@@ -3,6 +3,7 @@ layout: post
 title: Fatherly Advice
 location: San Luis Obispo, CA
 time: 09:25:55
+published: false
 ---
 
 I have always had great respect for my father. 
