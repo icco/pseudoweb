@@ -6,7 +6,26 @@ time: 09:43:15
 published: false
 ---
 
-I've debated posting this. Interviews are an interesting beast, because if you get the job, you really don't care anymore, but if you don't, you just want to forget and move on. On March 1st, 2011, I interviewed with Chris Wastranth, the CEO of GitHub. I didn't get the job, but it was by far the most enjoyable and interesting interview I've ever had. So I figure I'll write about my experience here.
+I've debated posting this. Interviews are an interesting beast, because if you get the job, you really don't care anymore, but if you don't, you just want to forget and move on. On March 1st, 2011, I had an interview with [Chris Wastranth][], the CEO of [GitHub][]. I didn't get the job, but it was by far the most enjoyable and interesting interview I've ever had. So I figured I would write about my experience here. As a warning, most of this is from memory. So if any fact seems wrong, please leave a comment or [shoot me an email](mailto:nat@natwelch.com). Also this is a pretty long post, so please bare with me.
+
+[GitHub]: http://github.com
+[Chris Wastranth]: http://chriswanstrath.com/
+
+Over Christmas break, I started thinking carefully about what I wanted to do when I graduated in the Spring. I had interviewed with a few larger companies, but most were uninterested because (my best guess) I refuse to give companies my GPA and because I am apparently not a "good fit". This was fine with me, because after interning at [Adobe][] for two summers and working at [iFixit][] for close to two years, I was pretty sure I enjoyed working for thirty person companies over five thousand person companies.
+
+[Adobe]: http://www.adobe.com/
+[iFixit]: http://www.ifixit.com/
+
+Anyways, I started going through my bookmarks. Which websites did I use daily? GitHub, [delicious][], [Last.FM][], [Flickr][], [Facebook][] and Google Apps. Delicious and Flickr were both owned by Yahoo, and they seemed to be having problems. Plus the five friends I knew who interned at Yahoo didn't go back, so that had to be a sign. Last.FM wanted five years of experience of professional development experience. I don't really have that. I applied to Google, but they wouldn't take my application without a GPA back in September, so scratch that. Facebook and Twitter both feel kind of scary to me, so I put them on the back burner.
+
+[delicious]: http://www.delicious.com/
+[Last.FM]: http://www.last.fm/home
+[Flickr]: http://flickr.com
+[Facebook]: http://facebook.com
+
+GitHub though, they were everything I loved in a company. They release large portions of their code into the public, Which as a Linux nerd I just drooled over. I also loved how as a company they explained everything they did. The level of transparency was just about perfect, and they liked drinking beer, which I can never fault someone for.
+
+So, as Winter quarter was beginning, I had typed out this email. After a few days of staring at it, I pressed the send button.
 
 Tue, Jan 11, 2011 at 11:21 PM
 
@@ -43,9 +62,13 @@ Tue, Jan 11, 2011 at 11:21 PM
 
     /Nat
 
+The ending was a little cheesy, but I meant every word of it. A few hours later, I got a simple response.
+
 Wed, Jan 12, 2011 at 7:26 AM
 
     What specifically would you be most interested in working on at GitHub?
+
+Simple, but mind blowing. The first thing I wanted to put was "anything", but this was obviously [a "trap"](http://www.youtube.com/watch?v=dddAi8FF3F4). So instead, I did a brain dump of every feature I wanted on GitHub, and then rushed to class (I ended up being a few minutes late...).
 
 Wed, Jan 12, 2011 at 8:24 AM
 
@@ -104,13 +127,18 @@ Wed, Jan 12, 2011 at 8:24 AM
 
     /Nat
 
+After that, Chris said that he would like to talk further. So after playing schedule scrabble for a little while, we were finally able to meet up.
+
 Wed, Mar 2, 2011 at 5:14 PM
 
     Hey Nat,
 
-    Thanks for coming up yesterday. I had a great time chatting — I think you've got a great product sense, and that's a rare (& awesome) thing for a developer to have.
+    Thanks for coming up yesterday. I had a great time chatting — I think
+    you've got a great product sense, and that's a rare (& awesome) thing for a
+    developer to have.
 
-    I hate to say it but right now we're looking for people with more professional Ruby/Rails experience.
+    I hate to say it but right now we're looking for people with more
+    professional Ruby/Rails experience.
 
     Good luck, and keep in touch!
 
