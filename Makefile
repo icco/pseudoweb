@@ -25,4 +25,4 @@ publish:
 	./publish.sh
 
 drafts:
-	grep -lie '^published: false' _posts/*
+	@grep -lie '^published: false' _posts/*
