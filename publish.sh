@@ -26,6 +26,9 @@ select opt in $POSTS; do
    echo "sed -i -e 's/^published: false$/published: true/g' $NEWT"
    sed -i -e 's/^published: false$/published: true/g' $NEWT
 
+   # fix the time (may need a more specific regex)
+   sed -i -e "s/^time: .*$/time: `date +%H:%M:%S`/g" $NEWT
+
    # Commit Like a boss.
    echo "git ci $opt $NEWT -m \"Publishing $NEWT.\"";
    git ci $opt $NEWT -m "Publishing $NEWT."

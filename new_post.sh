@@ -13,11 +13,13 @@ else
    echo -n "Location? ";
    read -e LOC;
    echo "---" > $FILENAME
+   echo "" >> $FILENAME
    echo "layout: post" >> $FILENAME
    echo "title:" $TITLE >> $FILENAME
    echo "location:" $LOC >> $FILENAME
    echo "time:" $TIME >> $FILENAME
    echo "published: false" >> $FILENAME
+   echo "" >> $FILENAME
    echo "---" >> $FILENAME
 fi
 
