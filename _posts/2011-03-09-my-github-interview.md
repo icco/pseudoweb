@@ -1,10 +1,14 @@
 ---
+
 layout: post
 title: My GitHub Interview
 location: San Francisco, CA
 time: 09:43:15
 published: false
+
 ---
+
+NOTE: I'm pretty sure I'll never post this. I'm basically keeping it here for historical sense.
 
 I've debated posting this. Interviews are an interesting beast, because if you get the job, you really don't care anymore, but if you don't, you just want to forget and move on. On March 1st, 2011, I had an interview with [Chris Wastranth][], the CEO of [GitHub][]. I didn't get the job, but it was by far the most enjoyable and interesting interview I've ever had. So I figured I would write about my experience here. As a warning, most of this is from memory. So if any fact seems wrong, please leave a comment or [shoot me an email](mailto:nat@natwelch.com). Also this is a pretty long post, so please bare with me.
 

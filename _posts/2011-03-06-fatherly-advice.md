@@ -2,7 +2,7 @@
 layout: post
 title: Fatherly Advice
 location: San Luis Obispo, CA
-time: 09:25:55
+time: 11:05:38
 published: false
 ---
 
