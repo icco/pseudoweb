@@ -6,7 +6,9 @@ time: 11:05:38
 published: false
 ---
 
- > "But he's my father. He's a part of who I am. He's taught me more about right and wrong than anyone in this world." -Becca
+<audio src="/images/2011/6/hamneggs.mp3" preload="auto" />
+
+ > "But he's my father. He's a part of who I am. He's taught me more about right and wrong than anyone in this world." -Becca from Californication
 
 I have always had great respect for my father. 
 

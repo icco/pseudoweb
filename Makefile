@@ -10,7 +10,7 @@ clean:
 	rm -rf _site/
 
 server:
-	$J --server 4000 --auto
+	$J --server 4000 --auto --no-lsi
 
 deploy: site
 	rsync $R --delete _site/ welchfamilyweb.com:~/public_html/pseudoweb.net/_site/
