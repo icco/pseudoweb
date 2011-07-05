@@ -13,3 +13,5 @@ published: false
 I have always had great respect for my father. 
 
  * go over not only dad's advice, but Joe and other stuff from crackquotes
+
+http://blog.makezine.com/archive/2011/06/tips-my-dad-says-downloadable-card.html
