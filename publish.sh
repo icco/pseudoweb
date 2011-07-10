@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Lists the posts to publish, then updates them and sends them live
-# by Nat Welch 2011
+# @author Nat Welch 2011
 
 POSTS=`grep -lie '^published: false$' _posts/* | grep '-' && echo 'exit'`;
 
