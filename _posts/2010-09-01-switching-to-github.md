@@ -9,13 +9,13 @@ published: false
 I made this proposal to work a few days.
 
 
-I would like us to entirely change how we do code development, review and deployment. 
+I would like us to entirely change how we do code development, review and deployment.
 
 Our current system is like this:
 
  * Bob writes code in his own little world
  * Bob commits code to the trunk
- * If it needs to be live now, Dave merges Bob's commit into LiveCode and updates the servers. 
+ * If it needs to be live now, Dave merges Bob's commit into LiveCode and updates the servers.
  * Once every few weeks we update all of the servers to the current version of Trunk and reset LiveCode.
 
 I've been thinking about this for a long time, and I am 100% positive that switching to Git and GitHub for hosting is good for us. Here is my proposed model:
@@ -33,7 +33,7 @@ Benefits:
 
  * More code review. Our current mode of Dave skimming over all of the commits is just not enough. As the coder base grows this taxes Dave's time and really takes any sort of discussion out of the coding process. If we start reviewing our code earlier, we can have better discussion and teach our younger coders more and keep our older coders continuously sharing their knowledge.
 
- * More frequent syncs. This isn't a necessity, but the closer we keep the live site and trunk, the more often we can iterate and 
+ * More frequent syncs. This isn't a necessity, but the closer we keep the live site and trunk, the more often we can iterate and
 bring a better experience to our customers.
 
  * Remote source code control: We will be using a distributed version control system, so our code will be duplicated in multiple places so if disks fail or servers disappear, our code and revision history will not.
@@ -46,7 +46,7 @@ Cons:
 
  * Timing: School starts September 20th. Doing this while school is in session is not impossible, but require a little more timing, and training everyone would probably have to be a weekend deal.
 
-Thoughts, problems, discussion? I'm sending this to you first Dave, and then I'm going to take it to kyle if you agree. 
+Thoughts, problems, discussion? I'm sending this to you first Dave, and then I'm going to take it to kyle if you agree.
 
 I really think we need to do this. The more we consider putting cominor in the cloud, the more I think this needs to be done.
 

@@ -12,7 +12,7 @@ I've been thinking lately that I should talk about my firefox setup, so I guess 
 
  * [Whitehart](https://addons.mozilla.org/en-US/firefox/addon/364)
 
-   A Very nice lightweight theme. Looks great on every OS except OS X. On OS X I just use the default. 
+   A Very nice lightweight theme. Looks great on every OS except OS X. On OS X I just use the default.
 
 ## Extensions
 
@@ -23,7 +23,7 @@ I've been thinking lately that I should talk about my firefox setup, so I guess 
  * [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/60)
 
    This isn't as useful as FireBug, but I've had it around for so long, I still use it. One of the nice features lets you outline all block elements on a page, which is useful for seeing how strange css elements are interacting.
- 
+
  * [Screengrab!](https://addons.mozilla.org/en-US/firefox/addon/1146)
 
    This gives you a few different options for taking pictures of web pages.

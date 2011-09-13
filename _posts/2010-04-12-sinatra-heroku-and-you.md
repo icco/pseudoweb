@@ -11,7 +11,7 @@ Ah ha! Code!
 I have, for a while, been looking for a good place to store my thoughts. I
 didn't need a to-do list, because most of the stuff I write down is more of a
 "wouldn't this be cool" instead of a "you need to do this in the next two
-days". 
+days".
 
 A long time ago I had started a little PHP app called theStack to do just this.
 I sadly though abandoned it due to time constraints. On this day with nothing
@@ -36,7 +36,7 @@ install:
 
     gem install --pre sinatra
 
-The main two things that 1.0 support adds, is support for [less][3] and [erubis][4]. 
+The main two things that 1.0 support adds, is support for [less][3] and [erubis][4].
 
 ## Less
 
@@ -74,14 +74,14 @@ writing on [GitHub][6].
 Deploying to Heroku is pretty easy. You can use two methods, either a Rakefile,
 or just from the straight command line.
 
-First you need to create an account on <http://Heroku.com> and then follow their 
-[quickstart guide][7]. But the general overview is pretty simple. First 
-`gem install heroku` then run `heroku create` in your directory. Finally run 
+First you need to create an account on <http://Heroku.com> and then follow their
+[quickstart guide][7]. But the general overview is pretty simple. First
+`gem install heroku` then run `heroku create` in your directory. Finally run
 `git push heroku master`. Now your app is running on heroku! Also before you
 start, you need to have a git repository for your project, which I assume you
 know how to do.
 
-You can also add the following to your Rakefile, so you would type 
+You can also add the following to your Rakefile, so you would type
 `rake deploy` instead of `git push heroku master`.
 
 {% highlight ruby %}
@@ -108,7 +108,7 @@ end
 {% endhighlight %}
 
 Anyway, I kind of rushed this, because I wrote most of the post about a month
-ago and then forgot about it. Once I am happy with [theStack][6], I'll write 
+ago and then forgot about it. Once I am happy with [theStack][6], I'll write
 another post here about coding with Sinatra, ERB, less, Sequel, and Heroku.
 
 Hasta,  

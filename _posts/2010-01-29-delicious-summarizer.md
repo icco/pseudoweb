@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Delicious Summarizer
 location: San Luis Obispo, CA
@@ -46,10 +46,10 @@ I found writing XSLT files a pain. But basically this is how they work. First
 you define that this is a XSLT file.
 
 {% highlight xml %}
-<xsl:stylesheet 
-   version="1.0" 
+<xsl:stylesheet
+   version="1.0"
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:str="http://exslt.org/strings" 
+   xmlns:str="http://exslt.org/strings"
    extension-element-prefixes="str"
    exclude-result-prefixes="str" >
 {% endhighlight %}
@@ -60,7 +60,7 @@ the actual XML.
 
 {% highlight xml %}
 <xsl:output method="html" />
- 
+
 <xsl:template match="post">
    <xsl:text>&#10; ----------- </xsl:text>
    Title: <xsl:value-of select="@description" />
@@ -77,7 +77,7 @@ the actual XML.
 The following is the cron command I have set up.
 
 {% highlight bash %}
-42 7 * * 6 re-delicious.sh uname pwd | 
+42 7 * * 6 re-delicious.sh uname pwd |
     mail -s "Links for `date +"Week %V of %G"`" you@email.com
 {% endhighlight %}
 

@@ -23,7 +23,7 @@ about carrying a smart phone, I decided a while ago to list the pros and cons.
  * **Instant notification of new email** - Useful for knowing if the servers at work have died
 
 # Cons
- 
+
  * **Always on the internet** - This can be kind of distracting. I've found myself more often than not staring at my phone while waiting for something, instead of just thinking and waiting.
  * **Instant notification of new email** - I have no excuse for not seeing the servers are down.
  * **Battery Life** - No matter what anyone says, the battery life of smart phones suck. The nexus one lasts a little longer than a day under normal usage, but you basically need to plug it in every night. I miss just having to plug my phone in once a week, but maybe I'm spoiled.

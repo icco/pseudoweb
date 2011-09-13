@@ -9,7 +9,7 @@ published: false
 In the Spring of 2002, my family moved to Santa Rosa, CA. It was the following Fall when I first [got involved with NBLUG][nblug].
 
 
-I've been meaning to write this for a while. 
+I've been meaning to write this for a while.
 
 <!-- This is probably wrong. -->
 [nblug]: http://www.nblug.org/pipermail/talk/2003-August/005319.html

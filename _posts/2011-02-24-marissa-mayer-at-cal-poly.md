@@ -29,10 +29,10 @@ Mayer talked about how Google's infamous 20% time promoted new ideas and kept em
 
 Mayer then addressed what she thought where the next big breakthroughs in Computer Science were:
 
- * Automated machine translation. 
+ * Automated machine translation.
    * Google currently has around an 85% accuracy rate.
    * She toured Japan using her android to translate for her.
- * Speech recognition 
+ * Speech recognition
    * can be used with translate
    * 20% searches from Android phones are voice
  * Visual recognition

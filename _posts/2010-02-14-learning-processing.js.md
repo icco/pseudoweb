@@ -80,7 +80,7 @@ front of you.
             int area3 = negPosZero(areaOfTriangle(x, y, x3, y3, x4, y4));
             int area4 = negPosZero(areaOfTriangle(x, y, x4, y4, x1, y1));
 
-            return ((area1 == area2) && (area1 == area3) && (area1 == area4));  
+            return ((area1 == area2) && (area1 == area3) && (area1 == area4));
          }
 
          void update() {
@@ -88,7 +88,7 @@ front of you.
                // We are inside. Change colors fire events, etc.
                changed = !(boxwidth != 20);
                boxwidth = 20;
-               lastActive = this; 
+               lastActive = this;
             } else {
                changed = !(boxwidth != 5);
                boxwidth = 5;
@@ -113,7 +113,7 @@ front of you.
                // slope of perpendicular line
                int ps = ((-1) / s);
 
-               // differences 
+               // differences
                int dx = sqrt(sq(boxwidth) / (1 + sq(ps))) / 2
                int dy = ps * dx
 
@@ -134,7 +134,7 @@ front of you.
 
       // Called once on load
       void setup() {
-         frameRate(40);  
+         frameRate(40);
          size(400, 400);
          stroke(255);
          smooth();
@@ -171,7 +171,7 @@ front of you.
 
          // Draw the last active bar last so it sits on top of the rest
          lastActive.update();
-         lastActive.draw(); 
+         lastActive.draw();
       }
    </script>
 {% endhighlight %}
@@ -189,7 +189,7 @@ group of functions that modify similar areas of the page (like write text to a
 DOM element) you will quickly notice that they are stomping on each other.
 
 Processing.js works using a cartesian plane, so if you take a look at all of
-the functions on the [processing.js reference page](http://processingjs.org/reference), 
+the functions on the [processing.js reference page](http://processingjs.org/reference),
 most of them are pretty straight forward. For instance, to draw any sort of
 quadrilateral, you just need the four points, and processing.js will just draw
 it for you.
@@ -211,11 +211,11 @@ in case.
 if ( window.addEventListener ) {
    window.addEventListener("load", function() {
       var scripts = document.getElementsByTagName("script");
-      
+
       for ( var i = 0; i < scripts.length; i++ ) {
          if ( scripts[i].type == "application/processing" ) {
             var src = scripts[i].src, canvas = scripts[i].nextSibling;
-   
+
             if ( src && src.indexOf("#") ) {
                canvas = document.getElementById( src.substr( src.indexOf("#") + 1 ) );
             } else {

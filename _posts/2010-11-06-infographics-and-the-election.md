@@ -5,7 +5,7 @@ location: San Luis Obispo, CA
 time: 14:10:59
 ---
 
-So, despite this elections rather depressing outcome, I would like to spend a moment looking at two sites and their display of the election results. 
+So, despite this elections rather depressing outcome, I would like to spend a moment looking at two sites and their display of the election results.
 
 [![NYT Screenshot](/images/2010/11/CAElectionResults2010NYT.t.png "NYT")](/images/2010/11/CAElectionResults2010NYT.png)
 [![CNN Screenshot](/images/2010/11/Election2010CNN.t.png "CNN")](/images/2010/11/Election2010CNN.png)

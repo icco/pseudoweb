@@ -4,11 +4,11 @@ title: Review of the Logitech Anywhere Mouse
 location: San Luis Obispo, CA
 ---
 
-![My Work Mouse][3]  
+![My Work Mouse][3]
 [Logitech Anywhere Mouse][5] by [Nat W.][6]
 
 So I was going to write this in depth review of the [Logitech Anywhere Mouse][0].
-But then, [Cory Doctorow][2] went ahead and [wrote a great review of it][1]. 
+But then, [Cory Doctorow][2] went ahead and [wrote a great review of it][1].
 
 I entirely agree with everything he says. I bought one in early August when
 trying to find a new mouse for work. I needed something that worked on my glass
