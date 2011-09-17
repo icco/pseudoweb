@@ -20,8 +20,13 @@ When I was at [CodeConf][3] last year, one of the presentations talked about met
 
 As we sorted out the issues limiting our users, we also came across the fact that people who wrote guides also wanted and deserved reputation for content that was referenced throughout the site. So we started keeping track of a few different ways guides were being used to help others in wiki pages and in answers to questions. This was a bit of a pain, because we had to make sure our users (or some of our employees...) could not game the system easily. This required harder limits on how much reputation a user could give other users and how much reputation one could receive per day. We started noticing that some users were getting strange ratios, where they were getting 95 percent of their reputation from one user, or one user was giving all of their reputation to another user. We found after some heavy investigating that in many cases the first scenario was suspect, but not always foul play. The second scenario though, was always a user trying to game the system, so we started moderating users that were acting suspiciously, which seemed to promote fair play on Answers and throughout the rest of the site.
 
-The system itself had some design issues in retrospect. We originally built it as a gigantic library.
+The system itself had some design issues in retrospect. Originally I created a single class that managed all of the reputation. This, in theory made it simple for developers to add reputation to any action on the site. The problem was this didn't make much sense with the rest of the site. I tied reputation points to closely to objects, which was ok, but I did it in a weird non-object-oriented way. Probably one of the better ways to build the system would be to just pass in the object you wanted to reward a user for creating, instead of having the developer pass in an id and a table name. Also, instead of having a static method in a library, creating a reputation object would have been much easier for developers.
+
+Anyways, these are just some insights into the first large project I ever launched. I should mention that Answers wouldn't exist without the fantastic efforts of [Sterling Hirsh][4]. Him and I constantly butted heads on how Answers should be built and I learned a lot from him. Also, a big shout out to all of the iFixit developers (Dave, Shawn, Kyle, Chris and all the rest), you guys are the best.
+
+/Nat
 
 [1]: http://ifixit.com/blog/
 [2]: http://ifixit.com/Answers/
 [3]: http://codeconf.github.com
+[4]: http://sterlinghirsh.com
