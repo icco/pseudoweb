@@ -14,7 +14,7 @@ select opt in $POSTS; do
 
    # We get the title from the file instead of the filename, because it might change.
    NEWT=`date +%Y-%m-%d`-`grep -P '^title: ([\w ]+)$' $opt | tr "[:upper:]" "[:lower:]" | sed 's/^title: //'  | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g'`
-   NEWT="_posts/$NEWT"
+   NEWT="_posts/$NEWT.md"
 
    echo "Publishing: $opt.";
 
@@ -27,6 +27,7 @@ select opt in $POSTS; do
    sed -i -e 's/^published: false$/published: true/g' $NEWT
 
    # fix the time (may need a more specific regex)
+   echo "sed -i -e \"s/^time: .*$/time: `date +%H:%M:%S`/g\" $NEWT"
    sed -i -e "s/^time: .*$/time: `date +%H:%M:%S`/g" $NEWT
 
    # Commit Like a boss.
