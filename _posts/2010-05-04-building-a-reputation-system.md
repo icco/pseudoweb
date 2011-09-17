@@ -2,9 +2,9 @@
 
 layout: post
 title: Building a reputation system
-location: San Luis Obispo, CA
-time: 11:13:44
-published: false
+location: St. Louis, MO
+time: 18:10:44
+published: true
 
 ---
 
