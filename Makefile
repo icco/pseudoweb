@@ -1,4 +1,4 @@
-J=jekyll
+J=bundle exec jekyll
 R=-rlvtz
 
 all: site
