@@ -8,7 +8,7 @@ published: true
 
 ---
 
-This was originally meant for the [iFixit.com blog][1]. iFixit never published it, so I decided to clean it up a year later and publish it here. It should be noted that I am no longer employed by iFixit, and my views do not represent those of iFixit, nor my current employer Google.
+This was originally meant for the [iFixit.com blog][1]. iFixit never published it (because I never finished it), so I decided to clean it up a year later and publish it here. It should be noted that I am no longer employed by iFixit, and my views do not represent those of iFixit, nor my current employer, Google.
 
 In November 2009, iFixit released [Answers][2]. When iFixit started on this project, we thought long and hard about how integral of a part iFixit wanted Answers to be in relation to the rest of the site. iFixit already had a forum system that had been coded based on the comment system throughout teardowns and guides, but it was growing very long in the tooth. So, after some debate, we decided to build a new tool that rewarded users for participating in our site and promoted quality content over quantity.
 
@@ -22,11 +22,12 @@ As we sorted out the issues limiting our users, we also came across the fact tha
 
 The system itself had some design issues in retrospect. Originally I created a single class that managed all of the reputation. This, in theory made it simple for developers to add reputation to any action on the site. The problem was this didn't make much sense with the rest of the site. I tied reputation points to closely to objects, which was ok, but I did it in a weird non-object-oriented way. Probably one of the better ways to build the system would be to just pass in the object you wanted to reward a user for creating, instead of having the developer pass in an id and a table name. Also, instead of having a static method in a library, creating a reputation object would have been much easier for developers.
 
-Anyways, these are just some insights into the first large project I ever launched. I should mention that Answers wouldn't exist without the fantastic efforts of [Sterling Hirsh][4]. Him and I constantly butted heads on how Answers should be built and I learned a lot from him. Also, a big shout out to all of the iFixit developers (Dave, Shawn, Kyle, Chris and all the rest), you guys are the best.
+Anyways, these are just some insights into the first large project I ever launched. I should mention that Answers wouldn't exist without the fantastic efforts of [Sterling Hirsh][5] (he developed most of the frontend of Answers). Him and I constantly butted heads on how Answers should be built and I learned a lot from him. Also, a big shout out to all of the iFixit developers (Dave, Shawn, Kyle, Chris and all the rest), you guys are the best.
 
 /Nat
 
 [1]: http://ifixit.com/blog/
 [2]: http://ifixit.com/Answers/
 [3]: http://codeconf.github.com
-[4]: http://sterlinghirsh.com
+[4]: http://www.ifixit.com/User/13051/mayer
+[5]: http://www.sterlinghirsh.com/
