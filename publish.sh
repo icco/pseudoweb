@@ -13,7 +13,12 @@ select opt in $POSTS; do
    fi;
 
    # We get the title from the file instead of the filename, because it might change.
-   NEWT=`date +%Y-%m-%d`-`grep -P '^title: ([\w ]+)$' $opt | tr "[:upper:]" "[:lower:]" | sed 's/^title: //'  | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g'`
+   # 1. Get title out of file
+   # 2. Lowercase everything
+   # 3. Remove title:
+   # 4. Replace spaces with -
+   # 5. Remove all invalid chars
+   NEWT=`date +%Y-%m-%d`-`grep -P '^title: (.+)$' $opt | tr "[:upper:]" "[:lower:]" | sed 's/^title: //' | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g'`
    NEWT="_posts/$NEWT.md"
 
    echo "Publishing: $opt.";
