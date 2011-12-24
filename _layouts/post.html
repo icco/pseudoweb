@@ -3,56 +3,65 @@ layout: default
 alt: This is a single post, but you can find more in the <a href="/archives/">archives</a>.
 ---
 <div id="post">
-   <div class="post-title">{{ page.title }}<a id="permalink" href="{{ page.url }}">#</a></div>
-      <div class="post-meta">
-         <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
-            {{ page.date | date: "%B %d, %Y" }}
-         </time>
-         {% if page.location %}
-            &mdash; {{ page.location }}
-         {% endif %}
-      </div>
-   <div class="content, clearfix">
-      {{ content }}
+  <div class="post-title">{{ page.title }}<a id="permalink" href="{{ page.url }}">#</a></div>
 
-   </div>
+  <div class="post-meta">
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+      {{ page.date | date: "%B %d, %Y" }}
+    </time>
+    {% if page.location %}
+      &mdash; {{ page.location }}
+    {% endif %}
+  </div>
 
-   <div id="sharebuttom" class="clearfix">
-      <!-- AddThis Button BEGIN -->
-      <div class="addthis_toolbox addthis_default_style ">
-        <a class="addthis_counter addthis_pill_style"></a>
-      </div>
-      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=icco"></script>
-      <!-- AddThis Button END -->
-   </div>
+  <div class="content, clearfix">
+    {{ content }}
+  </div>
+
+  <div id="sharebuttom" class="clearfix">
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+      <a class="addthis_counter addthis_pill_style"></a>
+    </div>
+
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=icco"></script>
+    <!-- AddThis Button END -->
+  </div>
 </div>
 
 <div id="related">
-   <h2>Related Posts</h2>
-   <ul class="posts">
-      {% for post in site.related_posts limit:3 %}
-         <li class="{% cycle 'one', 'two' %}"><span class="date">{{ post.date | date: "%b %d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-   </ul>
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li class="{% cycle 'one', 'two' %}"><span class="date">{{ post.date | date: "%b %d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
-<div id="navigation">
-   {% if page.next %}
-   <div id="post-next">
-      <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next</a> &raquo;
-   </div>
-   {% endif %}
 
-   {% if page.previous %}
-   <div id="post-prev">
+<div id="navigation">
+  {% if page.next %}
+    <div id="post-next">
+      <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next</a> &raquo;
+    </div>
+  {% endif %}
+
+  {% if page.previous %}
+    <div id="post-prev">
       &laquo; <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
-   </div>
-   {% endif %}
+    </div>
+  {% endif %}
 </div>
+
 <div id="comments">
-   <!-- Javascript Comments from DISQUS -->
-   <script type="text/javascript">  
-      var disqus_url = 'http://pseudoweb.net{{ page.url }}';
-   </script> 
-   <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/pseudoweb/embed.js"></script><noscript><a href="http://disqus.com/forums/pseudoweb/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  <!-- Javascript Comments from DISQUS -->
+  <script type="text/javascript">  
+    var disqus_url = 'http://pseudoweb.net{{ page.url }}';
+  </script> 
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://disqus.com/forums/pseudoweb/embed.js"></script>
+  <noscript><a href="http://disqus.com/forums/pseudoweb/?url=ref">View the discussion thread.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  <!-- END DISQUS -->
 </div>
 
