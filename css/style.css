@@ -57,10 +57,17 @@ a img  {
 }
 
 #post img[align="right"] {
-   margin-right: 0;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   margin-left: 12px;
+   margin-right:  0;
+   margin-top:    8px;
+   margin-bottom: 8px;
+   margin-left:   12px;
+}
+
+#post img[align="left"] {
+   margin-left:   0;
+   margin-top:    8px;
+   margin-bottom: 8px;
+   margin-right:  12px;
 }
 
 .site .header  {
