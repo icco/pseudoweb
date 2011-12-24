@@ -61,6 +61,7 @@ a img  {
    margin-top:    8px;
    margin-bottom: 8px;
    margin-left:   12px;
+   clear: both;
 }
 
 #post img[align="left"] {
@@ -68,6 +69,7 @@ a img  {
    margin-top:    8px;
    margin-bottom: 8px;
    margin-right:  12px;
+   clear: both;
 }
 
 .site .header  {
