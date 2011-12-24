@@ -1,7 +1,5 @@
 # Which markdown lib
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
 
 # which type of links.
 permalink: pretty

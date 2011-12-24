@@ -16,7 +16,7 @@ GEM
       kramdown (>= 0.13.2)
       liquid (>= 1.9.0)
       maruku (>= 0.5.9)
-    kramdown (0.13.3)
+    kramdown (0.13.4)
     liquid (2.3.0)
     maruku (0.6.0)
       syntax (>= 1.0.0)
