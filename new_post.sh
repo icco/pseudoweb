@@ -23,4 +23,6 @@ else
    echo "---" >> $FILENAME
 fi
 
+git commit $FILENAME -m "new post: $TITLE"
+sleep 1
 vim $FILENAME;
