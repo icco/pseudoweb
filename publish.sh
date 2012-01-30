@@ -12,6 +12,8 @@ select opt in $POSTS; do
       exit 0;
    fi;
 
+   # TODO: Check if file has been added to git.
+
    # We get the title from the file instead of the filename, because it might change.
    # 1. Get title out of file
    # 2. Lowercase everything
