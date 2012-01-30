@@ -8,6 +8,12 @@ Most of the power of this repo comes from the `Makefile`.
  * `make publish` - a nice little interface to publish posts (updates filename and date based on frontmatter)
  * `make deploy` - Runs Jekyll and pushes to the server.
 
+## Writing
+
+ * `bundle install`
+   * You might need to `brew install gsl` or `aptitude install gsl-bin` first.
+ * `make new`
+
 ## About
 
 In the words of [mojombo][]:
