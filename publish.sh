@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#
 # Lists the posts to publish, then updates them and sends them live
 # @author Nat Welch 2011
 
