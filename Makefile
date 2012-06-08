@@ -5,6 +5,7 @@ all: site
 
 site:
 	$J
+	chmod -R a+rx ./_site/
 
 clean:
 	rm -rf _site/
