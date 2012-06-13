@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'jekyll'
-gem 'rdiscount'
 gem 'gsl'
+gem 'jekyll'
+#gem 'rack-jekyll' # https://github.com/adaoraul/rack-jekyll
+gem 'rdiscount'
