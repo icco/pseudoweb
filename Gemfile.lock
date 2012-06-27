@@ -31,4 +31,5 @@ PLATFORMS
 DEPENDENCIES
   gsl
   jekyll
+  kramdown
   rdiscount
