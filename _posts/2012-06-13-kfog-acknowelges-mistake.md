@@ -15,7 +15,7 @@ This is fantastic, because the most recent format sucked. I've been listening to
 Some reference so you can form your own opinions.
 
  * [Ben Fong-Torres wrote a great article on the history of the KFOG Morning Show](http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2012/06/10/PKIF1OPLI0.DTL&ao=all).
- * [Article Announcing initial change](http://www.allaccess.com/net-news/archive/story/105995/kfog-announces-new-morning-show)
+ * [Article announcing initial change](http://www.allaccess.com/net-news/archive/story/105995/kfog-announces-new-morning-show)
 
 No articles seem to be out there for the second rebuilding, but I'll keep an eye out.
 

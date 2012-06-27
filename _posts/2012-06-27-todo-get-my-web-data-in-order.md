@@ -10,7 +10,7 @@ published: true
 
 After a [very straight forward talk](http://opensourcebridge.org/sessions/916) showcasing all of the data on the internet that has been lost in the last few years, I've been spending the day thinking about what I need to change. Here is a list of my next steps, I think.
 
- 1. Get a simple version of [NatTape](https://github.com/icco/nattape) out. iTunes Match and Google Music are loosing and breaking my playlists.
+ 1. Get a simple version of [NatTape](https://github.com/icco/nattape) out. iTunes Match and Google Music are losing and breaking my playlists.
  2. Finish moving natwelch.com, pseudoweb.net and a few other small sites to AWS or a comparable cloud.
  3. Switch cloud server to Nginx.
  4. Backup all photos on Flickr. Automate and cron.
