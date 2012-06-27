@@ -3,8 +3,8 @@
 layout: post
 title: TODO: Get my web data in order
 location: Portland, OR
-time: 00:07:51
-published: false
+time: 00:18:06
+published: true
 
 ---
 
