@@ -26,3 +26,5 @@ I am slightly worried that I am going to die.
  -- [Bruce Damer][alpha]
 
 [alpha]: http://www.damer.com/pictures/events/burningman2002/blowout/alphaguide.html
+
+Burning man ten principles
