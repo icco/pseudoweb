@@ -4,7 +4,7 @@ layout: post
 title: What I learned at Burning Man 2012
 location: San Francisco, CA
 time: 10:55:21
-published: false
+published: true
 
 ---
 
@@ -24,7 +24,9 @@ When I was preparing for the playa (the slang name for the dry lake bed where Bu
 
 The article goes on to talk about barrels taking out people, and all kinds of other scary things. So I went to Home Depot and REI and hunkered down. Thanks to the help of [Reed][] and the Duck Pond (seen in photo, the camp I stayed with) I survived, and also, it was no where near as scary as purported on the internet.
 
+Anyways, I have been debating on how to best frame this article and how I experienced Burning Man. It did not turn my life in one hundred and eighty degrees like it does for some attendees, but it did change me and make me think about some things.
 
+Probably the best way I can frame this, I think, is to explain how I experienced each of the [ten Burning Man Fundamentals][bm10]. I've included both my thoughts, and what is posted on the Burning Man website about each fundamental.
 
 ## Radical Inclusion
 
@@ -66,7 +68,17 @@ The article goes on to talk about barrels taking out people, and all kinds of ot
 
  > Immediate experience is, in many ways, the most important touchstone of value in our culture. We seek to overcome barriers that stand between us and a recognition of our inner selves, the reality of those around us, participation in society, and contact with a natural world exceeding human powers. No idea can substitute for this experience. 
 
+
+
+
+I hope that gives you some idea of what I experienced. I'll leave you with a nice slide show:
+
+<http://flic.kr/s/aHsjC8pFi7>
+
+/Nat
+
 [alpha]: http://www.damer.com/pictures/events/burningman2002/blowout/alphaguide.html
 [brc-eye]: https://s3.amazonaws.com/geoeyemediaportal/assets/images/gallery/Burning_Man_IK_30AUG2012_3k.jpg
 [brc-map]: http://goo.gl/maps/AfX9t
 [Reed]: http://reedmorse.com/
+[bm10]: http://www.burningman.com/whatisburningman/about_burningman/principles.html
