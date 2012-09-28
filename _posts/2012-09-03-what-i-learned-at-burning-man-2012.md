@@ -8,23 +8,65 @@ published: false
 
 ---
 
-I spent the last week at Burning Man, in the wonderful [Black Rock City, Nevada][brc-map].
+I spent the end of August at Burning Man, in the wonderful [Black Rock City, Nevada][brc-map]. I had a fantastic time. Such a good time in fact that I've been avoiding writing this post as a method of avoiding the remorse of not being there anymore.
 
-Things I learned:
+This post is kind of long, but I think I should sum it up with two points: **a**) People are crazy and **b**) Given enough passion, duct tape and freedom, people create some pretty crazy shit.
 
- * People are crazy
- * Given enough passion, duct tape and freedom, people create some pretty crazy shit
+<a href="http://www.flickr.com/photos/icco/7990100953/" title="Helicopter Art Car by Nat W, on Flickr"><img src="http://farm9.staticflickr.com/8439/7990100953_b5985e714c_z.jpg" width="640" height="426" alt="Helicopter Art Car"></a>
 
- Put some photos here.
+When I was preparing for the playa (the slang name for the dry lake bed where Burning Man occurs), I was informed that this year would be dusty. So dusty in fact, that it would be worse than this:
 
-[brc-map]:
-
-I am slightly worried that I am going to die.
-
- > On the Tuesday following Burning Man 2002, a thousand or so poor souls experienced "Alpha", which started with no warning at midday and lasted for almost three days, with sustained winds at 70mph gusting to over 100mph. DPW did their best, they locked down Burning Man (you couldn't see to find your way out anyway). People were injured (although none seriously) and everyone was left shaken and reminded why it says on the ticket "By Attending This Event You risk Serious Injury or Death". Greeters told us "we dodged a bullet, this could have caused great injury and even fatalities". We helped our friends (11 year veterans) in desperate need and I left with a determination to tell the story of Alpha/2002. You can see our Alpha/2002 page with photos here.
+ > On the Tuesday following Burning Man 2002, a thousand or so poor souls experienced "Alpha", which started with no warning at midday and lasted for almost three days, with sustained winds at 70mph gusting to over 100mph. DPW did their best, they locked down Burning Man (you couldn't see to find your way out anyway). People were injured (although none seriously) and everyone was left shaken and reminded why it says on the ticket "By Attending This Event You risk Serious Injury or Death". Greeters told us "we dodged a bullet, this could have caused great injury and even fatalities". We helped our friends (11 year veterans) in desperate need and I left with a determination to tell the story of Alpha/2002.
 
  -- [Bruce Damer][alpha]
 
-[alpha]: http://www.damer.com/pictures/events/burningman2002/blowout/alphaguide.html
+<a href="http://www.flickr.com/photos/icco/7990110105/" title="Duckpond 2012 by Nat W, on Flickr"><img src="http://farm9.staticflickr.com/8038/7990110105_6caa7cf940_n.jpg" align="right" width="213" height="320" alt="Duckpond 2012"></a>
 
-Burning man ten principles
+The article goes on to talk about barrels taking out people, and all kinds of other scary things. So I went to Home Depot and REI and hunkered down. Thanks to the help of [Reed][] and the Duck Pond (seen in photo, the camp I stayed with) I survived, and also, it was no where near as scary as purported on the internet.
+
+
+
+## Radical Inclusion
+
+ > Anyone may be a part of Burning Man. We welcome and respect the stranger. No prerequisites exist for participation in our community.
+
+## Gifting
+
+ > Burning Man is devoted to acts of gift giving. The value of a gift is unconditional. Gifting does not contemplate a return or an exchange for something of equal value.
+
+## Decommodification
+
+ > In order to preserve the spirit of gifting, our community seeks to create social environments that are unmediated by commercial sponsorships, transactions, or advertising. We stand ready to protect our culture from such exploitation. We resist the substitution of consumption for participatory experience.
+
+## Radical Self-reliance
+
+ > Burning Man encourages the individual to discover, exercise and rely on his or her inner resources.
+
+## Radical Self-expression
+
+ > Radical self-expression arises from the unique gifts of the individual. No one other than the individual or a collaborating group can determine its content. It is offered as a gift to others. In this spirit, the giver should respect the rights and liberties of the recipient.
+
+## Communal Effort
+
+ > Our community values creative cooperation and collaboration. We strive to produce, promote and protect social networks, public spaces, works of art, and methods of communication that support such interaction.
+
+## Civic Responsibility
+
+ > We value civil society. Community members who organize events should assume responsibility for public welfare and endeavor to communicate civic responsibilities to participants. They must also assume responsibility for conducting events in accordance with local, state and federal laws.
+
+## Leaving No Trace
+
+ > Our community respects the environment. We are committed to leaving no physical trace of our activities wherever we gather. We clean up after ourselves and endeavor, whenever possible, to leave such places in a better state than when we found them.
+
+## Participation
+
+ > Our community is committed to a radically participatory ethic. We believe that transformative change, whether in the individual or in society, can occur only through the medium of deeply personal participation. We achieve being through doing. Everyone is invited to work. Everyone is invited to play. We make the world real through actions that open the heart.
+
+## Immediacy
+
+ > Immediate experience is, in many ways, the most important touchstone of value in our culture. We seek to overcome barriers that stand between us and a recognition of our inner selves, the reality of those around us, participation in society, and contact with a natural world exceeding human powers. No idea can substitute for this experience. 
+
+[alpha]: http://www.damer.com/pictures/events/burningman2002/blowout/alphaguide.html
+[brc-eye]: https://s3.amazonaws.com/geoeyemediaportal/assets/images/gallery/Burning_Man_IK_30AUG2012_3k.jpg
+[brc-map]: http://goo.gl/maps/AfX9t
+[Reed]: http://reedmorse.com/
