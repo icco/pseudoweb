@@ -4,13 +4,13 @@ layout: post
 title: What I learned at Burning Man 2012
 location: San Francisco, CA
 time: 10:55:21
-published: true
+published: false
 
 ---
 
 I spent the end of August at Burning Man, in the wonderful [Black Rock City, Nevada][brc-map]. I had a fantastic time. Such a good time in fact that I've been avoiding writing this post as a method of avoiding the remorse of not being there anymore.
 
-This post is kind of long, but I think I should sum it up with two points: **a**) People are crazy and **b**) Given enough passion, duct tape and freedom, people create some pretty crazy shit.
+This post is kind of long, but I think I should sum it up with two points: **a**) People are crazy and **b**) Given enough passion, duct tape and freedom, people create some pretty crazy stuff.
 
 <a href="http://www.flickr.com/photos/icco/7990100953/" title="Helicopter Art Car by Nat W, on Flickr"><img src="http://farm9.staticflickr.com/8439/7990100953_b5985e714c_z.jpg" width="640" height="426" alt="Helicopter Art Car"></a>
 
@@ -31,6 +31,10 @@ Probably the best way I can frame this, I think, is to explain how I experienced
 ## Radical Inclusion
 
  > Anyone may be a part of Burning Man. We welcome and respect the stranger. No prerequisites exist for participation in our community.
+
+This is the hook to Burning Man. Anyone can come (given money and time) to the event. I was actually very surprised when I first met the Duck Pond, because most of the group was older, but instantly I was invited to join and help out. I was assigned some tasks, and began working with people to make it happen.
+
+Once at Burning Man, everyone welcomes you home, and makes sure you feel welcomed.
 
 ## Gifting
 
