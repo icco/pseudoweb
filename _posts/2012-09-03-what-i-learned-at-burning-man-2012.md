@@ -10,7 +10,7 @@ published: false
 
 I spent the end of August at Burning Man, in the wonderful [Black Rock City, Nevada][brc-map]. I had a fantastic time. Such a good time in fact that I've been avoiding writing this post as a method of avoiding the remorse of not being there anymore.
 
-This post is kind of long, but I think I should sum it up with two points: **a**) People are crazy and **b**) Given enough passion, duct tape and freedom, people create some pretty crazy stuff.
+This post is kind of long, but I think I should sum it up with two points: **a**) People are crazy and **b**) Given enough passion, duct tape and freedom, people create some pretty interestingstuff.
 
 <a href="http://www.flickr.com/photos/icco/7990100953/" title="Helicopter Art Car by Nat W, on Flickr"><img src="http://farm9.staticflickr.com/8439/7990100953_b5985e714c_z.jpg" width="640" height="426" alt="Helicopter Art Car"></a>
 
@@ -34,31 +34,43 @@ Probably the best way I can frame this, I think, is to explain how I experienced
 
 This is the hook to Burning Man. Anyone can come (given money and time) to the event. I was actually very surprised when I first met the Duck Pond, because most of the group was older, but instantly I was invited to join and help out. I was assigned some tasks, and began working with people to make it happen.
 
-Once at Burning Man, everyone welcomes you home, and makes sure you feel welcomed.
+Once at Burning Man, everyone welcomes you home, and makes sure you feel included.
 
 ## Gifting
 
  > Burning Man is devoted to acts of gift giving. The value of a gift is unconditional. Gifting does not contemplate a return or an exchange for something of equal value.
 
+This is really cool. Everyone is just sharing. Constantly. Duck Pond creates a gigantic bar, and shares music, free booze, and plastic cups. Other groups create cars for people to ride around on, food, scuptures, music, bike repair, etc.
+
 ## Decommodification
 
  > In order to preserve the spirit of gifting, our community seeks to create social environments that are unmediated by commercial sponsorships, transactions, or advertising. We stand ready to protect our culture from such exploitation. We resist the substitution of consumption for participatory experience.
+
+This I think, was the most inspiring part of the playa for me. It felt so empowering to see people working together to create things. No one was working for some large corporation, or some disembodied franchise, everyone was part of some small community, working together.
 
 ## Radical Self-reliance
 
  > Burning Man encourages the individual to discover, exercise and rely on his or her inner resources.
 
+Bring everything you need to survive.
+
 ## Radical Self-expression
 
  > Radical self-expression arises from the unique gifts of the individual. No one other than the individual or a collaborating group can determine its content. It is offered as a gift to others. In this spirit, the giver should respect the rights and liberties of the recipient.
+
+See photos.
 
 ## Communal Effort
 
  > Our community values creative cooperation and collaboration. We strive to produce, promote and protect social networks, public spaces, works of art, and methods of communication that support such interaction.
 
+I think the scale of burning man is kind of insane. It was probably what overwhelmed me the most. When I arrived, a camp-mate told me, "I'm sorry your brain is about to explode.". About an hour later, it had indeed exploded. I think I was able to gather all of the pieces back up by Tuesday. When you see your first three story building made entirely of wood with no metal fasteners holding tens of people climbing all over it, things kind of fall apart.
+
 ## Civic Responsibility
 
  > We value civil society. Community members who organize events should assume responsibility for public welfare and endeavor to communicate civic responsibilities to participants. They must also assume responsibility for conducting events in accordance with local, state and federal laws.
+
+This and leave no trace go together. Basically our community had to work together with those around us. Not hurt the ground, clean up our messes and keep our shit together.
 
 ## Leaving No Trace
 
@@ -68,12 +80,13 @@ Once at Burning Man, everyone welcomes you home, and makes sure you feel welcome
 
  > Our community is committed to a radically participatory ethic. We believe that transformative change, whether in the individual or in society, can occur only through the medium of deeply personal participation. We achieve being through doing. Everyone is invited to work. Everyone is invited to play. We make the world real through actions that open the heart.
 
+This speaks for itself, I believe.
+
 ## Immediacy
 
  > Immediate experience is, in many ways, the most important touchstone of value in our culture. We seek to overcome barriers that stand between us and a recognition of our inner selves, the reality of those around us, participation in society, and contact with a natural world exceeding human powers. No idea can substitute for this experience. 
 
-
-
+The thing about Burning Man, is if you see something, you have to check it out, because it may not be there tomorrow, or ever again. You get on the car if it's stopped in front of you, it doesn't matter where it's going or who is on it. Just enjoy the ride and have fun.
 
 I hope that gives you some idea of what I experienced. I'll leave you with a nice slide show:
 
