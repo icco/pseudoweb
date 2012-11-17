@@ -3,8 +3,8 @@
 layout: post
 title: What I learned at Burning Man 2012
 location: San Francisco, CA
-time: 12:44:02
-published: false
+time: 12:51:17
+published: true
 
 ---
 
