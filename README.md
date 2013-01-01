@@ -26,7 +26,7 @@ _based off of [mbleigh.github.com/README.markdown](http://github.com/mbleigh/mbl
 
 You may feel free to re-use any part of the structure, design, and layout of this site; it is all licensed under the MIT License. However, the content of the site (blog posts and page content) is licensed under a [Creative Commons Share-Alike Attribution license](http://creativecommons.org/licenses/by-nc-sa/3.0/us/).
 
-Copyright &copy; 2006-2011 Nathaniel Welch. Rights reserved as indicated above.
+Copyright &copy; 2006-2013 Nathaniel Welch. Rights reserved as indicated above.
 
 [j]: http://github.com/mojombo/jekyll
 [mojombo]: http://github.com/mojombo
