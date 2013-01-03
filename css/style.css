@@ -7,7 +7,11 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|EB+Garamond&subset=latin,latin-ext);
 
 a, a:visited  {
-  color: #0F0F8F;
+  color: #111;
+}
+
+a:hover {
+  color: #3F3FFF;
 }
 
 body  {
@@ -34,7 +38,14 @@ body  {
   margin-top: -10px;
   text-align: left;
   padding: 50px 50px 25px;
+}
+
+.site {
   color: #111;
+}
+
+.site .footer, .site #post .post-meta {
+  color: #444;
 }
 
 .post-title, h1, h2, h3, h4, h5, h6 {
@@ -103,12 +114,13 @@ a img  {
 }
 
 .site .footer  {
-  color: #666;
   text-align: center;
   font-size: 0.80em;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
+  border-top: 2px dashed #EEE;
 }
 
 .site #related h2  {
@@ -123,7 +135,6 @@ a img  {
 
 .site #post .post-meta  {
   font-size: 0.9em;
-  color: #666;
 }
 
 .posts  {
@@ -213,8 +224,7 @@ a img  {
 
 #content  {
   padding: 20px 2px ;
-  border-bottom: 1px dashed #666;
-  margin-bottom: 5px;
+  margin-bottom: 9px;
 }
 
 #permalink  {
