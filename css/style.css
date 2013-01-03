@@ -1,17 +1,44 @@
 /**
  * Pseudoweb.Net Style
  * @author Nat Welch
- * @version 1.42
+ * @version 1.42.13
  */
+
+@import url(http://fonts.googleapis.com/css?family=Lato|EB+Garamond&subset=latin,latin-ext);
 
 a, a:visited  {
    color: #0F0F8F;
 }
 
 body  {
-   font-family: "Palatino Linotype",  "Book Antiqua",  Palatino,  serif;
-   font-size:13.34px;
-   background-color: #879999;
+  font-family: 'Lato', sans-serif;
+  font-size: 13.34px;
+   background-color: #EEE;
+}
+
+.site .header  {
+   border-color: #EEE;
+   border-style: solid;
+   border-width: 15px 15px 15px 0;
+   margin: -15px -50px 25px;
+   padding: 10px 20px;
+   text-align: center;
+   width: 642px;
+}
+
+.site  {
+  background-color: white;
+   width: 644px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: -10px;
+   text-align: left;
+   padding: 50px 50px 25px;
+   color: #111;
+}
+
+.post-title, h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', serif;
 }
 
 h1  {
@@ -32,17 +59,6 @@ h4,  h5,  h6  {
 
 a img  {
    border: 1px solid #9A9A9A;
-}
-
-.site  {
-   width: 644px;
-   margin-right: auto;
-   margin-left: auto;
-   margin-top: -10px;
-   text-align: left;
-   padding: 50px 50px 25px;
-   background-color: #eee;
-   color: #111;
 }
 
 #post img {
@@ -70,16 +86,6 @@ a img  {
    margin-bottom: 8px;
    margin-right:  12px;
    clear: both;
-}
-
-.site .header  {
-   border-color: #879999;
-   border-style: solid;
-   border-width: 15px 15px 15px 0;
-   margin: -15px -50px 25px;
-   padding: 10px 20px;
-   text-align: center;
-   width: 642px;
 }
 
 .site .header a  {
@@ -125,10 +131,6 @@ a img  {
    margin-top: 0px;
 }
 
-.posts li.one  {
-   background: #CCC;
-}
-
 .posts li.none  {
    padding-top: 5px;
    border-style: none;
@@ -136,10 +138,6 @@ a img  {
 
 .posts li  {
    list-style-type: none;
-   border-top: 1px none #CCC;
-   border-right: 1px solid #CCC;
-   border-bottom: 1px solid #CCC;
-   border-left: 1px solid #CCC;
    padding: 2px 4px;
 }
 
@@ -180,7 +178,6 @@ a img  {
 
 #archives .day  {
    font-weight: bold;
-   color: #333;
 }
 
 #archives .month  {
@@ -191,7 +188,6 @@ a img  {
 
 #archives .year  {
    font-size: 2em;
-   color: #333;
    width: 100px;
 }
 
