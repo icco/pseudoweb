@@ -21,7 +21,11 @@ select opt in $POSTS; do
    # 3. Remove title:
    # 4. Replace spaces with -
    # 5. Remove all invalid chars
-   NEWT=`date +%Y-%m-%d`-`grep -P '^title: (.+)$' $opt | tr "[:upper:]" "[:lower:]" | sed 's/^title: //' | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g'`
+   if [[ `uname` -eq "Darwin" ]]; then
+     NEWT=`date +%Y-%m-%d`-`grep 'title: ' $opt | tr "[:upper:]" "[:lower:]" | sed 's/^title: //' | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g'`
+   else
+     NEWT=`date +%Y-%m-%d`-`grep -P '^title: (.+)$' $opt | tr "[:upper:]" "[:lower:]" | sed 's/^title: //' | sed 's/ /-/g' | sed 's/[^A-Za-z0-9\-]//g'`
+   fi
    NEWT="_posts/$NEWT.md"
 
    echo "Publishing: $opt.";
