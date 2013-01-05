@@ -10,7 +10,7 @@ site:
 clean:
 	rm -rf _site/
 
-server:
+local:
 	$J --server 4567 --auto --no-lsi
 
 deploy: site
