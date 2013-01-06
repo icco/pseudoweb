@@ -1,5 +1,5 @@
 # Which markdown lib
-markdown: kramdown
+markdown: redcarpet
 
 # which type of links.
 permalink: pretty
