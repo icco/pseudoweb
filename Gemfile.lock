@@ -28,6 +28,7 @@ GEM
     narray (0.6.0.7)
     posix-spawn (0.3.6)
     rdiscount (2.0.7)
+    redcarpet (2.2.2)
     syntax (1.0.0)
 
 PLATFORMS
@@ -38,3 +39,4 @@ DEPENDENCIES
   jekyll
   kramdown
   rdiscount
+  redcarpet
