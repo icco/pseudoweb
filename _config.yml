@@ -1,5 +1,7 @@
 # Which markdown lib
-markdown: redcarpet
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
 
 # which type of links.
 permalink: pretty
