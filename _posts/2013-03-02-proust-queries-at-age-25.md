@@ -3,8 +3,8 @@
 layout: post
 title: Proust Queries at age 25
 location: Orlando, FL
-time: 17:14:41
-published: false
+time: 22:28:26
+published: true
 
 ---
 
