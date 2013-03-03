@@ -35,12 +35,12 @@ select opt in $POSTS; do
    git mv $opt $NEWT
 
    # Set the file as published.
-   echo "sed -i 's/^published: false$/published: true/g' $NEWT"
-   sed -i 's/^published: false$/published: true/g' $NEWT
+   echo "sed -i 's/^published: false$/published: true/g' \"$NEWT\""
+   sed -i 's/^published: false$/published: true/g' "$NEWT"
 
    # fix the time (may need a more specific regex)
-   echo "sed -i \"s/^time: .*$/time: `date +%H:%M:%S`/g\" $NEWT"
-   sed -i "s/^time: .*$/time: `date +%H:%M:%S`/g" $NEWT
+   echo "sed -i \"s/^time: .*$/time: `date +%H:%M:%S`/g\" \"$NEWT\""
+   sed -i "s/^time: .*$/time: `date +%H:%M:%S`/g" "$NEWT"
 
    # Commit Like a boss.
    echo "git ci $opt $NEWT -m \"Publishing $NEWT.\"";
