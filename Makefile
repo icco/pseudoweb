@@ -1,5 +1,4 @@
 J=bundle exec jekyll
-R=-rlvtz
 
 all: site
 
@@ -11,13 +10,7 @@ clean:
 	rm -rf _site/
 
 local:
-	$J --server 4567 --auto --no-lsi
-
-deploy: site
-	rsync $R --delete _site/ welchfamilyweb.com:~/public_html/pseudoweb.net/_site/
-
-fake-deploy: site
-	rsync $R -n -rlcvtz --delete _site/ welchfamilyweb.com:~/public_html/pseudoweb.net/_site/
+	$J --server 4567 --auto --no-lsi --default-mimetype 'text/html'
 
 new:
 	./new_post.sh
