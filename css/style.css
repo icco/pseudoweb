@@ -271,3 +271,8 @@ a img  {
   clear: both;
   visibility: hidden;
 }
+
+.twitter-tweet {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
