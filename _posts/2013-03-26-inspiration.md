@@ -3,8 +3,8 @@
 layout: post
 title: Inspiration
 location: San Francisco, CA
-time: 00:43:11
-published: false
+time: 01:08:07
+published: true
 
 ---
 
