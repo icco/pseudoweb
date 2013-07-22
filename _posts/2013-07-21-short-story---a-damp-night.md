@@ -8,7 +8,7 @@ published: true
 
 ---
 
- > Note: This is just a quick shot at a short story. I used to write a lot, but haven't done it in a while, so trying to get back into it. It should be noted that this story was not edited and is purely a brain dump.
+ > Note: This is just a quick shot at a short story. I used to write a lot, but haven't done it in a while, so trying to get back into it. It should be noted that this story was not edited and is purely a brain dump. This was inspired by [a drawing on deviantart](http://gg-arts.deviantart.com/art/Section-C-383304926).
 
 The city is quiet. A dog trots by. A man smelling of shit and urine sits under a brightly lit sign window. An empty paper cup sits by his foot. No one is on the street to fill it.
 
