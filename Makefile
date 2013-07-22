@@ -10,7 +10,7 @@ clean:
 	rm -rf _site/
 
 local:
-	$J --server 4567 --auto --no-lsi --default-mimetype 'text/html'
+	$J serve --port=4567 --watch --drafts
 
 new:
 	./new_post.sh
