@@ -2,7 +2,7 @@ J=bundle exec jekyll
 
 all: site
 
-site:
+site: clean
 	$J build
 	chmod -R a+rx ./_site/
 
