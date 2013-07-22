@@ -4,7 +4,7 @@ layout: post
 title: Short Story - A Damp Night
 location: San Francisco, CA
 time: 20:54:43
-published: true
+published: false
 
 ---
 
