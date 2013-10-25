@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/romanbsd/rb-gsl.git
-  revision: fd601dfcd0b05319fa8f66f1e73cd711d5ba9ed9
+  remote: git://github.com/whistlerbrk/rb-gsl.git
+  revision: 062436bb188046862dfa4d697d45ddc73ceaf54a
   specs:
     gsl (1.14.7)
       narray (>= 0.5.9)
@@ -33,7 +33,6 @@ GEM
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rdiscount (2.1.7)
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
     yajl-ruby (1.1.0)
@@ -44,4 +43,4 @@ PLATFORMS
 DEPENDENCIES
   gsl!
   jekyll
-  rdiscount
+  redcarpet
