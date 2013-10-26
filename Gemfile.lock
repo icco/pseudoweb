@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/whistlerbrk/rb-gsl.git
-  revision: 062436bb188046862dfa4d697d45ddc73ceaf54a
+  remote: git://github.com/romanbsd/rb-gsl.git
+  revision: fd601dfcd0b05319fa8f66f1e73cd711d5ba9ed9
   specs:
     gsl (1.14.7)
       narray (>= 0.5.9)
