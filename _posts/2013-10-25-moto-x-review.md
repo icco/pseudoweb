@@ -3,8 +3,8 @@
 layout: post
 title: Moto X Review
 location: San Francisco, CA
-time: 12:24:11
-published: false
+time: 17:24:02
+published: true
 
 ---
 
