@@ -19,4 +19,4 @@ publish:
 	./publish.sh
 
 drafts:
-	@ls _drafts/ | grep '-'
+	@ls _drafts/* | grep '-'
