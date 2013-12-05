@@ -3,7 +3,7 @@
 # Lists the posts to publish, then updates them and sends them live
 # @author Nat Welch 2011
 
-POSTS=`grep -lie '^published: false$' _posts/* | grep '-' && echo 'exit'`;
+POSTS=`ls _drafts/* | grep '-' && echo 'exit'`;
 
 echo "Publish which file?"
 

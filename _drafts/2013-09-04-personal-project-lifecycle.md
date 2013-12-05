@@ -2,7 +2,7 @@
 
 layout: post
 title: Personal Project Lifecycle
-location: Seattle, WA
+location: London, UK
 time: 13:15:45
 published: false
 
