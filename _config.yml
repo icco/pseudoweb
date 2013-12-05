@@ -9,5 +9,5 @@ permalink: pretty
 # Deal with source code?
 pygments: true
 
-# better relevent post section?
-lsi: true # so sad this doesn't work on github
+# better relevent post section? Overwrite with --lsi
+lsi: false # so sad this doesn't work on github

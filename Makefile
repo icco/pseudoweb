@@ -3,7 +3,7 @@ J=bundle exec jekyll
 all: site
 
 site: clean
-	$J build
+	$J build --lsi
 	chmod -R a+rx ./_site/
 
 clean:
