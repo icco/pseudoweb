@@ -18,7 +18,6 @@ else
    echo "title:" $TITLE >> $FILENAME
    echo "location:" $LOC >> $FILENAME
    echo "time:" $TIME >> $FILENAME
-   echo "published: true" >> $FILENAME
    echo "" >> $FILENAME
    echo "---" >> $FILENAME
 fi
