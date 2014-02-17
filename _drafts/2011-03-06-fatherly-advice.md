@@ -1,9 +1,11 @@
 ---
+
 layout: post
 title: Fatherly Advice
 location: San Luis Obispo, CA
 time: 11:05:38
 published: false
+
 ---
 
 <audio src="/images/2011/6/hamneggs.mp3" preload="auto" />
