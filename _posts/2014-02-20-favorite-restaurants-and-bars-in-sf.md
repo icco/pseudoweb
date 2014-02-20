@@ -3,7 +3,7 @@
 layout: post
 title: Favorite Restaurants and Bars in SF
 location: Milan, Italy
-time: 07:38:12
+time: 08:08:54
 
 ---
 
