@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'gsl', :git => 'git://github.com/romanbsd/rb-gsl.git'
+gem 'gsl-nmatrix'
 gem 'jekyll'
+gem 'nmatrix', :git => 'https://github.com/SciRuby/nmatrix.git'
 gem 'rack-jekyll'
 gem 'redcarpet'
