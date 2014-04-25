@@ -30,7 +30,7 @@ Reed is a next-gen hacker. He has his pulse on what the trend-setters on the int
 <a href="https://www.flickr.com/photos/icco/9492886636" title="@alexbaldwin... by Nat Welch, on Flickr"><img src="https://farm3.staticflickr.com/2844/9492886636_009f4f575b_n.jpg" width="315" alt="@alexbaldwin..."></a>
 <a href="https://www.flickr.com/photos/icco/9901661873" title="Kayvon by Nat Welch, on Flickr"><img src="https://farm8.staticflickr.com/7401/9901661873_97d6624f0f_n.jpg" width="315" alt="Kayvon"></a>
 
-Artist Hacker Hipster Futurists? Kayvon and Baldwin are interesting dudes. They are usually the two most chasing the beautiful life hacks. 
+Artist Hacker Hipster Futurists? Kayvon and Baldwin are interesting dudes. They are usually the two most chasing the beautiful life hacks.
 
 
 ## David Patierno
@@ -43,7 +43,7 @@ Artist Hacker Hipster Futurists? Kayvon and Baldwin are interesting dudes. They 
 
 Lets say these two gentlemen are the largest Nerds I know. Dave led and a few others and myself on a very long D&amp;D campaign, oh, and I met him on Twitter, back when there were like forty people on Twitter. I met Mark Gius (or as my brother likes to call him Juicy Gius) in college. we ended up living together for three years and became one of my best friends due to our shared love of video games and sandwiches.
 
-When I think about a problem like these two, I believe there are two questions that tend to come out: 
+When I think about a problem like these two, I believe there are two questions that tend to come out:
 
  1. What is the theme of the story here?
  2. Is it perfect?
