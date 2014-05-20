@@ -21,29 +21,30 @@ The funny thing about this is I have now built mental models of the types of ans
 
 [![n+r](https://farm6.staticflickr.com/5503/10288133336_e93bc82207_z.jpg)](https://www.flickr.com/photos/icco/10288133336/)
 
-[Niket Desai](http://niket.com/) and [Reed Morse](http://reedmorse.com/) are basically the perfect combination of fine dining and trouble. If you have an idea, a problem, an interesting thing you saw, these two will give you a few things. First, if you've got a problem, the solution is always the most interesting and baller thing possible. Wanna get married? Buy out a hotel in Hawaii. Wanna party, get a luxury suite in Vegas or Reno and ten of your best buds. If you've got an idea or thing, these two will riff with you on the millions of existing products that touch on the space already and provide interesting insights into the future of the space.
+[Niket Desai](http://niket.com/) and [Reed Morse](http://reedmorse.com/) are basically the perfect combination of fine dining and trouble. When I run problems or ideas past them I usually get the big picture overview of the space. Conversations usually start with "You are looking at this one piece of a much larger problem". Then, what is the most exciting and unique way to look at the problem, usually surrounded by lots of context about who else is doing work in the space.
 
-The two together are probably the perfect combo because of who they are. Niket is a genius kid who never stops. He's got his hands in forty projects, always exploring, always learning, always trying new things. When we were at 500 startups, he was infamous for skateboarding up to other groups, dropping a ten second piece of wisdom on your project and then skate away. He's got an infatuation with NASA, probably because it's the one space he hasn't been able to physically explore.
+The two together are probably the perfect combo because of who they are. Niket is a genius kid who never stops. He's got his hands in forty projects, always exploring, always learning, always trying new things. Reed is a next-gen hacker. He has his pulse on what the trend-setters on the internet are just starting to play with, and is usually playing around in the space as well. He is usually a fountain of cool ideas and interesting takes on the space.
 
-Reed is a next-gen hacker. He has his pulse on what the trend-setters on the internet are just starting to play with. He was building Android applications before Android was cool. He had prototyped wearables before wearables were a thing. Hell, he built more startups than most before he graduated high school. He's a fountain of cool ideas and interesting takes on the space.
-
-## Alex Baldwin + Kayvon
+## Baldwin + Kayvon
 
 <a href="https://www.flickr.com/photos/icco/9492886636" title="@alexbaldwin... by Nat Welch, on Flickr"><img src="https://farm3.staticflickr.com/2844/9492886636_009f4f575b_n.jpg" width="315" alt="@alexbaldwin..."></a>
 <a href="https://www.flickr.com/photos/icco/9901661873" title="Kayvon by Nat Welch, on Flickr"><img src="https://farm8.staticflickr.com/7401/9901661873_97d6624f0f_n.jpg" width="315" alt="Kayvon"></a>
 
-Artist Hacker Hipster Futurists? Kayvon and Baldwin are interesting dudes. They are usually the two most chasing the beautiful life hacks.
+Artist Hacker Hipster Futurists? [Kayvon Tehranian](http://www.kayvontehranian.com/) and [Alex Baldwin](http://alexbaldwin.com/) are interesting dudes. They are usually the two most chasing the beautiful life hacks. I mean this in the best way. They are the type that aren't necessarily looking for perfection, but rather beauty. The best food, the most optimal way to travel, how to stay healthy while still having fun, etc. Never be satisfied, always be searching for the art in life, that's what I get by passing ideas and problems past Baldwin and Kayvon. 
 
-
-## David Patierno
+## DMP
 
 <a href="https://www.flickr.com/photos/icco/11407216483" title="Le and Dave shake their hands by Nat Welch, on Flickr"><img src="https://farm6.staticflickr.com/5530/11407216483_6775d63a91_z.jpg" width="640" height="360" alt="Le and Dave shake their hands"></a>
+
+[David Patierno](http://dmpatierno.com/) is the most utilitarian and objective person I know. He can break down any problem to its true monetary value. He often helps me put problems in perspective. Is this something I really need to care about?
+
+That being said, Dave is also a fantastic developer. Probably one of the best I know. I often also run many of my engineering problems past him as well, because he often approaches software development in a far different way than myself.
 
 ## Mark Gius + David Horn
 
 <a href="https://www.flickr.com/photos/icco/5136037009" title="Two Dudes by Nat Welch, on Flickr"><img src="https://farm2.staticflickr.com/1053/5136037009_416326b1a8_z.jpg" width="640" height="480" alt="Two Dudes"></a>
 
-Lets say these two gentlemen are the largest Nerds I know. Dave led and a few others and myself on a very long D&amp;D campaign, oh, and I met him on Twitter, back when there were like forty people on Twitter. I met Mark Gius (or as my brother likes to call him Juicy Gius) in college. We ended up living together for three years and became one of my best friends due to our shared love of video games and sandwiches.
+[Mark Gius](http://markgius.com/) and [David Horn](http://david.d8a.me/). Lets say these two gentlemen are the largest Nerds I know. Dave led and a few others and myself on a very long D&amp;D campaign, oh, and I met him on Twitter, back when there were like forty people on Twitter. I met Mark Gius (or as my brother likes to call him Juicy Gius) in college. We ended up living together for three years and became one of my best friends due to our shared love of video games and sandwiches.
 
 When I think about a problem like these two, I believe there are two questions that tend to come out:
 
