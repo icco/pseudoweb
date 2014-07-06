@@ -13,9 +13,9 @@ g = Git.clone(remote, root, :log => Logger.new(STDOUT))
 # Make sure this actually switches branches.
 g.checkout(g.branch('gh-pages'))
 files.each do |f|
-  p f
-  #FileUtils.cp_r
+  FileUtils.cp_r f, root
 end
+g.add('.')
 
 g.commit('Regenerating Github Pages.')
 
