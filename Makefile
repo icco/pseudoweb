@@ -20,3 +20,6 @@ publish:
 
 drafts:
 	@ls _drafts/* | grep '-'
+
+github: site
+	./github.rb

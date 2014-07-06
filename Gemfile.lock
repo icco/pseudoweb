@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/tonyarnold/narray
+  revision: eeb06b030320a222727e41f11a2f0be300f9dd52
+  specs:
+    narray (0.6.0.8)
+
+GIT
+  remote: https://github.com/tonyarnold/rb-gsl
+  revision: 659a95fd9b610c02e38035b956feceb5c29e1ecb
+  specs:
+    gsl (1.14.7)
+      narray (>= 0.5.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,6 +22,7 @@ GEM
       highline (~> 1.6.11)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
+    git (1.2.7)
     highline (1.6.21)
     jekyll (1.5.1)
       classifier (~> 1.3)
@@ -26,6 +40,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
+    logger (1.2.8)
     maruku (0.7.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
@@ -54,7 +69,11 @@ PLATFORMS
 
 DEPENDENCIES
   classifier
+  git
+  gsl!
   jekyll
+  logger
+  narray!
   psych
   rack-jekyll
   redcarpet
