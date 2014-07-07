@@ -8,4 +8,3 @@ Disallow: config.ru
 
 # sitemap
 Sitemap: http://pseudoweb.net/sitemap.xml
-
