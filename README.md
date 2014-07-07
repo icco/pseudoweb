@@ -7,6 +7,7 @@ Most of the power of this repo comes from the `Makefile`.
  * `make drafts` - Lists all posts not published
  * `make publish` - a nice little interface to publish posts (updates filename and date based on frontmatter)
  * `make deploy` - Runs Jekyll and pushes to the server.
+ * `make github` - Compile site and push to github pages. We do this to get LSI and a few other features [github pages][] don't support.
 
 ## Writing
 
@@ -26,7 +27,8 @@ _based off of [mbleigh.github.com/README.markdown](http://github.com/mbleigh/mbl
 
 You may feel free to re-use any part of the structure, design, and layout of this site; it is all licensed under the MIT License. However, the content of the site (blog posts and page content) is licensed under a [Creative Commons Share-Alike Attribution license](http://creativecommons.org/licenses/by-nc-sa/3.0/us/).
 
-Copyright &copy; 2006-2013 Nathaniel Welch. Rights reserved as indicated above.
+Copyright &copy; 2006-2014 Nathaniel Welch. Rights reserved as indicated above.
 
 [j]: http://github.com/mojombo/jekyll
 [mojombo]: http://github.com/mojombo
+[github pages]: http://pages.github.com/
