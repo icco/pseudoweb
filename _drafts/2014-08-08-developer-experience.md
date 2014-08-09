@@ -24,6 +24,6 @@ I'm quite frustrated by clouds these days. Having now worked on one for two year
  8. type `git clone ` and then cmd-v
  9. type `cd ra<tab>`
  10. Code application
-    * I tend to use [padrino](http://www.padrinorb.com/) for my small sites so I run `history | grep padrino` to find the generation string I last used, then `cd ..; padrino g project random.academy-i -e erb -d activerecord -c sass -t minitest`.
+    * I tend to use [padrino](http://www.padrinorb.com/) for my small sites so I run `history | grep padrino` to find the generation string I last used, then `cd ..; padrino g project random.academy -i -e erb -d activerecord -c sass -t minitest`.
     * I then start up [Postgres.app](http://postgresapp.com/) and open vim and start coding.
 
