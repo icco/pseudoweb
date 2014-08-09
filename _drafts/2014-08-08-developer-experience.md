@@ -27,4 +27,3 @@ I'm quite frustrated by clouds these days. Having now worked on one for two year
     * I tend to use [padrino](http://www.padrinorb.com/) for my small sites so I run `history | grep padrino` to find the generation string I last used, then `cd ..; padrino g project random.academy -i -e erb -d activerecord -c sass -t minitest`.
     * If this project needed a database, I would then start up [Postgres.app](http://postgresapp.com/), but I don't.
     * Finally, I open vim and start coding.
-
