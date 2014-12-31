@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: The Cloud: Things to remember
+title: Things to remember about The Cloud
 location: London, UK
 time: 01:43:29
 
