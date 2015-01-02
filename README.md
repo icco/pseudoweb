@@ -6,7 +6,6 @@ Most of the power of this repo comes from the `Makefile`.
 
  * `make drafts` - Lists all posts not published
  * `make publish` - a nice little interface to publish posts (updates filename and date based on frontmatter)
- * `make deploy` - Runs Jekyll and pushes to the server.
  * `make github` - Compile site and push to github pages. We do this to get LSI and a few other features [github pages][] don't support.
 
 ## Writing
