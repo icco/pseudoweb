@@ -30,6 +30,7 @@ After a year in London, I figured I'd write up the places I have eaten often and
 
 ## Coffee
 
+ * Paper &amp; Cup
 
 ## Beer
 
