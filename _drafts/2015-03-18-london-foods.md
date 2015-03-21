@@ -31,6 +31,7 @@ After a year in London, I figured I'd write up the places I have eaten often and
 ## Coffee
 
  * Paper &amp; Cup
+ * Montparnasse Cafe
 
 ## Beer
 
@@ -43,3 +44,4 @@ After a year in London, I figured I'd write up the places I have eaten often and
 
  * Columbia Road Flower Market
  * Gosh! Comics
+ * Holland Park
