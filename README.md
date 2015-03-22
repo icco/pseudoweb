@@ -1,6 +1,6 @@
 # Nat Welch's Blog
 
-My blog converted to a static site using [Jekyll][j].
+My longform blog. The files in `_posts` are converted to a static site using [Jekyll][j].
 
 Most of the power of this repo comes from the `Makefile`.
 
@@ -26,7 +26,7 @@ _based off of [mbleigh.github.com/README.markdown](http://github.com/mbleigh/mbl
 
 You may feel free to re-use any part of the structure, design, and layout of this site; it is all licensed under the MIT License. However, the content of the site (blog posts and page content) is licensed under a [Creative Commons Share-Alike Attribution license](http://creativecommons.org/licenses/by-nc-sa/3.0/us/).
 
-Copyright &copy; 2006-2014 Nathaniel Welch. Rights reserved as indicated above.
+Copyright &copy; 2006-2015 Nathaniel Welch. Rights reserved as indicated above.
 
 [j]: http://github.com/mojombo/jekyll
 [mojombo]: http://github.com/mojombo
