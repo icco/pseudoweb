@@ -27,11 +27,24 @@ After a year in London, I figured I'd write up the places I have eaten often and
  * Pizza East
  * Whitecross Street Market
  * Borough Market 
+ * J + A Cafe
 
 ## Coffee
 
  * Paper &amp; Cup
  * Montparnasse Cafe
+ * Ozone
+ * Lantana
+ * Department of Coffee and Social Affairs
+ * Prufrock
+ * Foxcroft and Ginger
+ * Flat White
+ * Look mum no hands!
+ * Taylor St Baristas
+ * Allpress Espresso
+ * Shoreditch Grind
+ * Fix Coffee
+ * Timberyard
 
 ## Beer
 
