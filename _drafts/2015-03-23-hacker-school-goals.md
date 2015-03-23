@@ -6,25 +6,12 @@ location: Los Gatos, CA
 time: 12:55:48
 
 ---
-﻿Hacker School 2015 Goals
-
-
-Author: Nat Welch
-Last Modified: 2015-03-15
-
 
 101 Days in NYC. What do I want to accomplish?
 
-
-
-
-
-
-Whiteboard
-
+## Whiteboard
 
 Rough sketch of ideas for things I might want to achieve during my time in NYC.
-
 
 * Writing every day
 * Generative Art
@@ -56,4 +43,3 @@ Rough sketch of ideas for things I might want to achieve during my time in NYC.
    * Finish oneinterestingfact
    * Finish goku / natroku
    * Build nattape
-   * *
