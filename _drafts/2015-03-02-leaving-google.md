@@ -2,7 +2,7 @@
 
 layout: post
 title: Leaving Google
-location: London, UK
+location: NYC
 time: 04:46:24
 
 ---

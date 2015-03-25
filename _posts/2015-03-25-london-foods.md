@@ -2,7 +2,7 @@
 
 layout: post
 title: London Foods
-location: London, UK
+location: NYC
 time: 12:15:11
 
 ---
