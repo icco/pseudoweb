@@ -152,7 +152,7 @@ No real selection, but amazing views. Wait till they are giving free entry to th
 
 "The Google SRE Bar" or the bar with lots of variety and deliciousness. Also makes a great burger.
 
- *[Brew Dog](https://www.brewdog.com/bars)
+ * [Brew Dog](https://www.brewdog.com/bars)
 
 Lots of hoppy beers. Their Shoreditch location is usually packed. I would recommend Sheppard's Bush if you want to sit and enjoy your beer. Both sites have great selection though. I've never been to the Camden one.
 
