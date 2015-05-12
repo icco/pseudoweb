@@ -7,5 +7,4 @@ gem 'jekyll'
 gem 'logger'
 gem 'narray', :git => "https://github.com/tonyarnold/narray"
 gem 'psych'
-gem 'rack-jekyll'
 gem 'redcarpet'
