@@ -77,6 +77,7 @@ a img  {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 0;
+  max-width: 100%;
 }
 
 #post pre {
@@ -89,6 +90,7 @@ a img  {
   margin-bottom: 8px;
   margin-left:   12px;
   clear: both;
+  max-width: 100%;
 }
 
 #post img[align="left"] {
