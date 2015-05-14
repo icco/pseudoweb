@@ -17,9 +17,7 @@ One of my recent favorites is from April 16, 2014, which is described as  "Volum
 
 Somewhat related good tip: Google responds to search queries like "50 gigabits in gigabytes" for quick lookups of stuff like this.
 
-<center>
-<iframe width="640" height="480"  scrolling="no" frameborder="0" src="http://digitalattackmap.com/embed#anim=1&color=0&country=PL&list=0&time=16176&view=map"></iframe>
-</center>
+[![april 16](http://pseudoweb.net/images/2015/ddos/april16.png)](http://www.digitalattackmap.com/#anim=1&color=0&country=PL&time=16176&view=map)
 
 Digital Attack Maps actually has a fantastic [Understanding DDOS page](http://www.digitalattackmap.com/understanding-ddos/). It includes a few videos on how to use the site, what each part of the site means, and what DDOS is.
 
@@ -30,6 +28,8 @@ The key point here is that these attacks can come from any type of network conne
   > [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) provides reliable, ordered, and error-checked delivery of data in the form of packets (unlike [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). TCP connections can be made by attackers to never close. Computers (Load Balancers, HTTP Servers, Routers, PBXs, etc) have a limited number of connections they can keep open. So if someone can take and hold the connections your computer would use to connect to others, others won't be able to connect to you.
  
  - Volumetric Attacks
+
+
  
  - Fragmentation
  
