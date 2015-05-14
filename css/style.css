@@ -97,6 +97,7 @@ a img  {
   margin-bottom: 8px;
   margin-right:  12px;
   clear: both;
+  max-width: 100%;
 }
 
 .site .header a  {
