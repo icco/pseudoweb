@@ -33,19 +33,25 @@ The key point here is that these attacks can come from any type of network conne
  
  - Volumetric Attacks
 
- > Volumetric (relating to volume) is kind of exactly as it sounds. 
+ > Volumetric (relating to volume, how much stuff a three demensial object can contain) is kind of exactly as it sounds. Your network connection is like a pipe ([joke](https://en.wikipedia.org/wiki/Series_of_tubes)) that can only take so much data. Also, your computer can only process so much data at once. So if someone starts sending lots of bits to your computer a few things can happen. Either responses will start to slow down as your computer takes more and more time to process the large requests or the connection becomes delayed because the badwidth between your server and the internet is dimmenished because of the increased congestion.
 
+ - Fragmentation Attacks
  
- - Fragmentation
+  > Remember how I said that TCP "provides reliable, ordered, and error-checked delivery of data"? Well an attacker can basically purposely send bad data. Some examples are [SYN Floods](https://en.wikipedia.org/wiki/SYN_flood), [PING Floods](https://en.wikipedia.org/wiki/Ping_of_death), [Teardrop Attacks](https://www.juniper.net/techpubs/software/junos-es/junos-es92/junos-es-swconfig-security/understanding-teardrop-attacks.html) and [many others](https://tools.ietf.org/html/rfc1858).
  
- - Application
- 
+ - Application Attacks
 
+ > Application attacks are interesting, because they are hard to detect. They look like normal user traffic, but specifically target a part of an application that causes to bring the server to its knees. An example of this is something like, imagine a search engine that has a URL that when hit, causes uncached lookups that are very CPU intensive. Someone finds this and sends thousands of requests to this URL, which causes the servers to use up all of their CPU. 
+ 
 Not all of these are nessisarily malicious attacks. Some users may remember the term "[Slashdotted](https://en.wikipedia.org/wiki/Slashdot_effect)", which was where a website was featured on [/.](http://slashdot.org/) and the traffic directed to their site took them offline. We still see this time to time when sites unexpectedly get featured on sites like [Hacker News](https://news.ycombinator.com/) or [Reddit](https://www.reddit.com/).
 
 ## Why do I care?
 
+...
+
 ## How can I know?
+
+...
 
 ## What can I do?
 
