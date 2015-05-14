@@ -17,7 +17,7 @@ A DDOS is a Distributed [Denial of Service Attack](https://en.wikipedia.org/wiki
 
 The [Digital Attack Map](http://www.digitalattackmap.com/) gives you an idea of what's going on on the internet at any one time in regards to attacks. It is an interesting display of different types of attacks happening across the internet at any one time. Particularly interesting is the [gallery](http://www.digitalattackmap.com/gallery/) which shows a bunch of interesting days on the internet.
 
-One of my recent favorites is from April 16, 2014, which is described as  "Volumetric attacks targeting Poland with sustained levels of over 100 Gbps". I haven't taken the time to figure out why this attack was made (because often such things don't make the news), but it's interesting to know that much data is being thrown around. For reference, one Gigabit per second is 1,000,000,000 bits per second, or 1,000 Megabits per second.  There are 8 bits in a byte (and 8 Gigabits in a Gigabyte). So lets say a 720p Bluray movie is approximately 6.25 Gigabytes (to make the math easy, they are often in the 4 to 10 GB range), then someone was pushing two entire movies every second to computers based in Poland.
+One of my recent favorites is from April 16, 2014, which is described as  "Volumetric attacks targeting Poland with sustained levels of over 100 Gbps". I haven't taken the time to figure out why this attack was made (because often such things don't make the news, nor does it matter), but it's interesting to know that much data is being thrown around. For reference, one Gigabit per second is 1,000,000,000 bits per second, or 1,000 Megabits per second.  There are 8 bits in a byte (and 8 Gigabits in a Gigabyte). So lets say a 720p Bluray movie is approximately 6.25 Gigabytes (to make the math easy, they are often in the 4 to 10 GB range), then someone was pushing two entire movies every second to computers based in Poland.
 
 Somewhat related good tip: Google responds to search queries like "50 gigabits in gigabytes" for quick lookups of stuff like this.
 
@@ -25,14 +25,15 @@ Somewhat related good tip: Google responds to search queries like "50 gigabits i
 
 Digital Attack Maps actually has a fantastic [Understanding DDOS page](http://www.digitalattackmap.com/understanding-ddos/). It includes a few videos on how to use the site, what each part of the site means, and what DDOS is.
 
-The key point here is that these attacks can come from any type of network connection. When I talk about defenses, this will be good to think about.
+The key point here is that these attacks can come from any type of network connection. When I talk about defenses, this will be good to think about. But first lets talk about the main types of attacks using the names that the Attack Map uses.
 
  - TCP Connection Attacks
  
-  > [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) provides reliable, ordered, and error-checked delivery of data in the form of packets (unlike [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). TCP connections can be made by attackers to never close. Computers (Load Balancers, HTTP Servers, Routers, PBXs, etc) have a limited number of connections they can keep open. So if someone can take and hold the connections your computer would use to connect to others, others won't be able to connect to you.
+  > [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) is the networking protocol of the internet. provides reliable, ordered, and error-checked delivery of data in the form of packets (unlike [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). TCP connections can be made by attackers to never close. Computers (Load Balancers, HTTP Servers, Routers, PBXs, etc) have a limited number of connections they can keep open. So if someone can take and hold the connections your computer would use to connect to others, others won't be able to connect to you.
  
  - Volumetric Attacks
 
+ > Volumetric (relating to volume) is kind of exactly as it sounds. 
 
  
  - Fragmentation
