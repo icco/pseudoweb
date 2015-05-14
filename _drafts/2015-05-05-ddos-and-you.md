@@ -7,6 +7,10 @@ time: 21:25:38
 
 ---
 
+Do you hear horror stories of [China attacking services you use](http://arstechnica.com/security/2015/03/massive-denial-of-service-attack-on-github-tied-to-chinese-government/) or of [4Chan taking out services](http://www.wired.com/2011/12/anonymous-101-part-deux/3/) with their [Low Orbit Ion Cannon](https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon)? And after hearing stories like that, do you think "wait. what?" or "how does this even work?" or even "why can random people take down other peoples websites?", then great! This is the article for you.
+
+I'm here to attempt to explain the world that is Denial of Service attacks, and some things you can think about to survive in this crazy internet world.
+
 ## What is a DDOS?
 
 A DDOS is a Distributed [Denial of Service Attack](https://en.wikipedia.org/wiki/Denial-of-service_attack). They are happening all the time on the internet, wars being played out by computers trying to make other computers inaccasible or overloaded.
