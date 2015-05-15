@@ -47,11 +47,18 @@ Not all of these are nessisarily malicious attacks. Some users may remember the 
 
 ## Why do I care?
 
+Engineering is a never ending problem of cost-benefit analysis. With no constraints, an engineering team can prepare for a large set of possibilities of failure given enough imagination, time and money. But in reality, every system has different reliability requirements. For example, my personal website, does not need to be reliable as gmail.com, which does not need to be reliable as a plane's fly-by-wire system.
+
+Imagine your site is down for an hour. Now a day. Now a week. Will this hurt your livelyhood? Will it cost you money? 
+
+If yes, that's a good thing to know, and you should be prepared to make investiments if you want to counteract that. As the Digital Attack Map website mentions, you can buy a lot of sustained attack power for an hour for $125. 
+
 ...
 
 ## How can I know?
 
 ...
+https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit
 
 ## What can I do?
 
