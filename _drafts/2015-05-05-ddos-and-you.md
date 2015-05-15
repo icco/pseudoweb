@@ -28,30 +28,30 @@ Digital Attack Maps actually has a fantastic [Understanding DDOS page](http://ww
 The key point here is that these attacks can come from any type of network connection. When I talk about defenses, this will be good to think about. But first lets talk about the main types of attacks using the names that the Attack Map uses.
 
  - TCP Connection Attacks
- 
+
   > [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) is the networking protocol of the internet. provides reliable, ordered, and error-checked delivery of data in the form of packets (unlike [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). TCP connections can be made by attackers to never close. Computers (Load Balancers, HTTP Servers, Routers, PBXs, etc) have a limited number of connections they can keep open. So if someone can take and hold the connections your computer would use to connect to others, others won't be able to connect to you.
- 
+
  - Volumetric Attacks
 
  > Volumetric (relating to volume, how much stuff a three demensial object can contain) is kind of exactly as it sounds. Your network connection is like a pipe ([joke](https://en.wikipedia.org/wiki/Series_of_tubes)) that can only take so much data. Also, your computer can only process so much data at once. So if someone starts sending lots of bits to your computer a few things can happen. Either responses will start to slow down as your computer takes more and more time to process the large requests or the connection becomes delayed because the badwidth between your server and the internet is dimmenished because of the increased congestion.
 
  - Fragmentation Attacks
- 
+
   > Remember how I said that TCP "provides reliable, ordered, and error-checked delivery of data"? Well an attacker can basically purposely send bad data. Some examples are [SYN Floods](https://en.wikipedia.org/wiki/SYN_flood), [PING Floods](https://en.wikipedia.org/wiki/Ping_of_death), [Teardrop Attacks](https://www.juniper.net/techpubs/software/junos-es/junos-es92/junos-es-swconfig-security/understanding-teardrop-attacks.html) and [many others](https://tools.ietf.org/html/rfc1858).
- 
+
  - Application Attacks
 
- > Application attacks are interesting, because they are hard to detect. They look like normal user traffic, but specifically target a part of an application that causes to bring the server to its knees. An example of this is something like, imagine a search engine that has a URL that when hit, causes uncached lookups that are very CPU intensive. Someone finds this and sends thousands of requests to this URL, which causes the servers to use up all of their CPU. 
- 
+ > Application attacks are interesting, because they are hard to detect. They look like normal user traffic, but specifically target a part of an application that causes to bring the server to its knees. An example of this is something like, imagine a search engine that has a URL that when hit, causes uncached lookups that are very CPU intensive. Someone finds this and sends thousands of requests to this URL, which causes the servers to use up all of their CPU.
+
 Not all of these are nessisarily malicious attacks. Some users may remember the term "[Slashdotted](https://en.wikipedia.org/wiki/Slashdot_effect)", which was where a website was featured on [/.](http://slashdot.org/) and the traffic directed to their site took them offline. We still see this time to time when sites unexpectedly get featured on sites like [Hacker News](https://news.ycombinator.com/) or [Reddit](https://www.reddit.com/).
 
 ## Why do I care?
 
 Engineering is a never ending problem of cost-benefit analysis. With no constraints, an engineering team can prepare for a large set of possibilities of failure given enough imagination, time and money. But in reality, every system has different reliability requirements. For example, my personal website, does not need to be reliable as gmail.com, which does not need to be reliable as a plane's fly-by-wire system.
 
-Imagine your site is down for an hour. Now a day. Now a week. Will this hurt your livelyhood? Will it cost you money? 
+Imagine your site is down for an hour. Now a day. Now a week. Will this hurt your livelyhood? Will it cost you money?
 
-If yes, that's a good thing to know, and you should be prepared to make investiments if you want to counteract that. As the Digital Attack Map website mentions, you can buy a lot of sustained attack power for an hour for $125. 
+If yes, that's a good thing to know, and you should be prepared to make investiments if you want to counteract that. As the Digital Attack Map website mentions, you can buy a lot of sustained attack power for an hour for $125.
 
 ...
 
