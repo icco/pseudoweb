@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: DDOS and You
+title: DDoS and You
 location: NYC
 time: 21:25:38
 
@@ -11,9 +11,9 @@ Do you hear horror stories of [China attacking services you use](http://arstechn
 
 I'm here to attempt to explain the world that is Denial of Service attacks, and some things you can think about to survive in this crazy internet world.
 
-## What is a DDOS?
+## What is a DDoS?
 
-A DDOS is a Distributed [Denial of Service Attack](https://en.wikipedia.org/wiki/Denial-of-service_attack). They are happening all the time on the internet, wars being played out by computers trying to make other computers inaccasible or overloaded.
+A DDoS is a Distributed [Denial of Service Attack](https://en.wikipedia.org/wiki/Denial-of-service_attack). They are happening all the time on the internet, wars being played out by computers trying to make other computers inaccasible or overloaded.
 
 The [Digital Attack Map](http://www.digitalattackmap.com/) gives you an idea of what's going on on the internet at any one time in regards to attacks. It is an interesting display of different types of attacks happening across the internet at any one time. Particularly interesting is the [gallery](http://www.digitalattackmap.com/gallery/) which shows a bunch of interesting days on the internet.
 
@@ -23,7 +23,7 @@ Somewhat related good tip: Google responds to search queries like "50 gigabits i
 
 [![april 16](http://pseudoweb.net/images/2015/ddos/april16.png)](http://www.digitalattackmap.com/#anim=1&color=0&country=PL&time=16176&view=map)
 
-Digital Attack Maps actually has a fantastic [Understanding DDOS page](http://www.digitalattackmap.com/understanding-ddos/). It includes a few videos on how to use the site, what each part of the site means, and what DDOS is.
+Digital Attack Maps actually has a fantastic [Understanding DDoS page](http://www.digitalattackmap.com/understanding-ddos/). It includes a few videos on how to use the site, what each part of the site means, and what DDoS is.
 
 The key point here is that these attacks can come from any type of network connection. When I talk about defenses, this will be good to think about. But first lets talk about the main types of attacks using the names that the Attack Map uses.
 
