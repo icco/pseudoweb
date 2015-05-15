@@ -57,8 +57,23 @@ If yes, that's a good thing to know, and you should be prepared to make investim
 
 ## How can I know?
 
+Monitoring! Monitoring is the answer to all problems... or something. Basically, you should have some sort of setup that measures if your system is available, and then notify you if it's not. This is incredibly ambiguous because it is actually a relatively hard problem. For example, for my personal sites, I have a [cron](https://en.wikipedia.org/wiki/Cron) job that emails me if it can't get a status code 200 from some of my sites. But it only checks once an hour. So if I have intermittent unavailability, I'll probably never find out. And it's a static list of sites, so I have a bunch of sites I am not monitoring at all, because I build them and forget to add them.
+
+Obviously this adhoc monitoring and alerting strategy is not a valid solution for large systems. There are many systems for monitoring, everything from the simple, like [Pingdom](https://www.pingdom.com/) or a script you run every hour, to the complex. Some systems I've played with or used in this category include:
+
+ - [Keen IO](https://keen.io/)
+ - [Nagios](http://www.nagios.org/)
+ - [Monit](https://mmonit.com/monit/)
+ - [Prometheus](https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud)
+ - [Borgmon](https://www.reddit.com/r/IAmA/comments/177267/we_are_the_google_site_reliability_team_we_make/c82y43e)
+ - [statsd](https://github.com/etsy/statsd)
+ - [Cacti](http://www.cacti.net/)
+ - Many many others
+
 ...
-https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit
+
+[Rob Ewaschuk](http://rob.infinitepigeons.org/) has a nice summary of [Google SRE](http://www.site-reliability-engineering.info/2014/04/what-is-site-reliability-engineering.html)'s alerting philosphy in a doc titled "[My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit)".
+
 
 ## What can I do?
 
