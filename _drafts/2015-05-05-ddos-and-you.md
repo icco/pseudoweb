@@ -78,7 +78,19 @@ You can also do some load testing to find out how your server can handle an atta
 
 ## What can I do to help me prepare for attacks?
 
-
+ - Automation
+ - Playbooks
+ - Loadbalancing
+		- Limit connection types
+ - Backups
 
 ## Further reading?
+
+ - Google SRE
+ - Etsy Code as Craft
+ - Network Security Books
+ - Microservices
+
+
+Thanks to @dmpatierno, @alexbaldwin and __ for the proof reading and edits!
 
