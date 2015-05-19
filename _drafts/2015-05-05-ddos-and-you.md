@@ -7,7 +7,7 @@ time: 21:25:38
 
 ---
 
-Do you hear horror stories of [China attacking services you use](http://arstechnica.com/security/2015/03/massive-denial-of-service-attack-on-github-tied-to-chinese-government/) or of [4Chan taking out services](http://www.wired.com/2011/12/anonymous-101-part-deux/3/) with their [Low Orbit Ion Cannon](https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon)? And after hearing stories like that, do you think "Wait. What?" or "How does this even work?" or even "Why can random people take down other peoples websites?", then great! This is the article for you.
+Do you hear horror stories of [China attacking services you use](http://arstechnica.com/security/2015/03/massive-denial-of-service-attack-on-github-tied-to-chinese-government/) or of [4Chan taking out services](http://www.wired.com/2011/12/anonymous-101-part-deux/3/) with their [Low Orbit Ion Cannon](https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon)? And after hearing stories like that, do you think "Wait. What?" or "How does this even work?" or even "Why can random people take down other people's websites?", then great! This is the article for you.
 
 I'm here to attempt to explain the world that is Denial of Service attacks, and some things you can think about to survive in this crazy internet world.
 
@@ -15,7 +15,7 @@ I'm here to attempt to explain the world that is Denial of Service attacks, and 
 
 A DDoS is a Distributed [Denial of Service Attack](https://en.wikipedia.org/wiki/Denial-of-service_attack). They are happening all the time on the internet, wars being played out by computers trying to make other computers inaccessible or overloaded.
 
-The [Digital Attack Map](http://www.digitalattackmap.com/) gives you an idea of what's going on on the internet at any one time in regards to attacks. It is an interesting display of different types of attacks happening across the internet at any one time. Particularly interesting is the [gallery](http://www.digitalattackmap.com/gallery/) which shows a bunch of interesting days on the internet.
+The [Digital Attack Map](http://www.digitalattackmap.com/) exists to give you an idea of what's going on on the internet at any one time in regards to these attacks. It is an interesting display of different types of attacks happening across the internet at any one time. Particularly interesting is the [gallery](http://www.digitalattackmap.com/gallery/) which shows a bunch of exciting days on the internet.
 
 One of my recent favorites is from April 16, 2014, which is described as  "Volumetric attacks targeting Poland with sustained levels of over 100 Gbps". I haven't taken the time to figure out why this attack was made (because often such things don't make the news, nor does it matter), but it's interesting to know that much data is being thrown around. For reference, one Gigabit per second is 1,000,000,000 bits per second, or 1,000 Megabits per second.  There are 8 bits in a byte (and 8 Gigabits in a Gigabyte). So lets say a 720p Bluray movie is approximately 6.25 Gigabytes (to make the math easy, they are often in the 4 to 10 GB range), then someone was pushing two entire movies every second to computers based in Poland.
 
@@ -29,7 +29,7 @@ The key point here is that these attacks can come from any type of network conne
 
  - TCP Connection Attacks
 
-  > [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) is the networking protocol of the internet. It provides reliable, ordered, and error-checked delivery of data in the form of packets (unlike [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). TCP connections can be made by attackers to never close. Computers (Load Balancers, HTTP Servers, Routers, PBXs, etc.) have a limited number of connections they can keep open. So if someone can take and hold the connections your computer would use to connect to others, others won't be able to connect to you.
+  > [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) is the networking protocol of the internet. It provides reliable, ordered, and error-checked delivery of data in the form of packets (unlike [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). TCP connections can be made by attackers to never close. Computers (Load Balancers, HTTP Servers, Routers, etc.) have a limited number of connections they can keep open. So if someone can take and hold the connections your computer would use to connect to others, others won't be able to connect to you.
 
  - Volumetric Attacks
 
@@ -49,15 +49,13 @@ Not all of these are necessarily malicious attacks. Some users may remember the 
 
 Engineering is a never ending problem of cost-benefit analysis. With no constraints, an engineering team can prepare for a large set of possibilities of failure given enough imagination, time and money. But in reality, every system has different reliability requirements. For example, my personal website, does not need to be reliable as gmail.com, which does not need to be reliable as a plane's fly-by-wire system.
 
-Imagine your site is down for an hour. Now a day. Now a week. Will this hurt your livelihood? Will it cost you money?
+Imagine your site is down for an hour. Now a day. Now a week. Will this hurt your livelihood? Will it cost you money? Will people die?
 
-If yes, that's a good thing to know, and you should be prepared to make investments if you want to counteract that. As the Digital Attack Map website mentions, you can buy a lot of sustained attack power for an hour for $125.
-
-...
+If yes, that's a good thing to know, and you should be prepared to make investments if you want to counteract that. As the Digital Attack Map website mentions, your attackers can buy a lot of sustained attack power for $125.
 
 ## How can I know?
 
-Monitoring! Monitoring is the answer to all problems... or something. Basically, you should have some sort of setup that measures if your system is available, and then notify you if it's not. This is incredibly ambiguous because it is actually a relatively hard problem. For example, for my personal sites, I have a [cron](https://en.wikipedia.org/wiki/Cron) job that emails me if it can't get a status code 200 from some of my sites. But it only checks once an hour. So if I have intermittent unavailability, I'll probably never find out. And it's a static list of sites, so I have a bunch of sites I am not monitoring at all, because I build them and forget to add them.
+Monitoring! Monitoring is the answer to all problems... or something. Basically, you should have some sort of setup that measures if your system is available, and then notify you if it's not. This is incredibly ambiguous because it is actually a relatively hard problem. For example, for my personal sites, I have a [cron](https://en.wikipedia.org/wiki/Cron) job that emails me if it can't get a [HTTP status code 200](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#2xx_Success) from some of my sites. But it only checks once an hour. So if I have intermittent unavailability, I'll probably never find out. And it's a static list of sites, so I have a bunch of sites I am not monitoring at all, because I build them and forget to add them.
 
 Obviously this adhoc monitoring and alerting strategy is not a valid solution for large systems. There are many systems for monitoring, everything from the simple, like [Pingdom](https://www.pingdom.com/) or a script you run every hour, to the complex. Some systems I've played with or used in this category include:
 
@@ -70,11 +68,17 @@ Obviously this adhoc monitoring and alerting strategy is not a valid solution fo
  - [Cacti](http://www.cacti.net/)
  - Many many others
 
-...
+Once you are monitoring, you can set up alerting. Many companies and teams have different theories about how and when to alert real people that the monitoring thinks things are broken. [Rob Ewaschuk](http://rob.infinitepigeons.org/) has a nice summary of [Google SRE](http://www.site-reliability-engineering.info/2014/04/what-is-site-reliability-engineering.html)'s alerting philosophy in a doc titled "[My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit)".
 
-[Rob Ewaschuk](http://rob.infinitepigeons.org/) has a nice summary of [Google SRE](http://www.site-reliability-engineering.info/2014/04/what-is-site-reliability-engineering.html)'s alerting philosophy in a doc titled "[My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit)".
+You can also do some load testing to find out how your server can handle an attack. I haven't tested these, but there are many companies and tools out there to provide some look into how things will hold up.
+
+ - [Apache's ab](https://httpd.apache.org/docs/2.4/programs/ab.html)
+ - [bees with machineguns](https://github.com/newsapps/beeswithmachineguns)
+ - [traffgen](http://netsniff-ng.org/)
+
+## What can I do to help me prepare for attacks?
 
 
-## What can I do?
 
 ## Further reading?
+
