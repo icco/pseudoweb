@@ -57,7 +57,7 @@ If yes, that's a good thing to know, and you should be prepared to make investme
 
 Monitoring! Monitoring is the answer to all problems... or something. Basically, you should have some sort of setup that measures if your system is available, and then notify you if it's not. This is incredibly ambiguous because it is actually a relatively hard problem. For example, for my personal sites, I have a [cron](https://en.wikipedia.org/wiki/Cron) job that emails me if it can't get a [HTTP status code 200](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#2xx_Success) from some of my sites. But it only checks once an hour. So if I have intermittent unavailability, I'll probably never find out. And it's a static list of sites, so I have a bunch of sites I am not monitoring at all, because I build them and forget to add them.
 
-Obviously this adhoc monitoring and alerting strategy is not a valid solution for large systems. There are many systems for monitoring, everything from the simple, like [Pingdom](https://www.pingdom.com/) or a script you run every hour, to the complex. Some systems I've played with or used in this category include:
+Obviously this ad hoc monitoring and alerting strategy is not a valid solution for large systems. There are many systems for monitoring, everything from the simple, like [Pingdom](https://www.pingdom.com/) or a script you run every hour, to the complex. Some systems I've played with or used in this category include:
 
  - [Keen IO](https://keen.io/)
  - [Nagios](http://www.nagios.org/)
@@ -73,7 +73,7 @@ Once you are monitoring, you can set up alerting. Many companies and teams have 
 You can also do some load testing to find out how your server can handle an attack. I haven't tested these, but there are many companies and tools out there to provide some look into how things will hold up.
 
  - [Apache's ab](https://httpd.apache.org/docs/2.4/programs/ab.html)
- - [bees with machineguns](https://github.com/newsapps/beeswithmachineguns)
+ - [bees with machine-guns](https://github.com/newsapps/beeswithmachineguns)
  - [traffgen](http://netsniff-ng.org/)
 
 ## What can I do to help me prepare for attacks?
@@ -86,7 +86,7 @@ First off, if you're using a [PAAS](https://en.wikipedia.org/wiki/Platform_as_a_
 
 ### Load Balancer
 
-If you're hosting things yourself (personal server, Colo, EC2, GCE, DO, etc), an early thing I usually suggest is to set up a load balancer. A load balancer is a system that balances load from a single point to many.
+If you're hosting things yourself (personal server, Colo, EC2, GCE, DO, etc.), an early thing I usually suggest is to set up a load balancer. A load balancer is a system that balances load from a single point to many.
 
 ![lbwithapps](https://s3.amazonaws.com/f.cl.ly/items/130j2V1a1o2b1d3f0t28/Screen%20Shot%202015-05-15%20at%2023.25.16%20.png)
 
@@ -94,10 +94,10 @@ But a load balancer is also a first line of defence. It can decide quickly wheth
 
 Two software load balancers that I often use are:
 
- - [HAProxy](http://www.haproxy.org/) - [HowTo](https://serversforhackers.com/load-balancing-with-haproxy)
- - [Nginx](http://nginx.org/) - [HowTo](http://nginx.org/en/docs/http/load_balancing.html)
+ - [HAProxy](http://www.haproxy.org/) - [How To](https://serversforhackers.com/load-balancing-with-haproxy)
+ - [Nginx](http://nginx.org/) - [How To](http://nginx.org/en/docs/http/load_balancing.html)
 
-If you're using GCE or EC2, Google and Amazon both have load balancers to sell you. These are often worth the money because you can take advantage of their scale, and are usually more performant than running your own LB on a Virtual Machine.
+If you're using GCE or EC2, Google and Amazon both have load balancers to sell you. These are often worth the money because you can take advantage of their scale, and usually perform better than running your own LB on a Virtual Machine.
 
  - [AWS Elastic Load Balancing](http://aws.amazon.com/elasticloadbalancing/) for EC2
  - [Google Compute Engine Load Balancing](https://cloud.google.com/compute/docs/load-balancing/)
@@ -106,7 +106,7 @@ I mentioned in the pitch for LBs that you can drop bad packets, and you can and 
 
 ### CDN
 
-A CDN or [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) is another tool you can use to protect yourself. A CDN takes the load off of your server for static assets, things like images, movies, CSS and Javascript. You upload your files to them, and then they serve it for you, usually in a way that is fast and distributed (for example, by putting one copy of each of your files in five geographically datacenters).
+A CDN or [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) is another tool you can use to protect yourself. A CDN takes the load off of your server for static assets, things like images, movies, CSS and Javascript. You upload your files to them, and then they serve it for you, usually in a way that is fast and distributed (for example, by putting one copy of each of your files in five geographically data centers).
 
 There are a few CDN providers that are popular:
 
@@ -122,7 +122,7 @@ Another (often cheaper) way to do this is to just use a blob storage service. Yo
 
 ### Automation
 
-So at some point, you'll start getting a lot of traffic. You have a load balancer set up, but an LB is only useful if you can quickly horizantally scale the number of app servers behind it. The solution to this is automation.
+So at some point, you'll start getting a lot of traffic. You have a load balancer set up, but an LB is only useful if you can quickly horizontally scale the number of app servers behind it. The solution to this is automation.
 
 ![progression](https://s3.amazonaws.com/f.cl.ly/items/3Y22032z210x3u2V3X1v/Screen%20Shot%202015-05-21%20at%2010.56.59%20.png)
 
@@ -140,7 +140,7 @@ Once you have everything written down, and you find yourself either iterating on
  - [Vagrant](https://www.vagrantup.com/)
  - So many others!
 
-My preferred way for small projects right now is a small ruby script using Fog, but that's not ideal. People are constantly trying to improve this area, because everyone has different oppinions on how it should be done (probably why there are so many solutions to the problem).
+My preferred way for small projects right now is a small ruby script using Fog, but that's not ideal. People are constantly trying to improve this area, because everyone has different opinions on how it should be done (probably why there are so many solutions to the problem).
 
 ### Playbooks
 
@@ -150,17 +150,17 @@ I mentioned playbooks briefly above. The idea is that you should write down ever
  - Restore a database snapshot
  - Turn up a new app server
  - Create read-only database slaves and point the apps at them
- - Common useful SQL queuries
+ - Common useful SQL queries
  - How to setup the dev environment
  - How to respond to every alert you receive
 
 ### Backups
 
-Speaking of backups, do them. If you care about your data, I usually advocate for at least hourly backups for the past week, and daily backups for the last month. These should be written to somewhere that is not your database server. I usually gzip, encrypt, and upload to GCS. If you care less, then just daily backups for the last month.
+Speaking of backups, do them. If you care about your data, I usually advocate for at least hourly backups for the past week, and daily backups for the last month. These should be written to somewhere that is not your database server. I usually GZip, encrypt, and upload to GCS. If you care less, then just daily backups for the last month.
 
-All code should be versioned. You should never be running code in production that isn't commited somewhere in a cannonical place.
+All code should be versioned. You should never be running code in production that isn't committed somewhere in a canonical place.
 
-Take harddrive snapshots every time you make a significant change to the system. Usually I have the last step of my turn up automation be a snapshot, and then the first step to let you boot a VM from a saved snapshot instead of building from scratch.
+Take hard drive snapshots every time you make a significant change to the system. Usually I have the last step of my turn up automation be a snapshot, and then the first step to let you boot a VM from a saved snapshot instead of building from scratch.
 
 ## Acting in the face of an attack
 
