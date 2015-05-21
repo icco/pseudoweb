@@ -102,7 +102,7 @@ If you're using GCE or EC2, Google and Amazon both have load balancers to sell y
  - [AWS Elastic Load Balancing](http://aws.amazon.com/elasticloadbalancing/) for EC2
  - [Google Compute Engine Load Balancing](https://cloud.google.com/compute/docs/load-balancing/)
 
-I mentioned in the pitch for LBs that you can drop bad packets, and you can and should do that on all of your machines with [iptables](https://en.wikipedia.org/wiki/Iptables) or another software firewall. nixCraft has [a short article on how to set iptables up for protection](http://www.cyberciti.biz/tips/linux-iptables-10-how-to-block-common-attack.html).
+I mentioned in the pitch for LBs that you can drop bad packets, and you can and should do that on all of your machines with [iptables](https://en.wikipedia.org/wiki/Iptables) or another software firewall. nixCraft has [a short article on how to set iptables up for protection](http://www.cyberciti.biz/tips/linux-iptables-10-how-to-block-common-attack.html), and a longer article about [configuring Linux server security](http://www.cyberciti.biz/tips/linux-unix-bsd-nginx-webserver-security.html).
 
 ### CDN
 
