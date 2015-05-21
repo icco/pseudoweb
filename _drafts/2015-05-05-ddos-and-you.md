@@ -126,7 +126,9 @@ So at some point, you'll start getting a lot of traffic. You have a load balance
 
 ![progression](https://s3.amazonaws.com/f.cl.ly/items/3Y22032z210x3u2V3X1v/Screen%20Shot%202015-05-21%20at%2010.56.59%20.png)
 
+Automation requires a few blog posts on its own, so I'll try and keep this brief. When I say automation, I'm referring to automating processes that take a lot of time. In the web hosting world, a process that often takes a lot time is setting up and starting a new app.
 
+The simplest form of automation for this, is to write down the steps needed (with exact commands) to create a new app server. Then, when you need to turn up a new app server
 
 ### Playbooks
 
@@ -142,5 +144,5 @@ So at some point, you'll start getting a lot of traffic. You have a load balance
  - Microservices
 
 
-Thanks to @dmpatierno, @alexbaldwin and __ for the proof reading and edits!
+Thanks to [David](https://dmpatierno.com/), [Alex](http://alexbaldwin.com/) and __ for the proof reading and edits!
 
