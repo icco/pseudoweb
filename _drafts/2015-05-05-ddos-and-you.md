@@ -128,9 +128,23 @@ So at some point, you'll start getting a lot of traffic. You have a load balance
 
 Automation requires a few blog posts on its own, so I'll try and keep this brief. When I say automation, I'm referring to automating processes that take a lot of time. In the web hosting world, a process that often takes a lot time is setting up and starting a new app.
 
-The simplest form of automation for this, is to write down the steps needed (with exact commands) to create a new app server. Then, when you need to turn up a new app server
+The simplest form of automation for this, is to write down the steps needed (with exact commands) to create a new app server. Then, when you need to turn up a new app server, you follow your directions. This is more a playbook than automation, but it's a great place to start.
+
+Once you have everything written down, and you find yourself either iterating on your environment or wanting to turn up machines often, you may want to turn your instructions into code. There are a lot of tools to do this, including:
+
+ - [Puppet](https://puppetlabs.com/)
+ - [Chef](https://www.chef.io/chef/)
+ - [SaltStack](http://saltstack.com/)
+ - [Ansible](http://www.ansible.com/)
+ - [Fog](http://fog.io/)
+ - [Vagrant](https://www.vagrantup.com/)
+ - So many others!
+
+My preferred way for small projects right now is a small ruby script using Fog, but that's not ideal. People are constantly trying to improve this area, because everyone has different oppinions on how it should be done (probably why there are so many solutions to the problem).
 
 ### Playbooks
+
+I mentioned playbooks briefly above. The idea is that you should write down everything you do to your production environment, especially if you ever plan on doing it again.
 
 ### Backups
 
