@@ -43,7 +43,7 @@ The key point here is that these attacks can come from any type of network conne
 
  > Application attacks are interesting, because they are hard to detect. They look like normal user traffic, but specifically target a part of an application that causes to bring the server to its knees. An example of this is something like, imagine a search engine that has a URL that when hit, causes uncached lookups that are very CPU intensive. Someone finds this and sends thousands of requests to this URL, which causes the servers to use up all of their CPU.
 
-Not all of these are necessarily malicious attacks. Some users may remember the term "[Slashdotted](https://en.wikipedia.org/wiki/Slashdot_effect)", which was where a website was featured on [/.](http://slashdot.org/) and the traffic directed to their site took them offline. We still see this time to time when sites unexpectedly get featured on sites like [Hacker News](https://news.ycombinator.com/) or [Reddit](https://www.reddit.com/).
+Not all of these are necessarily malicious attacks. Some users may remember the term "[Slashdotted](https://en.wikipedia.org/wiki/Slashdot_effect)", which was where a website was featured on [Slashdot](http://slashdot.org/) and the traffic directed to their site took them offline. We still see this time to time when sites unexpectedly get featured on sites like [Hacker News](https://news.ycombinator.com/) or [Reddit](https://www.reddit.com/).
 
 ## Why do I care?
 
