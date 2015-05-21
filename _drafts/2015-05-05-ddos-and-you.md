@@ -122,7 +122,11 @@ Another (often cheaper) way to do this is to just use a blob storage service. Yo
 
 ### Automation
 
-Build tools knowing how to quickly turn things up.
+So at some point, you'll start getting a lot of traffic. You have a load balancer set up, but an LB is only useful if you can quickly horizantally scale the number of app servers behind it. The solution to this is automation.
+
+![progression](https://s3.amazonaws.com/f.cl.ly/items/3Y22032z210x3u2V3X1v/Screen%20Shot%202015-05-21%20at%2010.56.59%20.png)
+
+
 
 ### Playbooks
 
