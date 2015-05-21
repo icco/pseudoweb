@@ -78,11 +78,53 @@ You can also do some load testing to find out how your server can handle an atta
 
 ## What can I do to help me prepare for attacks?
 
- - Automation
- - Playbooks
- - Loadbalancing
-		- Limit connection types
- - Backups
+As I mentioned earlier in the article, being prepared is rabbit hole. Because you know very little about who will attack you, when they will attack you, and with what force, you can sink a lot of money and time into preparation and still go down and still end up broken. So I'm going to try and suggest some avenues of preparation and protection you can go down, and attempt to provide some possible metrics for evaluating how prepared is enough.
+
+I'm going to mainly focus on HTTP server protection, because that's what I know the most about, but in theory this could apply to any sort of TCP/IP connection.
+
+First off, if you're using a [PAAS](https://en.wikipedia.org/wiki/Platform_as_a_service) like [Heroku](https://www.heroku.com/) or [App Engine](https://cloud.google.com/appengine/), your considerations here are going to be different, because they (your PAAS provider) will probably do most of this work for you. If you believe you are going to have a lot of traffic (a spike of 100K QPS for example), then it might be worthwhile to reach out to your PAAS provider and give them a heads up. Each provider deals with this differently, but it never hurts to be in contact with your dependencies so that they can prepare for the worst as well.
+
+### Load Balancer
+
+If you're hosting things yourself (personal server, Colo, EC2, GCE, DO, etc), an early thing I usually suggest is to set up a load balancer. A load balancer is a system that balances load from a single point to many.
+
+![lbwithapps](https://s3.amazonaws.com/f.cl.ly/items/130j2V1a1o2b1d3f0t28/Screen%20Shot%202015-05-15%20at%2023.25.16%20.png)
+
+But a load balancer is also a first line of defence. It can decide quickly whether or not to allow a connection to be passed to the application server based on the type of connection (Not an HTTP connection? Goodbye!), where the connection is coming from (Are you coming from a known attacker? Audios!) or if the connection is malformed in a way meant to hurt us (Are you a fragmented packet? Dropped!).
+
+Two software load balancers that I often use are:
+
+ - [HAProxy](http://www.haproxy.org/) - [HowTo](https://serversforhackers.com/load-balancing-with-haproxy)
+ - [Nginx](http://nginx.org/) - [HowTo](http://nginx.org/en/docs/http/load_balancing.html)
+
+If you're using GCE or EC2, Google and Amazon both have load balancers to sell you. These are often worth the money because you can take advantage of their scale, and are usually more performant than running your own LB on a Virtual Machine.
+
+ - [AWS Elastic Load Balancing](http://aws.amazon.com/elasticloadbalancing/) for EC2
+ - [Google Compute Engine Load Balancing](https://cloud.google.com/compute/docs/load-balancing/)
+
+I mentioned in the pitch for LBs that you can drop bad packets, and you can and should do that on all of your machines with [iptables](https://en.wikipedia.org/wiki/Iptables) or another software firewall. nixCraft has [a short article on how to set iptables up for protection](http://www.cyberciti.biz/tips/linux-iptables-10-how-to-block-common-attack.html).
+
+### CDN
+
+A CDN or [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) is another tool you can use 
+
+ - Cloudflare
+ - MaxCDN
+ - Cloudfront 
+
+
+ - GCS
+ - S3
+
+### Automation
+
+Build tools knowing how to quickly turn things up. 
+
+### Playbooks
+
+### Backups
+
+# Acting in the face of an attack
 
 ## Further reading?
 
