@@ -152,10 +152,19 @@ I mentioned playbooks briefly above. The idea is that you should write down ever
  - Create read-only database slaves and point the apps at them
  - Common useful SQL queuries
  - How to setup the dev environment
+ - How to respond to every alert you receive
 
 ### Backups
 
-# Acting in the face of an attack
+Speaking of backups, do them. If you care about your data, I usually advocate for at least hourly backups for the past week, and daily backups for the last month. These should be written to somewhere that is not your database server. I usually gzip, encrypt, and upload to GCS. If you care less, then just daily backups for the last month.
+
+All code should be versioned. You should never be running code in production that isn't commited somewhere in a cannonical place.
+
+Take harddrive snapshots every time you make a significant change to the system. Usually I have the last step of my turn up automation be a snapshot, and then the first step to let you boot a VM from a saved snapshot instead of building from scratch.
+
+## Acting in the face of an attack
+
+
 
 ## Further reading?
 
