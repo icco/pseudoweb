@@ -164,15 +164,24 @@ Take harddrive snapshots every time you make a significant change to the system.
 
 ## Acting in the face of an attack
 
+Lets say you find out your site is down, how should you respond?
 
+ 1. Evaluate
+ 2. Stop bleeding
+ 3. Find and fix root cause
+ 4. Write postmortem, prevent class of problems
 
-## Further reading?
+Note here that the goal is to stop bleeding before finding and fixing the root cause. We do this because we usually want to minimize downtime. For example, in the case of many attacks, a common first response is to up capacity (lets say turn up ten more app servers), and then investigate where the attack is coming from and try and block it.
+
+## Further reading and research
+
+TODO: Add links
 
  - Google SRE
  - Etsy Code as Craft
  - Network Security Books
- - Microservices
-
+ - Microservices Book
+ - CIDR
 
 Thanks to [David](https://dmpatierno.com/), [Alex](http://alexbaldwin.com/) and __ for the proof reading and edits!
 
