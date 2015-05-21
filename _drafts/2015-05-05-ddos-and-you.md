@@ -106,15 +106,19 @@ I mentioned in the pitch for LBs that you can drop bad packets, and you can and 
 
 ### CDN
 
-A CDN or [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) is another tool you can use 
+A CDN or [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) is another tool you can use to protect yourself. A CDN takes the load off of your server for static assets, things like images, movies, CSS and Javascript. You upload your files to them, and then they serve it for you, usually in a way that is fast and distributed (for example, by putting one copy of each of your files in five geographically datacenters).
 
- - Cloudflare
- - MaxCDN
- - Cloudfront 
+There are a few CDN providers that are popular:
 
+ - [Cloudflare](https://www.cloudflare.com/)
+ - [MaxCDN](https://www.maxcdn.com/)
+ - [Cloudfront](http://aws.amazon.com/cloudfront/) 
+ - [Akami](http://www.akamai.com/html/solutions/network-operator-solutions.html)
 
- - GCS
- - S3
+Another (often cheaper) way to do this is to just use a blob storage service. You probably won't get the same level of geographic diversity, but at least your servers will be doing less work pushing static files. Two popular options are:
+
+ - [GCS](https://cloud.google.com/storage/)
+ - [S3](http://aws.amazon.com/s3/)
 
 ### Automation
 
