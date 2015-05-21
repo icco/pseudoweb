@@ -112,7 +112,7 @@ There are a few CDN providers that are popular:
 
  - [Cloudflare](https://www.cloudflare.com/)
  - [MaxCDN](https://www.maxcdn.com/)
- - [Cloudfront](http://aws.amazon.com/cloudfront/) 
+ - [Cloudfront](http://aws.amazon.com/cloudfront/)
  - [Akami](http://www.akamai.com/html/solutions/network-operator-solutions.html)
 
 Another (often cheaper) way to do this is to just use a blob storage service. You probably won't get the same level of geographic diversity, but at least your servers will be doing less work pushing static files. Two popular options are:
@@ -122,7 +122,7 @@ Another (often cheaper) way to do this is to just use a blob storage service. Yo
 
 ### Automation
 
-Build tools knowing how to quickly turn things up. 
+Build tools knowing how to quickly turn things up.
 
 ### Playbooks
 
