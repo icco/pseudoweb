@@ -144,7 +144,14 @@ My preferred way for small projects right now is a small ruby script using Fog, 
 
 ### Playbooks
 
-I mentioned playbooks briefly above. The idea is that you should write down everything you do to your production environment, especially if you ever plan on doing it again.
+I mentioned playbooks briefly above. The idea is that you should write down everything you do to your production environment, especially if you ever plan on doing it again. Things I like to have written up:
+
+ - Create a database snapshot
+ - Restore a database snapshot
+ - Turn up a new app server
+ - Create read-only database slaves and point the apps at them
+ - Common useful SQL queuries
+ - How to setup the dev environment
 
 ### Backups
 
