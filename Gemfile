@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby "2.2.2"
+
 gem 'classifier'
 gem 'git'
 gem 'jekyll'
