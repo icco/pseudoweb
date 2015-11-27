@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2012/06/13/kfog-acknowelges-mistake/
 layout: post
 title: KFOG acknowledges mistake
 location: San Francisco, CA

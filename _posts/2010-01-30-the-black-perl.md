@@ -1,7 +1,10 @@
 ---
+
 layout: post
+origin: http://pseudoweb.net/2010/01/30/the-black-perl/
 title: The Black Perl
 location: Linnaea's Cafe, San Luis Obispo, CA
+
 ---
 
 I know, I know, two posts in a row? What is he thinking? Well I came across

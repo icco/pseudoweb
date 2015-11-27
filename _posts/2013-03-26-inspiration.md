@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2013/03/26/inspiration/
 layout: post
 title: Inspiration
 location: San Francisco, CA

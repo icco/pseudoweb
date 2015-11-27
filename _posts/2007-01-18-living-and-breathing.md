@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 39
+origin: http://pseudoweb.net/2007/01/18/living-and-breathing/
 layout: post
 title: Living and Breathing
 wordpress_url: http://pseudoweb.net/crypts/2007/01/18/39
+
 ---
 
 <a href="http://www.flickr.com/photos/icco/345992690/" title="photo sharing"><img src="http://farm1.static.flickr.com/125/345992690_4ffe41693b.jpg" alt="Neighbor Porsche" class="flickr-photo" /></a>   

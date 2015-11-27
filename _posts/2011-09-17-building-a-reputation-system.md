@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2011/09/17/building-a-reputation-system/
 layout: post
 title: Building a reputation system
 location: St. Louis, MO

@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2011/11/13/trunk-club-is-awesome/
 layout: post
 title: Trunk Club is Awesome.
 location: San Francisco, CA

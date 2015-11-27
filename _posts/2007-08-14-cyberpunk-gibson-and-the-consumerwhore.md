@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 72
+origin: http://pseudoweb.net/2007/08/14/cyberpunk-gibson-and-the-consumerwhore/
 layout: post
 title: Cyberpunk, Gibson, and the Consumerwhore
 wordpress_url: http://pseudoweb.net/crypts/2007/08/72/
+
 ---
 What's this? My favorite Genre, Author, and state of mind, all in one post? Hurrah!
 

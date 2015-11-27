@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2012/05/26/creative-frustration/
 layout: post
 title: Creative Frustration
 location: San Francisco, CA

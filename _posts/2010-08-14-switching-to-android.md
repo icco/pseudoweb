@@ -1,8 +1,11 @@
 ---
+
 layout: post
+origin: http://pseudoweb.net/2010/08/14/switching-to-android/
 title: Switching to Android
 location: Los Gatos, CA
 time:  13:31:18
+
 ---
 
 So Google I/O was kind of amazing, the awesome part is that they gave me two

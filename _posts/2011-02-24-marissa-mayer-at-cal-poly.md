@@ -1,8 +1,11 @@
 ---
+
 layout: post
+origin: http://pseudoweb.net/2011/02/24/marissa-mayer-at-cal-poly/
 title: Marissa Mayer at Cal Poly
 location: San Luis Obispo, CA
 time: 10:39:23
+
 ---
 
 Cal Poly has been an interesting place for the last four and a half years. The school's motto is "Learn By Doing", and I have found no reason to disagree. Poly has taught me to create new things and try everything. Today, Marissa Mayer, came to Poly to talk about "Innovation at the Googleplex", and I think it's interesting to compare her views of corporate innovation to the innovation and real-life experience that is promoted here at Cal Poly. So here is my summary of her talk.

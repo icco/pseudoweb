@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2015/03/25/leaving-google/
 layout: post
 title: Leaving Google
 location: NYC

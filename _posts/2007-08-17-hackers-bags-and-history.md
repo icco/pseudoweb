@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 74
+origin: http://pseudoweb.net/2007/08/17/hackers-bags-and-history/
 layout: post
 title: Hackers, Bags, and History
 wordpress_url: http://pseudoweb.net/crypts/2007/08/74/
+
 ---
 So today was kind of crazy,  but it had a few highlights.
 

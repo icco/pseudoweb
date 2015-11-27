@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2013/07/21/short-story---a-damp-night/
 layout: post
 title: Short Story - A Damp Night
 location: San Francisco, CA

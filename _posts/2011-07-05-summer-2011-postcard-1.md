@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2011/07/05/summer-2011-postcard-1/
 layout: post
 title: Summer 2011 Postcard 1
 location: Edinburgh, Scotland, UK

@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 103
+origin: http://pseudoweb.net/2008/08/26/advice-for-possible-engineers/
 layout: post
 title: Advice for Possible Engineers
 wordpress_url: http://pseudoweb.net/?p=103
+
 ---
 Ok so a friend sent me a message asking to help her brother decide if he wanted to go into engineering.
 <blockquote>Hey, if you guys are in Santa Rosa, my mom was hoping that you could come up to my house and talk to my brother and his friends about engineering and computer related majors. They'll probably want to know stuff about classes and success. The usual. There are two dates up for grabs, either sept. 8th or 10th. There will be food provided, of course. It will take place in the evening. Please let me know which one you would prefer if you can make either. If you cannot make either at all, what would be one piece of wisdom you'd like to pass on to my brother and his friends? Thanks a bunch if you guys can do this!!</blockquote>

@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 49
+origin: http://pseudoweb.net/2007/02/09/the-new-year-and-internetphobia/
 layout: post
 title: The New Year and Internetphobia
 wordpress_url: http://pseudoweb.net/crypts/2007/02/09/49
+
 ---
 <a href="http://www.flickr.com/photos/icco/384413275/" title="photo sharing"><img src="http://farm1.static.flickr.com/178/384413275_ce1d0e93fc.jpg" class="flickr-photo" alt="Paper Gate" /></a>  
 <span class="flickr-caption"><a href="http://www.flickr.com/photos/icco/384413275/">Paper Gate</a> by <a href="http://www.flickr.com/people/icco/">Nat W</a></span>

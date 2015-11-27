@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2013/03/02/proust-queries-at-age-25/
 layout: post
 title: Proust Queries at age 25
 location: Orlando, FL

@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 52
+origin: http://pseudoweb.net/2007/04/06/apple-tv-yargh/
 layout: post
 title: Apple Tv, yargh?
 wordpress_url: http://pseudoweb.net/crypts/2007/04/06/52
+
 ---
 The Apple TV has <a href="http://www.appletvhacks.net/2007/04/01/mac-os-x-running-on-apple-tv/">been hacked</a>. You can now run the full mac OSX on it, plus enable USB and add functionality to <a href="http://www.appletvhacks.net/2007/04/02/create-plugins-for-backrow/">frontrow</a> You can even <a href="http://www.appletvhacks.net/2007/03/24/enable-ssh-and-afp-on-your-apple-tv/">enable SSH</a>.
 

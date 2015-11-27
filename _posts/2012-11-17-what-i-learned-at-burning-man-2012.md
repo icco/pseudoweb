@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2012/11/17/what-i-learned-at-burning-man-2012/
 layout: post
 title: What I learned at Burning Man 2012
 location: San Francisco, CA

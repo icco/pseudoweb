@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2011/09/12/advertising-and-the-heart/
 layout: post
 title: Advertising and the Heart
 location: San Francisco, CA

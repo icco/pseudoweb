@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2013/11/06/moving-to-london/
 layout: post
 title: Moving to London
 location: San Francisco, CA

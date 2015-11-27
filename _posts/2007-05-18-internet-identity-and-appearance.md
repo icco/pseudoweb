@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 58
+origin: http://pseudoweb.net/2007/05/18/internet-identity-and-appearance/
 layout: post
 title: Internet Identity And Appearance
 wordpress_url: http://pseudoweb.net/crypts/2007/05/18/58
+
 ---
 I am currently taking a class called Engl 149, or Tech Writing for engineers. This class has, for the most part, been interesting. It has gone over how to properly present materials depending on audience and content. I feel that I have learned a few things, and overall had a good experience with the class.
 

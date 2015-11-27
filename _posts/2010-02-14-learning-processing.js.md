@@ -1,7 +1,10 @@
 ---
+
 layout: post
+origin: http://pseudoweb.net/2010/02/14/learning-processing.js/
 title: Learning Processing.js
 location: San Luis Obispo, CA
+
 ---
 
 This quarter I have been taking CSC484 at Cal Poly. CSC484 is a class offered

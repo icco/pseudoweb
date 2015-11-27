@@ -1,9 +1,12 @@
---- 
+---
+
 wordpress_id: 195
+origin: http://pseudoweb.net/2009/08/26/vim-key-bindings/
 layout: post
 title: Vim Key Bindings
 wordpress_url: http://pseudoweb.net/?p=195
 location: San Luis Obipos, CA
+
 ---
 Hey there kiddos,
 

@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 61
+origin: http://pseudoweb.net/2007/07/02/china-debriefing/
 layout: post
 title: China Debriefing
 wordpress_url: http://pseudoweb.net/crypts/2007/07/61/
+
 ---
 Hey there readers. For the 4  or so of you still visiting my page, welcome. As a few of you know, through <a href="http://twitter.com/">twitter</a>, <a href="http://www.facebook.com/">Facebook</a>, or just general contact, I have recently returned from a trip with my immediate family to eastern China. I visited five wonderful cities, Beijing, Shanghai, Xi An, Guilin, and Shou Zhou, each incredibly different, and all relatively large.
 

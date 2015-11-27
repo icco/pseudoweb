@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 77
+origin: http://pseudoweb.net/2007/09/04/pax-07-followup/
 layout: post
 title: PAX '07 Followup
 wordpress_url: http://pseudoweb.net/crypts/2007/09/77/
+
 ---
 So I've been a little slow to write this, mainly due to the fact that I've been having trouble catching up on sleep. But two weekends ago, I had an amazing weekend, because I spent the weekend at PAX in Seattle. Now I should have  cool and interesting reveiw of PAX, but now two weeks later it doesnt look like it's gonna happen. Why? because <a href="http://www.randsinrepose.com/archives/2003/07/10/nadd.html">I have NADD</a>.
 

@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 75
+origin: http://pseudoweb.net/2007/08/21/barcampblock/
 layout: post
 title: BarCampBlock
 wordpress_url: http://pseudoweb.net/crypts/2007/08/75/
+
 ---
 I attended <a href="http://barcamp.org/BarCampBlock">BarCampBlock</a> this weekend. I only attended on Saturday, and for what I attended, it was amazing.
 

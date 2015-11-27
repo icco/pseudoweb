@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2011/06/26/graduation/
 layout: post
 title: Graduation!
 location: Los Gatos, CA

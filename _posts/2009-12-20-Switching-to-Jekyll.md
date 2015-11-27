@@ -1,7 +1,10 @@
 ---
+
 layout: post
+origin: http://pseudoweb.net/2009/12/20/Switching-to-Jekyll/
 title: Switching to Jekyll
 location: Chester, CA
+
 ---
 
 I love [Wordpress][6]. I've been using it since 0.7, and it has stood by my as

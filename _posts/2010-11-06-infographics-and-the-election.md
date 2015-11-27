@@ -1,8 +1,11 @@
 ---
+
 layout: post
+origin: http://pseudoweb.net/2010/11/06/infographics-and-the-election/
 title: Infographics and the Election
 location: San Luis Obispo, CA
 time: 14:10:59
+
 ---
 
 So, despite this elections rather depressing outcome, I would like to spend a moment looking at two sites and their display of the election results.

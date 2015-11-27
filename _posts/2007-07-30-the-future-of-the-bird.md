@@ -1,9 +1,13 @@
---- 
+---
+
 wordpress_id: 70
+origin: http://pseudoweb.net/2007/07/30/the-future-of-the-bird/
 layout: post
 title: The Future of the Bird
 wordpress_url: http://pseudoweb.net/crypts/2007/07/70/
+
 ---
+
 <a href="http://www.mozilla.com/en-US/thunderbird/">Thunderbird</a> that is. According to <a href="http://weblogs.mozillazine.org/mitchell/archives/2007/07/email_futures.html">this post by Mitchell Baker</a>, the Thunderbird product is not getting enough love, and I totally agree. Having thought about the topic a little, I think one of the better solutions is to break Thunderbird off and create the Thunderbird Foundation. Although I don't have a buisness background, or even a deep connection to the Thunderbird movement, here is my reasoning.
 <ul>
 	<li> Thunderbird is a powerful product but the shadow that <a href="http://www.mozilla.com/en-US/firefox/">Firefox</a> and the infamous <a href="http://office.microsoft.com/en-us/outlook/default.aspx">Outlook</a> cast is dark and long. While many know of Thunderbird's existence, it is not a mainstream product the way Firefox is. Creating a separate foundation will, in theory, promote much needed hype and help Thunderbird establish itself more as it's own product and not the bastard child of Firefox.</li>

@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2015/03/25/london-foods/
 layout: post
 title: London Foods
 location: NYC

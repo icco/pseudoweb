@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 78
+origin: http://pseudoweb.net/2007/09/07/ipod-touch-facebook-searching-and-the-internet/
 layout: post
 title: iPod Touch, Facebook searching, and the Internet
 wordpress_url: http://pseudoweb.net/crypts/2007/09/78/
+
 ---
 I love the internet. If possible I want to be able to touch it all times. I want to be able to see a billboard, find it interesting, and plug the company's website into a hand held device and find out about them. I want to walk past a cool t-shirt, or other product and place an order right there, or at least post information about it to either an online to-do list or twitter or something. I want information at my fingertips 24/7. This doesn't mean I'll be using this information at all times, but the possibility so that when something comes up I can know the answer to what <a href="http://wordie.org/words/glycyrrhizin">glycyrrhizin</a> is. This is the information age after all.<!--more-->
 

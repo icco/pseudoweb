@@ -1,7 +1,10 @@
 ---
+
 layout: post
+origin: http://pseudoweb.net/2010/01/29/delicious-summarizer/
 title: Delicious Summarizer
 location: San Luis Obispo, CA
+
 ---
 
 For awhile now I've been trying to come up with a good way to inspire me to

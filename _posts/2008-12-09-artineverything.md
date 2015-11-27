@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 138
+origin: http://pseudoweb.net/2008/12/09/artineverything/
 layout: post
 title: Art in Everything
 wordpress_url: http://pseudoweb.net/?p=138
+
 ---
 Apparently I have a strange view of life. It's not overly <a href="http://maddox.xmission.com/">cynical</a>, nor does show <a href="http://www.paulgraham.com/articles.html">how to rule the world</a>. It is not centered on <a href="http://kotaku.com/">video games</a>, <a href="http://lifehacker.com/">tools</a>, <a href="http://www.foodnetwork.com/">food</a> or <a href="http://www.engadget.com/">technology</a>. These views can be found elsewhere.
 

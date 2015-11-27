@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2012/01/30/annies-three-things/
 layout: post
 title: Annie's Three Things
 location: San Luis Obispo, CA

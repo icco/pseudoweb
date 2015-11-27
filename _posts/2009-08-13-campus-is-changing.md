@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 164
+origin: http://pseudoweb.net/2009/08/13/campus-is-changing/
 layout: post
 title: Campus is Changing
 wordpress_url: http://pseudoweb.net/?p=164
+
 ---
 One thing I hate is missing the fact that Cal Poly is evolving. There are lots of places on campus that I never see due to the large amount of time I spend cooped up in the lab, so last weekend I went around and took some photos of the current state of campus. Some interesting developments is that they redid the soccer fields out on the edge of campus. Also I never noticed the sweet graffiti in the Architecture building.
 

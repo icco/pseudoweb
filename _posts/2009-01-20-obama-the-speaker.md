@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 153
+origin: http://pseudoweb.net/2009/01/20/obama-the-speaker/
 layout: post
 title: Obama, the speaker.
 wordpress_url: http://pseudoweb.net/?p=153
+
 ---
 <img src="http://farm4.static.flickr.com/3426/3212450709_4623ef1a43.jpg" alt="From Flickr" />
 <small><a href="http://www.flickr.com/photos/jweiss3/3212450709/in/photostream">Obama Inauguration</a> on Flickr by <a href="http://www.flickr.com/photos/jweiss3/">John W.</a></small>

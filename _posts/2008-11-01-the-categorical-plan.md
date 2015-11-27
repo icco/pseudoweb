@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 126
+origin: http://pseudoweb.net/2008/11/01/the-categorical-plan/
 layout: post
 title: The Categorical Plan
 wordpress_url: http://pseudoweb.net/?p=126
+
 ---
 So I was reading <a title="The Knight Writer: The Definitive Plan" href="http://johnbknight.blogspot.com/2008/10/definitive-plan.html">John's Post</a> and I started to think about my life plan. Needless to say, it's not really a plan, but more of an idea. This idea being "make others happy, be happy, and stay happy."
 

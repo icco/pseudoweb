@@ -1,8 +1,11 @@
---- 
+---
+
 wordpress_id: 68
+origin: http://pseudoweb.net/2007/07/19/wizards-wordcamp-wordie-and-more/
 layout: post
 title: Wizards, WordCamp, Wordie, and More
 wordpress_url: http://pseudoweb.net/crypts/2007/07/68/
+
 ---
 I have a disturbingly large amount of broccoli on my plate this weekend. First off, Friday night, <a href="http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows">Harry Potter</a>. I don't know how much needs to be said about Harry and his wacky adventures, but I've been reading this since the first book came out in Britain, and I am hooked. It amazes me how much this book sucks me in. I normally get sucked into books, but I swear I'm addicted to HP and all of it's goodness. What's even funnier, I don't like Harry too much as a character. Sure he's interesting and angsty and all, but the two things that suck me in are Harry's past (you know the whole, good morning Harry, your life sucks, time to go be a wizard thing) and the supporting characters. Ginny, Hermione, Ron, the twins, Neville, all of the professors, etc. It's just how well developed the world is that J.K. Rowling writes about. I feel as though I can reach out and touch it, yet not too much is described so my mind can wander.
 

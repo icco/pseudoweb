@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2014/02/20/favorite-restaurants-and-bars-in-sf/
 layout: post
 title: Favorite Restaurants and Bars in SF
 location: Milan, Italy

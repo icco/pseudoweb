@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2013/10/25/moto-x-review/
 layout: post
 title: Moto X Review
 location: San Francisco, CA

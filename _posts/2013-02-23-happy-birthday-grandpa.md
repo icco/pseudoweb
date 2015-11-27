@@ -1,5 +1,6 @@
 ---
 
+origin: http://pseudoweb.net/2013/02/23/happy-birthday-grandpa/
 layout: post
 title: Happy Birthday Grandpa.
 location: Chester, CA
