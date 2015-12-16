@@ -1,23 +1,7 @@
 ---
 
-wordpress_id: 49
-origin: http://pseudoweb.net/2007/02/09/the-new-year-and-internetphobia/
-layout: post
-title: The New Year and Internetphobia
-wordpress_url: http://pseudoweb.net/crypts/2007/02/09/49
+layout: redirect
+redirect_to: https://writing.natwelch.com/post/455
 
 ---
-<a href="http://www.flickr.com/photos/icco/384413275/" title="photo sharing"><img src="http://farm1.static.flickr.com/178/384413275_ce1d0e93fc.jpg" class="flickr-photo" alt="Paper Gate" /></a>  
-<span class="flickr-caption"><a href="http://www.flickr.com/photos/icco/384413275/">Paper Gate</a> by <a href="http://www.flickr.com/people/icco/">Nat W</a></span>
 
-I am scared. I mind you, have no real reason to be scared, but the last few days have pushed me to the point where i should be scared. You see, I believe 2007 will be the year of the Internet Revolution. The Internet Revolution in my mind is where there is a dramatic shift in how things are done on-line. There has been a slow shift towards the dynamic over the past years. Things like RSS, Flickr and Del.ici.ous have allowed this dynamic <a href="http://en.wikipedia.org/wiki/Web_2">Web 2.0</a> to grow. Web 2.0 is a group of software that promotes content that delivers itself to the user in the way the user wants. The user can lay out the page with AJAX the way he or she wants to see it, and only the information they want to see is there. (example: <a href="http://www.netvibes.com/">Netvibes</a>).
-
-This is evolving though. Things like <a href="https://www.youos.com/">YouOS</a> and <a href="http://www.masswerk.at/jsuix/">JS/UIX</a> are entire operating systems built on this Web 2.0  idea. But while these are all very amazing, the big thing that is happening is the push of streaming video over the Internet. YouTube is the site that is winning this war. But I beleive the war is just beginning and Google, YouTubes owner, knows it. The big deal, <a href="http://www.pbs.org/cringely/pulpit/2007/pulpit_20070119_001510.html">as Cringely points out</a>, is that 50 percent of the Internet's bandwidth is being used by five percent of it's users over Bit Torrent. According to Cringely, Google is building these gigantic data centers (and they are gigantic) so that Google will be able to hold up the infrastructure of the web when it collapses due to the extensive use of Bit Torrent and other video downloading services. How will it work? very simply, you will be looking for a file, lets say The-Pirates-of-the-Carribean-2.avi from http://torrentwebsite.com and Google will be one of the highspeed providers when you look to download the file. Google will essentially be cacheing all of the popular data in one region in the local data center allowing for faster downloads and less overall bandwidth on the network.
-
-But Although Cringely beleives that Google and he are the only ones who realize what is happening, I can assure you, that the ISP's know what is going on. How do i know this? the <a href="http://www.abcarticledirectory.com/Article/Net-Neutrality-Act-Once-Again-on-the-Agenda/31886">Net Nutrality Act is back on the agenda</a>. This act, at least as i understand it, is an act to allow companies such as AT&amp;T to charge companies such as Google depending on how much bandwidth they use. This in my mind promotes "Anti-Competitiveness." It makes it so server based applications such as google, flickr or web hosts would have to pay to exist. On top of that it would make developing and starting a company expensive, which would hinder all of the small startups. Which would hinder innovation and probably kill most free high bandwidth sites (youtube, itunes music store, etc.) But there is a positive side to all of this. We can hope that if the bill is passed then the backbone of the internet might be rebuilt, prolonging when the big crash might happen.
-
-On top of this though, there are major battles happening to decided copywrite laws. <a href="http://en.wikipedia.org/wiki/Steve_Jobs">Steve Jobs</a> for instance, <a href="http://www.apple.com/hotnews/thoughtsonmusic/">is calling for music to be free</a>, or at least unencrypted. This idea follows the whole idea of standards, which has helped many companies, including apple and Google to rake in the dough and be popular with their users. The only problem with standards, is that when it comes to the entertainment industry, standards are only good if you own them, and apple is advocating the move away from this. Acording to the <a href="http://www.washingtonpost.com/">Washington Post</a> though, <a href="http://www.washingtonpost.com/wp-dyn/content/article/2007/02/08/AR2007020801855.html">the RIAA is not pleased</a> with jobs letter. But this is an ongoing issue that i am not sure i can even comprehend with out much more research, and i sadly do not have the time for such.
-
-In the end though I just don't know what to think. I whole heartedly beleive though that this will be a very interesting next few years.
-
-P.s. There is also an <a href="http://www.forbes.com/2007/01/30/info-traffic-jams-oped-cx_pk_0131network.html">interesting article on Internet Bandwidth here</a>.</p>
