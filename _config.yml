@@ -8,6 +8,3 @@ permalink: pretty
 
 # Deal with source code?
 highlighter: 'rouge'
-
-# better relevent post section? Overwrite with --lsi
-lsi: false # so sad this doesn't work on github
