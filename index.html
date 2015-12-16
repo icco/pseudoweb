@@ -1,32 +1,66 @@
----
-layout: default
-title: PseudoWeb.Net 
----
-<div id="home">
-   <div class="section" id="banner">
-      <a href="http://www.flickr.com/photos/icco/9338961913/" title="Rainy Paris by Nat W, on Flickr"><img src="http://farm3.staticflickr.com/2841/9338961913_dac5051749_z.jpg" alt="Rainy Paris" width="600"></a>
-   </div>
-   <div class="section" id="about">
-      <h2>About</h2>
-      <p>
-      <a href="http://natwelch.com" title="Find out more about Nat">Nat Welch</a> is a software developer from San Francisco, CA. Nat enjoys learning, web development and Linux. He also likes to spend his free time backpacking, listening to music, and urban exploring. He posts his thoughts here and on <a href="http://writing.natwelch.com">writing.natwelch.com</a>.
-      </p>
-   </div>
-   <div class="section" id="recent-posts">
-      <h2>Most Recent Blog Posts</h2>
-      <div id="post-list">
-         <ul class="posts">
-            {% for post in site.posts limit:7 offset:0 %}
-            <li class="{% cycle 'one', 'two' %}">
-               <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
-               &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-            <li class="none">
-               <a href="/archives/">View more posts in the archives...</a>
-            </li>
-         </ul>
-      </div>
-   </div>
-</div>
+<!doctype html>
+<html>
+   <head>
+      <!-- META -->
+      <meta charset="UTF-8">
+      <meta name="author" content="Nat Welch" />
 
+      <title>pseudoweb.net</title>
+
+      <!-- Homepage CSS -->
+      <link rel="stylesheet" href="/css/style.css?v=20150314" type="text/css" media="screen, projection" />
+   </head>
+   <body>
+      <div class="site">
+
+         <div id="content">
+           <div id="home">
+             <div class="section" id="banner">
+               <a href="http://www.flickr.com/photos/icco/9338961913/" title="Rainy Paris by Nat W, on Flickr"><img src="http://farm3.staticflickr.com/2841/9338961913_dac5051749_z.jpg" alt="Rainy Paris" width="600"></a>
+             </div>
+             <div class="section" id="about">
+               <h2>About</h2>
+               <p>
+               <a href="http://natwelch.com" title="Find out more about Nat">Nat Welch</a> is a software developer from San Francisco, CA. Nat enjoys learning, web development and Linux. He also likes to spend his free time backpacking, listening to music, and urban exploring. He posts his thoughts here and on <a href="http://writing.natwelch.com">writing.natwelch.com</a>.
+               </p>
+             </div>
+           </div>
+         </div>
+
+         <div class="footer">
+            <div class="contact">
+               <p>
+               This blog is built with <a href="http://github.com/mojombo/jekyll">Jekyll {% jekyll_version %}</a>.
+
+               This site's contents are copyright <a href="http://natwelch.com/">Nathaniel "Nat" Welch</a> 2006-2015.
+
+               You can find the source of this site on <a href="http://github.com/icco/pseudoweb">GitHub</a>.
+
+               The views expressed here are belong completely to Nat and do not represent that of anyone who has ever employed him.
+
+               You can contact Nat at <a href="mailto:nat@natwelch.com">nat@natwelch.com</a>.
+               </p>
+            </div>
+            <div id="site-meta">
+               <!-- Rendered at {% render_time %} -->
+               <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fpseudoweb.net%2F">HTML5</a> &brvbar;
+               <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &brvbar;
+               <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC</a>
+            </div>
+         </div>
+      </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-333449-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+   </body>
+</html>
