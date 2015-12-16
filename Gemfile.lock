@@ -1,13 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    classifier (1.3.4)
-      fast-stemmer (>= 1.0.0)
+    classifier-reborn (2.0.4)
+      fast-stemmer (~> 1.0)
     colorator (0.1)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
     git (1.2.9.1)
-    gsl (1.16.0.6)
     jekyll (3.0.1)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -30,8 +29,6 @@ GEM
     mercenary (0.3.5)
     psych (2.0.16)
     rb-fsevent (0.9.6)
-    rb-gsl (1.16.0.6)
-      gsl
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.3.3)
@@ -43,12 +40,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  classifier
+  classifier-reborn
   git
   jekyll
   logger
   psych
-  rb-gsl
   redcarpet
   rouge
 
