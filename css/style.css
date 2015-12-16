@@ -182,11 +182,11 @@ a img  {
   float: right;
 }
 
-#about p,  #post-list ul,  #twitter_update_list  {
+#post-list ul,  #twitter_update_list  {
   padding: 0 0 0 15px;
 }
 
-#about p,  #twitter_div #twitter_update_list li  {
+#twitter_div #twitter_update_list li  {
   text-indent: 1em;
 }
 
