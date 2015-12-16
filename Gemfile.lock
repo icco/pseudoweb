@@ -28,7 +28,7 @@ GEM
       rb-inotify (>= 0.9)
     logger (1.2.8)
     mercenary (0.3.5)
-    psych (2.0.15)
+    psych (2.0.16)
     rb-fsevent (0.9.6)
     rb-gsl (1.16.0.6)
       gsl
@@ -37,7 +37,7 @@ GEM
     redcarpet (3.3.3)
     rouge (1.10.1)
     safe_yaml (1.0.4)
-    sass (3.4.19)
+    sass (3.4.20)
 
 PLATFORMS
   ruby
