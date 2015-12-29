@@ -5,6 +5,3 @@ redcarpet:
 
 # which type of links.
 permalink: pretty
-
-# Deal with source code?
-highlighter: 'rouge'
