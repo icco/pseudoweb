@@ -9,4 +9,5 @@ RUN bundler install
 RUN make
 
 EXPOSE 8080
-CMD ["ruby", "-run", "-e", "httpd", "./_site", "-p", "8080"]
+
+CMD ["ruby", "-run", "-e", "httpd", "./_site", "--port=8080", "--bind-address=0.0.0.0"]
