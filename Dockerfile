@@ -1,4 +1,6 @@
-FROM ruby:3-slim
+FROM ruby:3
+
+WORKDIR /app
 
 COPY . ./
 
