@@ -1,13 +1,21 @@
-FROM ruby:3
+# Stage 1: Build the Jekyll site
+FROM ruby:3-alpine AS builder
+
+RUN apk add --no-cache build-base git
 
 WORKDIR /app
 
-COPY . ./
+COPY Gemfile Gemfile.lock ./
+RUN bundle install --jobs 4
 
-RUN bundler install
+COPY . .
+RUN bundle exec jekyll build
 
-RUN make
+# Stage 2: Serve with minimal nginx image
+FROM nginx:alpine
 
-EXPOSE 8080
+COPY --from=builder /app/_site /usr/share/nginx/html
 
-CMD ["ruby", "-run", "-e", "httpd", "./_site", "--port=8080", "--bind-address=0.0.0.0"]
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
