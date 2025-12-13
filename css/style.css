@@ -4,9 +4,10 @@
  * @version 1.42.13
  */
 
-@import url(http://fonts.googleapis.com/css?family=Lato|EB+Garamond&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lato|EB+Garamond&subset=latin,latin-ext);
 
-a, a:visited  {
+a,
+a:visited {
   color: #111;
 }
 
@@ -14,13 +15,13 @@ a:hover {
   color: #3F3F3F;
 }
 
-body  {
+body {
   font-family: 'Lato', sans-serif;
   font-size: 13.34px;
   background-color: #EEE;
 }
 
-.site .header  {
+.site .header {
   border-color: #EEE;
   border-style: solid;
   border-width: 15px 15px 15px 0;
@@ -30,7 +31,7 @@ body  {
   width: 642px;
 }
 
-.site  {
+.site {
   background-color: white;
   width: 644px;
   margin-right: auto;
@@ -44,31 +45,40 @@ body  {
   color: #111;
 }
 
-.site .footer, .site #post .post-meta {
+.site .footer,
+.site #post .post-meta {
   color: #444;
 }
 
-.post-title, h1, h2, h3, h4, h5, h6 {
+.post-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'EB Garamond', serif;
 }
 
-h1  {
+h1 {
   font-size: 1.3em;
 }
 
-h2  {
+h2 {
   font-size: 1.2em;
 }
 
-h3  {
+h3 {
   font-size: 1.1em;
 }
 
-h4,  h5,  h6  {
+h4,
+h5,
+h6 {
   font-size: 1em;
 }
 
-a img  {
+a img {
   border: 1px solid #9A9A9A;
 }
 
@@ -85,24 +95,24 @@ a img  {
 }
 
 #post img[align="right"] {
-  margin-right:  0;
-  margin-top:    8px;
+  margin-right: 0;
+  margin-top: 8px;
   margin-bottom: 8px;
-  margin-left:   12px;
+  margin-left: 12px;
   clear: both;
   max-width: 100%;
 }
 
 #post img[align="left"] {
-  margin-left:   0;
-  margin-top:    8px;
+  margin-left: 0;
+  margin-top: 8px;
   margin-bottom: 8px;
-  margin-right:  12px;
+  margin-right: 12px;
   clear: both;
   max-width: 100%;
 }
 
-.site .header a  {
+.site .header a {
   text-transform: capitalize;
   font-weight: 900;
   font-size: 1.05em;
@@ -112,11 +122,11 @@ a img  {
   font-size: 1.1em;
 }
 
-.site .header #description  {
+.site .header #description {
   font-size: 0.9em;
 }
 
-.site .footer  {
+.site .footer {
   text-align: center;
   font-size: 0.80em;
   width: 90%;
@@ -126,137 +136,138 @@ a img  {
   border-top: 2px dashed #EEE;
 }
 
-.site #related h2  {
+.site #related h2 {
   font-size: 1.2em;
   padding: 0px;
   margin: 0px;
 }
 
-.site #post .post-title  {
+.site #post .post-title {
   font-size: 1.5em;
 }
 
-.site #post .post-meta  {
+.site #post .post-meta {
   font-size: 0.9em;
 }
 
-.posts  {
+.posts {
   padding: 5px;
   margin-top: 0px;
 }
 
-.posts li.none  {
+.posts li.none {
   padding-top: 5px;
   border-style: none;
 }
 
-.posts li  {
+.posts li {
   list-style-type: none;
   padding: 2px 4px;
 }
 
-.posts li span.date  {
+.posts li span.date {
   text-transform: uppercase;
   font-family: monospace;
 }
 
-.highlight  {
+.highlight {
   font-size: 0.85em;
   background-color: white;
   padding: 10px;
 }
 
-.footer p  {
+.footer p {
   padding: 0;
   margin: 0;
 }
 
-.footer #site-meta  {
+.footer #site-meta {
   font-size: 0.85em;
   font-family: monospace;
   margin: 8px 0;
 }
 
 
-.addthis_default_style  {
+.addthis_default_style {
   float: right;
 }
 
-#post-list ul,  #twitter_update_list  {
+#post-list ul,
+#twitter_update_list {
   padding: 0 0 0 15px;
 }
 
-#twitter_div #twitter_update_list li  {
+#twitter_div #twitter_update_list li {
   text-indent: 1em;
 }
 
-#archives .day  {
+#archives .day {
   font-weight: bold;
 }
 
-#archives .month  {
+#archives .month {
   font-size: 1.3em;
   padding: 3px;
   margin-bottom: 0px;
 }
 
-#archives .year  {
+#archives .year {
   font-size: 2em;
   width: 100px;
 }
 
-#archives li  {
+#archives li {
   padding-left: 20px;
 }
 
-#archives li,  #archives .month  {
+#archives li,
+#archives .month {
   margin-left: 30px;
 }
 
-#archives ul  {
+#archives ul {
   list-style-type: none;
   margin: 0 0 0 50px;
   padding: 5px;
 }
 
-#banner  {
+#banner {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
 }
 
-#content  {
-  padding: 20px 2px ;
+#content {
+  padding: 20px 2px;
   margin-bottom: 9px;
 }
 
-#permalink  {
+#permalink {
   font-size: 0.5em;
   margin-left: 5px;
 }
 
-#post-next  {
+#post-next {
   float: right;
 }
 
-#post-prev  {
-}
+#post-prev {}
 
-#twitter_update_list  {
+#twitter_update_list {
   list-style: none;
   margin: 0;
 }
 
-#comments  {
+#comments {
   margin: 0 -52px;
   padding: 15px 52px;
 }
 
-#navigation  {
+#navigation {
   margin-bottom: 10px;
 }
 
-.content blockquote  {
+.content blockquote {
   border-left: 5px solid #DDDDDD !important;
   color: #555555 !important;
   margin: 1em 0 !important;
@@ -267,7 +278,7 @@ a img  {
  * Fix float problem.
  * http://www.positioniseverything.net/easyclearing.html
  */
-.clearfix:after  {
+.clearfix:after {
   content: ".";
   display: block;
   height: 0;
