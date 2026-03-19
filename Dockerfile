@@ -1,5 +1,5 @@
 # Stage 1: Build the Jekyll site
-FROM ruby:3.4.8-alpine AS builder
+FROM ruby:4.0.2-alpine AS builder
 
 RUN apk add --no-cache build-base git yaml-dev
 
