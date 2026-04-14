@@ -12,7 +12,7 @@ COPY . .
 RUN bundle exec jekyll build
 
 # Stage 2: Serve with minimal nginx image
-FROM nginx:alpine
+FROM nginx:1.29-alpine
 
 COPY --from=builder /app/_site /usr/share/nginx/html
 
