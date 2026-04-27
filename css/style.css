@@ -79,6 +79,10 @@ a img {
   margin: 8px 0;
 }
 
+#about p {
+  text-align: center;
+}
+
 #banner {
   margin-left: auto;
   margin-right: auto;

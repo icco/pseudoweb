@@ -23,7 +23,7 @@
                         width="600" height="303"></a>
                </div>
                <div class="section" id="about">
-                  <p style="text-align: center">
+                  <p>
                      <a href="http://natwelch.com" title="Find out more about Nat">Nat Welch</a> originally posted his
                      thoughts on this blog. He has since moved them to <a
                         href="https://writing.natwelch.com">writing.natwelch.com</a>.
@@ -53,24 +53,7 @@
          </div>
       </div>
 
-      <!-- ReportD Web Vitals → https://reportd.natwelch.com/view/pseudoweb -->
-      <script type="module">
-         import { onCLS, onFCP, onINP, onLCP, onTTFB } from 'https://unpkg.com/web-vitals@5?module';
-
-         const endpoint = 'https://reportd.natwelch.com/analytics/pseudoweb';
-
-         function send(metric) {
-            const body = JSON.stringify(metric);
-            (navigator.sendBeacon && navigator.sendBeacon(endpoint, body)) ||
-               fetch(endpoint, { body, method: 'POST', keepalive: true });
-         }
-
-         onCLS(send);
-         onFCP(send);
-         onINP(send);
-         onLCP(send);
-         onTTFB(send);
-      </script>
+      <script type="module" src="/js/reportd-vitals.js"></script>
    </body>
 
 </html>

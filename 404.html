@@ -48,24 +48,7 @@
          </div>
       </div>
 
-      <!-- ReportD Web Vitals → https://reportd.natwelch.com/view/pseudoweb -->
-      <script type="module">
-         import { onCLS, onFCP, onINP, onLCP, onTTFB } from 'https://unpkg.com/web-vitals@5?module';
-
-         const endpoint = 'https://reportd.natwelch.com/analytics/pseudoweb';
-
-         function send(metric) {
-            const body = JSON.stringify(metric);
-            (navigator.sendBeacon && navigator.sendBeacon(endpoint, body)) ||
-               fetch(endpoint, { body, method: 'POST', keepalive: true });
-         }
-
-         onCLS(send);
-         onFCP(send);
-         onINP(send);
-         onLCP(send);
-         onTTFB(send);
-      </script>
+      <script type="module" src="/js/reportd-vitals.js"></script>
    </body>
 
 </html>
