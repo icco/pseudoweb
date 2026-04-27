@@ -1,4 +1,4 @@
-FROM nginx:1.30.0-alpine
+FROM nginx:1.30-alpine
 
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 COPY nginx/redirects.conf /etc/nginx/snippets/redirects.conf
