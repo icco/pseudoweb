@@ -1,7 +1,5 @@
 /**
- * Pseudoweb.Net Style
- * @author Nat Welch
- * @version 1.42.13
+ * Pseudoweb.Net — minimal styles for index + 404
  */
 
 @import url(https://fonts.googleapis.com/css?family=Lato|EB+Garamond&subset=latin,latin-ext);
@@ -21,36 +19,6 @@ body {
   background-color: #EEE;
 }
 
-.site .header {
-  border-color: #EEE;
-  border-style: solid;
-  border-width: 15px 15px 15px 0;
-  margin: -15px -50px 25px;
-  padding: 10px 20px;
-  text-align: center;
-  width: 642px;
-}
-
-.site {
-  background-color: white;
-  width: 644px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: -10px;
-  text-align: left;
-  padding: 50px 50px 25px;
-}
-
-.site {
-  color: #111;
-}
-
-.site .footer,
-.site #post .post-meta {
-  color: #444;
-}
-
-.post-title,
 h1,
 h2,
 h3,
@@ -78,38 +46,29 @@ h6 {
   font-size: 1em;
 }
 
-a img {
-  border: 1px solid #9A9A9A;
+.site .header {
+  border-color: #EEE;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  margin: -15px -50px 25px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 642px;
 }
 
-#post img {
-  margin-right: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 0;
-  max-width: 100%;
+.site {
+  background-color: white;
+  width: 644px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -10px;
+  text-align: left;
+  padding: 50px 50px 25px;
+  color: #111;
 }
 
-#post pre {
-  font-size: 0.95em;
-}
-
-#post img[align="right"] {
-  margin-right: 0;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-left: 12px;
-  clear: both;
-  max-width: 100%;
-}
-
-#post img[align="left"] {
-  margin-left: 0;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-right: 12px;
-  clear: both;
-  max-width: 100%;
+.site .footer {
+  color: #444;
 }
 
 .site .header a {
@@ -122,10 +81,6 @@ a img {
   font-size: 1.1em;
 }
 
-.site .header #description {
-  font-size: 0.9em;
-}
-
 .site .footer {
   text-align: center;
   font-size: 0.80em;
@@ -136,44 +91,8 @@ a img {
   border-top: 2px dashed #EEE;
 }
 
-.site #related h2 {
-  font-size: 1.2em;
-  padding: 0px;
-  margin: 0px;
-}
-
-.site #post .post-title {
-  font-size: 1.5em;
-}
-
-.site #post .post-meta {
-  font-size: 0.9em;
-}
-
-.posts {
-  padding: 5px;
-  margin-top: 0px;
-}
-
-.posts li.none {
-  padding-top: 5px;
-  border-style: none;
-}
-
-.posts li {
-  list-style-type: none;
-  padding: 2px 4px;
-}
-
-.posts li span.date {
-  text-transform: uppercase;
-  font-family: monospace;
-}
-
-.highlight {
-  font-size: 0.85em;
-  background-color: white;
-  padding: 10px;
+a img {
+  border: 1px solid #9A9A9A;
 }
 
 .footer p {
@@ -187,50 +106,6 @@ a img {
   margin: 8px 0;
 }
 
-
-.addthis_default_style {
-  float: right;
-}
-
-#post-list ul,
-#twitter_update_list {
-  padding: 0 0 0 15px;
-}
-
-#twitter_div #twitter_update_list li {
-  text-indent: 1em;
-}
-
-#archives .day {
-  font-weight: bold;
-}
-
-#archives .month {
-  font-size: 1.3em;
-  padding: 3px;
-  margin-bottom: 0px;
-}
-
-#archives .year {
-  font-size: 2em;
-  width: 100px;
-}
-
-#archives li {
-  padding-left: 20px;
-}
-
-#archives li,
-#archives .month {
-  margin-left: 30px;
-}
-
-#archives ul {
-  list-style-type: none;
-  margin: 0 0 0 50px;
-  padding: 5px;
-}
-
 #banner {
   margin-left: auto;
   margin-right: auto;
@@ -240,53 +115,4 @@ a img {
 #content {
   padding: 20px 2px;
   margin-bottom: 9px;
-}
-
-#permalink {
-  font-size: 0.5em;
-  margin-left: 5px;
-}
-
-#post-next {
-  float: right;
-}
-
-#post-prev {}
-
-#twitter_update_list {
-  list-style: none;
-  margin: 0;
-}
-
-#comments {
-  margin: 0 -52px;
-  padding: 15px 52px;
-}
-
-#navigation {
-  margin-bottom: 10px;
-}
-
-.content blockquote {
-  border-left: 5px solid #DDDDDD !important;
-  color: #555555 !important;
-  margin: 1em 0 !important;
-  padding-left: 0.6em !important;
-}
-
-/**
- * Fix float problem.
- * http://www.positioniseverything.net/easyclearing.html
- */
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.twitter-tweet {
-  margin-left: auto !important;
-  margin-right: auto !important;
 }

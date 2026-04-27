@@ -11,4 +11,4 @@ docker run -p 8080:8080 pseudoweb
 
 Nginx listens on port **8080** in the container.
 
-Images are built and published from `main` via [GitHub Actions](.github/workflows/docker.yml).
+The Docker image is built and published from `main` via [GitHub Actions](.github/workflows/docker.yml).
