@@ -2,7 +2,7 @@
  * Pseudoweb.Net — minimal styles for index + 404
  */
 
-@import url(https://fonts.googleapis.com/css?family=Lato|EB+Garamond&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
 
 a,
 a:visited {
@@ -17,33 +17,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 13.34px;
   background-color: #EEE;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'EB Garamond', serif;
-}
-
-h1 {
-  font-size: 1.3em;
-}
-
-h2 {
-  font-size: 1.2em;
-}
-
-h3 {
-  font-size: 1.1em;
-}
-
-h4,
-h5,
-h6 {
-  font-size: 1em;
 }
 
 .site .header {
