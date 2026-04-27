@@ -1,4 +1,4 @@
-FROM nginx:1.30.0-alpine
+FROM nginx:1.30-alpine
 
 # Base image ships listen 80 in conf.d; remove so only 8080 is served.
 RUN rm -f /etc/nginx/conf.d/*.conf
