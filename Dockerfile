@@ -1,4 +1,4 @@
-FROM nginx:1.29-alpine
+FROM nginx:1.30.0-alpine
 
 COPY nginx/default.conf nginx/redirects.conf /etc/nginx/conf.d/
 RUN nginx -t
