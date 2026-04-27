@@ -48,16 +48,23 @@
          </div>
       </div>
 
-      <script type="text/javascript">
-         var _gaq = _gaq || [];
-         _gaq.push(['_setAccount', 'UA-333449-1']);
-         _gaq.push(['_trackPageview']);
+      <!-- ReportD Web Vitals → https://reportd.natwelch.com/view/pseudoweb -->
+      <script type="module">
+         import { onCLS, onFCP, onINP, onLCP, onTTFB } from 'https://unpkg.com/web-vitals@5?module';
 
-         (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = 'https://ssl.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-         })();
+         const endpoint = 'https://reportd.natwelch.com/analytics/pseudoweb';
+
+         function send(metric) {
+            const body = JSON.stringify(metric);
+            (navigator.sendBeacon && navigator.sendBeacon(endpoint, body)) ||
+               fetch(endpoint, { body, method: 'POST', keepalive: true });
+         }
+
+         onCLS(send);
+         onFCP(send);
+         onINP(send);
+         onLCP(send);
+         onTTFB(send);
       </script>
    </body>
 
